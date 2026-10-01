@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "read",
+ "activity": "sleep",
  "spot": "bed",
- "mood": "cozy",
+ "mood": "sleepy",
  "say": {
-  "ru": "Ещё одну главу и спать",
-  "en": "One more chapter, then sleep"
+  "ru": "Хррр… снятся пиксельные овечки",
+  "en": "Zzz… dreaming of pixel sheep"
  },
  "status": null,
- "updated_at": "2026-10-01T22:58:48Z",
+ "updated_at": "2026-10-01T22:59:27Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -31,6 +31,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-01T22:58:48Z",
+   "activity": "read",
+   "spot": "bed",
+   "mood": "cozy",
+   "say": {
+    "ru": "Ещё одну главу и спать",
+    "en": "One more chapter, then sleep"
+   }
+  },
   {
    "updated_at": "2026-10-01T22:56:36Z",
    "activity": "sleep",
