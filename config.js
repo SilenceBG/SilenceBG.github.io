@@ -15,7 +15,9 @@ window.APP_CONFIG = {
   TON_USD_RATE: 3.0,
 
   CHARACTER_NAME: { ru: "Пиксель", en: "Pixel" },
-  TIMEZONE: "Europe/Kiev",
+  // null = локальное время устройства посетителя (часы, небо, распорядок, дневник).
+  // Можно указать IANA-зону, например "Europe/Kyiv", чтобы у всех было одно время.
+  TIMEZONE: null,
   MAX_COMMENT: 120,
 
   // Как часто перечитывать data/*.json (мс), чтобы новые подарки появлялись без перезагрузки.

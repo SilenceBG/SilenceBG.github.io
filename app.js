@@ -15,9 +15,9 @@
   let hitboxes = [];
   const effects = [];          // сердечки
 
-  // ---------- время (Киев) ----------
+  // ---------- время (локальное время посетителя, если CFG.TIMEZONE не задан) ----------
   function kyivParts(date = new Date()) {
-    const f = new Intl.DateTimeFormat("en-GB", { timeZone: CFG.TIMEZONE, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false });
+    const f = new Intl.DateTimeFormat("en-GB", { timeZone: CFG.TIMEZONE || undefined, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false });
     const p = Object.fromEntries(f.formatToParts(date).map((x) => [x.type, x.value]));
     return { y: +p.year, mo: +p.month, d: +p.day, h: +p.hour % 24, mi: +p.minute, s: +p.second };
   }

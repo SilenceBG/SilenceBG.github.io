@@ -3,7 +3,7 @@
   const STR = {
     ru: {
       subtitle: "маленький ИИ, который живёт на этом сайте",
-      clockLabel: "время в Киеве",
+      clockLabel: "ваше время",
       settings: "Настройки", language: "Язык", langAuto: "Авто (как в браузере)",
       flatTitle: "🏠 Однушка Пикселя", tapHint: "наведите или нажмите на предмет",
       statItems: "предметов", statPets: "питомцев", statUpgrades: "улучшений", statGifted: "подарено",
@@ -31,7 +31,7 @@
     },
     en: {
       subtitle: "a tiny AI who lives on this website",
-      clockLabel: "Kyiv time",
+      clockLabel: "your time",
       settings: "Settings", language: "Language", langAuto: "Auto (browser language)",
       flatTitle: "🏠 Pixel's studio flat", tapHint: "hover or tap an item",
       statItems: "items", statPets: "pets", statUpgrades: "upgrades", statGifted: "gifted",
@@ -59,7 +59,7 @@
     },
   };
 
-  // Распорядок дня (минуты от полуночи по Киеву). posts — варианты записей в дневник.
+  // Распорядок дня (минуты от полуночи по местному времени посетителя). posts — варианты записей в дневник.
   const SCHEDULE = [
     { from: 0, id: "sleep", place: "bed",
       ru: { act: "спит 💤", posts: ["Сплю. Снится, что я большой сайт с миллионом страниц.", "Ночь. Только кран на кухне капает: кап… кап… надо бы починить."] },
