@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pixel</title>
+<meta name="description" content="An AI character lives in a pixel room. Gift USDT on TON and its world grows. / ИИ-персонаж живёт в пиксельной комнате.">
+<meta name="theme-color" content="#1b1530">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo">◆</span>
+    <div>
+      <h1 id="title">Пиксель</h1>
+      <p class="sub" data-i18n="subtitle"></p>
+    </div>
+  </div>
+  <div class="top-right">
+    <div class="clock">
+      <span id="clock-time">--:--</span>
+      <span class="clock-label" data-i18n="clockLabel"></span>
+    </div>
+    <button id="settings-btn" class="gear" type="button" aria-haspopup="dialog" aria-expanded="false" data-i18n-title="settings">⚙️</button>
+    <div id="settings" class="settings" role="dialog" hidden>
+      <h3 data-i18n="settings"></h3>
+      <div class="set-label" data-i18n="language"></div>
+      <div class="lang-opts">
+        <label><input type="radio" name="lang" value="auto"> <span data-i18n="langAuto"></span></label>
+        <label><input type="radio" name="lang" value="ru"> Русский</label>
+        <label><input type="radio" name="lang" value="en"> English</label>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="world-card">
+    <div class="world-head"><h2 data-i18n="flatTitle"></h2><span class="tiny" data-i18n="tapHint"></span></div>
+    <div class="canvas-wrap">
+      <canvas id="world" width="1024" height="576"></canvas>
+      <div id="tooltip" class="tooltip" hidden></div>
+    </div>
+    <div class="status">
+      <span class="dot"></span>
+      <span id="status-text">…</span>
+    </div>
+    <div class="stats">
+      <div><b id="stat-items">0</b><span data-i18n="statItems"></span></div>
+      <div><b id="stat-pets">0</b><span data-i18n="statPets"></span></div>
+      <div><b id="stat-upgrades">0</b><span data-i18n="statUpgrades"></span></div>
+      <div><b id="stat-usd">$0</b><span data-i18n="statGifted"></span></div>
+    </div>
+  </section>
+
+  <section class="feed-card">
+    <h2 data-i18n="diary"></h2>
+    <ul id="feed" class="feed"></ul>
+  </section>
+
+  <section class="donate-card" id="donate">
+    <h2 data-i18n="giftTitle"></h2>
+    <p class="hint" data-i18n-html="giftHint"></p>
+
+    <div id="wallet-warning" class="warning" hidden data-i18n-html="walletWarning"></div>
+
+    <div class="tiers" id="tiers"></div>
+
+    <div class="currency" role="radiogroup">
+      <button type="button" class="cur active" data-cur="USDT">💵 USDT <small>(TON)</small></button>
+      <button type="button" class="cur" data-cur="TON" id="cur-ton">💎 TON</button>
+    </div>
+
+    <label class="field">
+      <span><span data-i18n="whatToGift"></span> <small data-i18n="optional"></small></span>
+      <select id="item-select"></select>
+    </label>
+    <label class="field">
+      <span id="amount-label"></span>
+      <input id="amount" type="number" min="0.1" step="0.1" value="1" inputmode="decimal">
+      <small id="amount-hint" class="tiny"></small>
+    </label>
+    <label class="field">
+      <span><span data-i18n="comment"></span> <small id="comment-count"></small></span>
+      <input id="comment" type="text" maxlength="120" data-i18n-ph="commentPh">
+    </label>
+
+    <div class="pay">
+      <div class="qr" id="qr"></div>
+      <div class="pay-actions">
+        <a id="pay-ton" class="btn primary" href="#" data-i18n="openWallet"></a>
+        <a id="pay-tonkeeper" class="btn" href="#" target="_blank" rel="noopener">Tonkeeper</a>
+        <p class="tiny" data-i18n-html="qrHint"></p>
+      </div>
+    </div>
+
+    <details class="manual" open>
+      <summary data-i18n="manualTitle"></summary>
+      <p class="tiny" id="manual-hint"></p>
+      <div class="copyrow"><span data-i18n="address"></span><code id="manual-addr"></code><button type="button" class="btn ghost sm" data-copy="manual-addr" data-i18n="copy"></button></div>
+      <div class="copyrow"><span data-i18n="amount"></span><code id="manual-amount"></code><button type="button" class="btn ghost sm" data-copy="manual-amount" data-i18n="copy"></button></div>
+      <div class="copyrow"><span data-i18n="comment"></span><code id="manual-memo"></code><button type="button" class="btn ghost sm" data-copy="manual-memo" data-i18n="copy"></button></div>
+      <p class="tiny" data-i18n="manualWarn"></p>
+    </details>
+    <p class="tiny" data-i18n="delayHint"></p>
+  </section>
+</main>
+
+<footer data-i18n-html="footer"></footer>
+
+<script src="config.js"></script>
+<script src="i18n.js"></script>
+<script src="vendor/qrcode.js"></script>
+<script src="sprites.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

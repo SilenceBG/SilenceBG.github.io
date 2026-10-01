@@ -1,0 +1,163 @@
+{
+ "tiers": [
+  {
+   "id": "small",
+   "name": "Мелочь",
+   "emoji": "🪴",
+   "desc": "Маленький предмет: растение, кружка, постер, лампа",
+   "min_usd": 1,
+   "name_en": "Small thing",
+   "desc_en": "A small item: plant, mug, poster, lamp"
+  },
+  {
+   "id": "furniture",
+   "name": "Мебель",
+   "emoji": "🛋️",
+   "desc": "Кровать, стол, диван, полка, телевизор, гитара, ковёр",
+   "min_usd": 3,
+   "name_en": "Furniture",
+   "desc_en": "Bed, desk, sofa, shelf, TV, guitar, rug"
+  },
+  {
+   "id": "pet",
+   "name": "Питомец",
+   "emoji": "🐈",
+   "desc": "Кот, собака или аквариум с рыбками",
+   "min_usd": 5,
+   "name_en": "Pet",
+   "desc_en": "A cat, a dog or a fish tank"
+  },
+  {
+   "id": "upgrade",
+   "name": "Ремонт",
+   "name_en": "Renovation",
+   "emoji": "🛠️",
+   "min_usd": 20,
+   "desc": "Большое улучшение квартиры: кухня, обои, шкаф, кондиционер",
+   "desc_en": "Big flat upgrade: kitchen, wallpaper, wardrobe, A/C"
+  }
+ ],
+ "items": {
+  "plant": {
+   "tier": "small",
+   "name": "Фикус",
+   "slot": "floor_small",
+   "name_en": "Ficus"
+  },
+  "mug": {
+   "tier": "small",
+   "name": "Кружка какао",
+   "slot": "desk",
+   "name_en": "Mug of cocoa"
+  },
+  "poster": {
+   "tier": "small",
+   "name": "Постер",
+   "slot": "wall",
+   "name_en": "Poster"
+  },
+  "lamp": {
+   "tier": "small",
+   "name": "Торшер",
+   "slot": "floor_small",
+   "name_en": "Floor lamp"
+  },
+  "clock": {
+   "tier": "small",
+   "name": "Часы",
+   "slot": "wall",
+   "name_en": "Wall clock"
+  },
+  "garland": {
+   "tier": "small",
+   "name": "Гирлянда",
+   "slot": "wall_top",
+   "name_en": "Fairy lights"
+  },
+  "sofa": {
+   "tier": "furniture",
+   "name": "Диван",
+   "slot": "floor_big",
+   "name_en": "Sofa"
+  },
+  "shelf": {
+   "tier": "furniture",
+   "name": "Книжная полка",
+   "slot": "floor_big",
+   "name_en": "Bookshelf"
+  },
+  "tv": {
+   "tier": "furniture",
+   "name": "Телевизор",
+   "slot": "floor_big",
+   "name_en": "TV"
+  },
+  "guitar": {
+   "tier": "furniture",
+   "name": "Гитара",
+   "slot": "floor_small",
+   "name_en": "Guitar"
+  },
+  "rug": {
+   "tier": "furniture",
+   "name": "Ковёр",
+   "slot": "rug",
+   "name_en": "Rug"
+  },
+  "cat": {
+   "tier": "pet",
+   "name": "Кот",
+   "slot": "pet",
+   "name_en": "Cat"
+  },
+  "dog": {
+   "tier": "pet",
+   "name": "Пёс",
+   "slot": "pet",
+   "name_en": "Dog"
+  },
+  "fish": {
+   "tier": "pet",
+   "name": "Аквариум",
+   "slot": "floor_small",
+   "name_en": "Fish tank"
+  },
+  "bed": {
+   "tier": "furniture",
+   "name": "Настоящая кровать",
+   "name_en": "A real bed",
+   "slot": "bed"
+  },
+  "desk": {
+   "tier": "furniture",
+   "name": "Письменный стол",
+   "name_en": "Desk",
+   "slot": "desk_upgrade"
+  },
+  "kitchen": {
+   "tier": "upgrade",
+   "name": "Новая кухня",
+   "name_en": "New kitchen",
+   "slot": "kitchen"
+  },
+  "wallpaper": {
+   "tier": "upgrade",
+   "name": "Обои",
+   "name_en": "Wallpaper",
+   "slot": "wallpaper"
+  },
+  "wardrobe": {
+   "tier": "upgrade",
+   "name": "Шкаф",
+   "name_en": "Wardrobe",
+   "slot": "floor_big"
+  },
+  "aircon": {
+   "tier": "upgrade",
+   "name": "Кондиционер",
+   "name_en": "Air conditioner",
+   "slot": "aircon"
+  }
+ },
+ "currency": "USD"
+}

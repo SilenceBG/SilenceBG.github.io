@@ -1,0 +1,26 @@
+# Каждые 10 минут проверяет донаты
+# и коммитит обновлённые data/*.json. Сайт на GitHub Pages / Cloudflare Pages пересоберётся сам.
+name: check-donations
+on:
+  schedule: [{ cron: "*/10 * * * *" }]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: check-donations
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python3 check_donations.py -v
+        env:
+          TONCENTER_API_KEY: ${{ secrets.TONCENTER_API_KEY }}   # необязательно
+      - run: |
+          if ! git diff --quiet data/; then
+            git config user.name "donation-bot"; git config user.email "bot@users.noreply.github.com"
+            git add data/ && git commit -m "New gifts" && git pull --rebase && git push
+          fi
