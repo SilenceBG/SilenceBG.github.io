@@ -795,7 +795,11 @@
     renderStatus(); renderFeed(); requestAnimationFrame(frame);
   });
   setInterval(renderStatus, 1000);
-  setInterval(pollState, CFG.STATE_POLL_MS || 60000);
+  // Опрос сразу после смены минуты (+2–6 с): именно тогда появляется «свежий» путь live/<минута>.json.
+  (function schedulePoll() {
+    const period = CFG.STATE_POLL_MS || 60000, n = serverNow();
+    setTimeout(() => { pollState(); schedulePoll(); }, period - (n % period) + 2000 + Math.random() * 4000);
+  })();
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") pollState(); });
   if (params.has("debug")) window.__PIXEL = { get AI() { return AI; }, get ACTS() { return ACTS; }, pollState, currentAct: () => currentAct(nowMinutes()) };
   setInterval(() => loadData(false), CFG.REFRESH_MS);
