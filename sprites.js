@@ -161,6 +161,14 @@
       "..kkkk.",
     ],
     fishL: [".yy.", "yyyky", ".yy."],
+    cookie: [".kkkk.", "kOooOk", "koOook", "kooOok", "kOoook", ".kkkk."],
+    pcoin: [".kkkk.", "kyyyyk", "kyYkyk", "kykYyk", "kyyyyk", ".kkkk."],
+    st_star: ["...k...", "..kyk..", "kkkyykk", "kyyyyyk", ".kyyyk.", ".kyky k", "kk...kk"],
+    st_heart: [".kk.kk.", "krrkrrk", "krrrrrk", "krrrrrk", ".krrrk.", "..krk..", "...k..."],
+    st_flower: [".k.k.k.", "krkrkrk", ".krykrk", "krryrrk", ".krrrk.", "...g...", "..ggg.."],
+    st_ufo: ["...kkk...", "..kuuuk..", ".kkkkkkk.", "knnnnnnnk", ".kyky ky.", "..y.y.y.."],
+    st_rainbow: ["..rrrrr..", ".ryyyyyr.", "rygggggyr", "ygbbbbbgy", "gb.....bg", "b.......b"],
+    st_pizza: ["kkkkkkk", "kyRyyRk", ".kyyyk.", ".kRyRk.", "..kyk..", "..kyk..", "...k..."],
     heart: [".r.r.", "rrrrr", "rrrrr", ".rrr.", "..r.."],
   };
 
@@ -192,5 +200,13 @@
   const SPR = {};
   for (const k in MAPS) { SPR[k] = build(MAPS[k]); SPR[k + "_f"] = flip(SPR[k]); }
   window.SPRITES = SPR;
+  // Перекраска футболки героя (локальная покупка за P$)
+  window.recolorHero = function (main, shade) {
+    const P2 = Object.assign({}, PAL, { b: main, B: shade });
+    const save = Object.assign({}, PAL);
+    Object.assign(PAL, P2);
+    for (const k of ["hero", "hero2", "heroBack"]) { SPR[k] = build(MAPS[k]); SPR[k + "_f"] = flip(SPR[k]); }
+    Object.assign(PAL, save);
+  };
   window.PAL = PAL;
 })();

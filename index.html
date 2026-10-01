@@ -19,9 +19,9 @@
     </div>
   </div>
   <div class="top-right">
+    <button id="coin-pill" class="coin-pill" type="button" data-i18n-title="coinTitle"><img src="assets/pcoin.svg" alt=""> <b id="coin-balance">0</b> P$</button>
     <div class="clock">
       <span id="clock-time">--:--</span>
-      <span class="clock-label" data-i18n="clockLabel"></span>
     </div>
     <button id="settings-btn" class="gear" type="button" aria-haspopup="dialog" aria-expanded="false" data-i18n-title="settings">⚙️</button>
     <div id="settings" class="settings" role="dialog" hidden>
@@ -58,6 +58,14 @@
   <section class="feed-card">
     <h2 data-i18n="diary"></h2>
     <ul id="feed" class="feed"></ul>
+  </section>
+
+  <section class="shop-card" id="shop">
+    <h2 data-i18n="shopTitle"></h2>
+    <div class="fun-note" data-i18n-html="shopDisclaimer"></div>
+    <div class="coin-progress"><span id="coin-today"></span><div class="bar"><i id="coin-bar"></i></div></div>
+    <div class="shop-grid" id="shop-grid"></div>
+    <div id="shop-msg" class="tiny shop-msg" aria-live="polite"></div>
   </section>
 
   <section class="donate-card" id="donate">
@@ -109,6 +117,8 @@
 </main>
 
 <footer data-i18n-html="footer"></footer>
+
+<div id="toast" class="toast" hidden></div>
 
 <script src="config.js"></script>
 <script src="i18n.js"></script>

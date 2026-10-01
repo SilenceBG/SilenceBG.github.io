@@ -351,6 +351,7 @@
     drawables.push({ b: hero.b, draw: () => drawHeroSprite(m) });
     drawables.sort((a, b) => a.b - b.b).forEach((d) => d.draw());
 
+    drawLocalOverlay(m);
     drawBulb(lightsOn);
 
     // освещение
@@ -363,7 +364,9 @@
     for (let i = effects.length - 1; i >= 0; i--) { const e = effects[i]; e.t += dt; e.y -= 14 * dt; if (e.t > 2.5) { effects.splice(i, 1); continue; } ctx.globalAlpha = 1 - e.t / 2.5; spr("heart", e.x + Math.sin(e.t * 4 + i) * 3, e.y, 1); ctx.globalAlpha = 1; }
 
     // облачко с мыслью
-    if (hero.visible && !hero.moving) {
+    if (GAME.petBubble && (GAME.petBubble.t -= dt) > 0) drawBubble(GAME.petBubble.text, GAME.petBubble.p.x, GAME.petBubble.p.b - 18);
+    if (hero.forced && (hero.forced.t -= dt) > 0 && hero.visible) drawBubble(hero.forced.text, hero.x, hero.b - 34);
+    else if (hero.visible && !hero.moving) {
       hero.bubbleT -= dt;
       if (hero.bubbleT <= 0) { hero.bubble = hero.bubble ? null : pickBubble(block); hero.bubbleT = hero.bubble ? 4 : 8 + Math.random() * 8; }
       if (hero.bubble) drawBubble(hero.bubble, hero.x, hero.b - 34);
@@ -396,7 +399,7 @@
     tip.style.left = cx - r.left + "px"; tip.style.top = cy - r.top + "px"; tip.hidden = false;
   }
   canvas.addEventListener("mousemove", showTip);
-  canvas.addEventListener("click", showTip);
+  canvas.addEventListener("click", (ev) => { if (GAME.placing) GAME.placeAt(ev); else showTip(ev); });
   canvas.addEventListener("mouseleave", () => (tip.hidden = true));
 
   // ---------- дневник ----------
@@ -578,7 +581,7 @@
     I.apply();
     document.title = `${charName()} — ${t("subtitle")}`;
     $("title").textContent = charName();
-    renderItemSelect(); renderTiers(); updatePay(); renderFeed(); renderStatus(); renderStats();
+    renderItemSelect(); renderTiers(); updatePay(); renderFeed(); renderStatus(); renderStats(); GAME.render();
   }
 
   // ---------- загрузка данных ----------
@@ -595,6 +598,118 @@
     if (first) { const blk = currentBlock(nowMinutes()); const tg = heroTarget(blk); hero.x = tg.x; hero.b = tg.b; }
     renderAllText();
   }
+
+
+  // ---------- P$: игровые монеты (только локально, без реальной ценности) ----------
+  const GAME = (function () {
+    const KEY = "pixelGame.v1";
+    const DEBUG = Math.max(1, parseFloat(params.get("coinsdebug")) || 1); // ?coinsdebug=60 — ускорить в 60 раз (для теста)
+    const CAP = CFG.COINS_DAILY_CAP || 300, PER_MIN = CFG.COINS_PER_MINUTE || 1, IDLE = (CFG.COINS_IDLE_MINUTES || 3) * 60000;
+    const PRICES = { treat: 5, pet: 3, sticker: 15, shirt: 20 };
+    const STICKERS = ["st_star", "st_heart", "st_flower", "st_ufo", "st_rainbow", "st_pizza"];
+    const SHIRTS = { blue: ["#4fb3ff", "#2f7fc4"], red: ["#ff6b6b", "#c43d3d"], green: ["#5ccf6a", "#2f8f45"], purple: ["#b07cff", "#7a4fd0"], yellow: ["#ffd84d", "#d9a41e"], black: ["#3a3a4a", "#22222c"] };
+    const MAX_STICKERS = 12;
+    const dayKey = () => { const p = kyivParts(); return `${p.y}-${pad(p.mo)}-${pad(p.d)}`; };
+    let st;
+    try { st = JSON.parse(localStorage.getItem(KEY)) || {}; } catch { st = {}; }
+    st = Object.assign({ balance: 0, day: dayKey(), today: 0, acc: 0, shirts: ["blue"], shirt: "blue", stickers: [] }, st);
+    const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch {} };
+    let lastActive = Date.now();
+    ["mousemove", "mousedown", "keydown", "touchstart", "scroll", "wheel"].forEach((e) => addEventListener(e, () => (lastActive = Date.now()), { passive: true }));
+    const G = { placing: null, petBubble: null, snackT: 0 };
+
+    function applyShirt() { const c = SHIRTS[st.shirt] || SHIRTS.blue; if (window.recolorHero) window.recolorHero(c[0], c[1]); }
+    function toast(text) {
+      const el = $("toast"); el.replaceChildren(); const img = new Image(); img.src = "assets/pcoin.svg"; img.alt = ""; el.append(img, document.createTextNode(text));
+      el.hidden = false; el.classList.remove("show"); void el.offsetWidth; el.classList.add("show");
+      const pill = $("coin-pill"); pill.classList.remove("bump"); void pill.offsetWidth; pill.classList.add("bump");
+    }
+    function msg(text) { $("shop-msg").textContent = text || ""; }
+    function tick() {
+      if (st.day !== dayKey()) { st.day = dayKey(); st.today = 0; }
+      const visible = document.visibilityState === "visible";
+      const active = Date.now() - lastActive < IDLE;
+      if (visible && active && st.today < CAP) {
+        st.acc += DEBUG;
+        let got = 0;
+        while (st.acc >= 60 && st.today < CAP) { st.acc -= 60; st.balance += PER_MIN; st.today += PER_MIN; got += PER_MIN; }
+        if (got) { toast(t("coinToast", { n: got })); G.render(); }
+        save();
+      }
+    }
+    function spend(n) { if (st.balance < n) { msg(t("notEnough")); return false; } st.balance -= n; save(); return true; }
+    const rnd = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+    G.treat = () => {
+      if (!hero.visible || hero.mode === "sleep") return msg(t("heroBusy"));
+      if (!spend(PRICES.treat)) return;
+      G.snackT = 3; hero.forced = { text: rnd(t("treatThanks")), t: 3.5 };
+      for (let k = 0; k < 6; k++) effects.push({ x: hero.x - 6 + Math.random() * 12, y: hero.b - 30, t: Math.random() * 0.5 });
+      msg(""); G.render();
+    };
+    G.pet = () => {
+      const living = pets.filter((p) => p.kind === "cat" || p.kind === "dog");
+      if (!living.length) return msg(t("noPets"));
+      if (!spend(PRICES.pet)) return;
+      const p = rnd(living); p.wait = 3; p.tx = p.x; p.tb = p.b;
+      G.petBubble = { text: p.kind === "dog" ? "Гав! ❤".replace("Гав", I.lang === "en" ? "Woof" : "Гав") : (I.lang === "en" ? "Purrr… ❤" : "Мррр… ❤"), p, t: 3 };
+      for (let k = 0; k < 6; k++) effects.push({ x: p.x - 6 + Math.random() * 12, y: p.b - 14, t: Math.random() * 0.5 });
+      msg(""); G.render();
+    };
+    G.buySticker = (id) => {
+      if (st.stickers.length >= MAX_STICKERS) return msg(t("stickersMax", { n: MAX_STICKERS }));
+      if (st.balance < PRICES.sticker) return msg(t("notEnough"));
+      G.placing = id; canvas.classList.add("placing"); msg(t("tapToPlace"));
+      canvas.scrollIntoView({ behavior: "smooth", block: "center" });
+    };
+    G.placeAt = (ev) => {
+      const r = canvas.getBoundingClientRect();
+      const x = Math.round(((ev.clientX - r.left) / r.width) * W), y = Math.round(((ev.clientY - r.top) / r.height) * H);
+      if (!spend(PRICES.sticker)) { G.placing = null; canvas.classList.remove("placing"); return; }
+      st.stickers.push({ id: G.placing, x: Math.max(0, Math.min(W - 10, x - 5)), y: Math.max(0, Math.min(H - 8, y - 4)) }); save();
+      G.placing = null; canvas.classList.remove("placing"); msg(t("placed")); G.render();
+    };
+    G.clearStickers = () => { st.stickers = []; save(); G.render(); };
+    G.shirt = (c) => {
+      if (!st.shirts.includes(c)) { if (!spend(PRICES.shirt)) return; st.shirts.push(c); }
+      st.shirt = c; save(); applyShirt(); msg(""); G.render();
+    };
+    G.draw = (m) => {
+      for (const s of st.stickers) { const sp = SPR[s.id]; if (!sp) continue; ctx.drawImage(sp, s.x, s.y, sp.width * 1.5, sp.height * 1.5); hitboxes.push({ x: s.x, y: s.y, w: sp.width * 1.5, h: sp.height * 1.5, title: t("stickerTip") }); }
+      if (G.snackT > 0 && hero.visible) { G.snackT -= 1 / 60; spr("cookie", hero.x + 6, hero.b - 12 + Math.sin(m * 8), 1); }
+    };
+
+    function iconURL(id) { const s = SPR[id]; const c = document.createElement("canvas"); c.width = s.width * 4; c.height = s.height * 4; const x = c.getContext("2d"); x.imageSmoothingEnabled = false; x.drawImage(s, 0, 0, c.width, c.height); return c.toDataURL(); }
+    function card(name, price, desc) {
+      const d = document.createElement("div"); d.className = "shop-item";
+      d.innerHTML = '<div class="top"><span class="nm"></span><span class="pr"></span></div><div class="ds"></div>';
+      d.querySelector(".nm").textContent = name; d.querySelector(".pr").textContent = price; d.querySelector(".ds").textContent = desc; return d;
+    }
+    function btn(label, fn, disabled) { const b = document.createElement("button"); b.type = "button"; b.textContent = label; b.onclick = fn; b.disabled = !!disabled; return b; }
+    G.render = () => {
+      $("coin-balance").textContent = st.balance;
+      $("coin-today").textContent = st.today >= CAP ? t("coinCapReached") : t("coinToday", { n: st.today, cap: CAP });
+      $("coin-bar").style.width = Math.min(100, (st.today / CAP) * 100) + "%";
+      const disc = document.querySelector("[data-i18n-html=shopDisclaimer]"); if (disc) disc.innerHTML = t("shopDisclaimer", { cap: CAP });
+      const grid = $("shop-grid"); grid.replaceChildren();
+      const c1 = card("🍪 " + t("shopTreat"), PRICES.treat + " P$", t("shopTreatD")); c1.append(btn(t("buy"), G.treat, st.balance < PRICES.treat)); grid.append(c1);
+      const c2 = card("🐾 " + t("shopPet"), PRICES.pet + " P$", t("shopPetD")); c2.append(btn(t("buy"), G.pet, st.balance < PRICES.pet || !pets.some((p) => p.kind !== "fish"))); grid.append(c2);
+      const c3 = card("⭐ " + t("shopSticker"), PRICES.sticker + " P$", t("shopStickerD"));
+      const sw = document.createElement("div"); sw.className = "swatches"; const names = t("stickerNames");
+      for (const id of STICKERS) { const b = document.createElement("button"); b.type = "button"; b.className = "swatch"; b.title = names[id]; b.style.background = `#fff url(${iconURL(id)}) center/16px no-repeat`; b.style.imageRendering = "pixelated"; b.disabled = st.balance < PRICES.sticker; b.style.opacity = b.disabled ? 0.45 : 1; b.onclick = () => G.buySticker(id); sw.append(b); }
+      c3.append(sw); if (st.stickers.length) c3.append(btn(t("shopClear") + ` (${st.stickers.length})`, G.clearStickers)); grid.append(c3);
+      const c4 = card("👕 " + t("shopShirt"), PRICES.shirt + " P$", t("shopShirtD", { p: PRICES.shirt }));
+      const sw2 = document.createElement("div"); sw2.className = "swatches"; const sn = t("shirtNames");
+      for (const [c, col] of Object.entries(SHIRTS)) { const b = document.createElement("button"); b.type = "button"; const owned = st.shirts.includes(c); b.className = "swatch" + (st.shirt === c ? " sel" : "") + (owned ? "" : " locked"); b.style.background = col[0]; b.title = sn[c] + (owned ? "" : ` — ${PRICES.shirt} P$`); b.onclick = () => G.shirt(c); sw2.append(b); }
+      c4.append(sw2); grid.append(c4);
+    };
+    $("coin-pill").onclick = () => $("shop").scrollIntoView({ behavior: "smooth", block: "start" });
+    applyShirt();
+    setInterval(tick, 1000);
+    if (params.has("coinsdebug")) window.__GAME = G; // только для отладки
+    return G;
+  })();
+  function drawLocalOverlay(m) { GAME.draw(m); }
 
   // ---------- старт ----------
   initSettings(); initDonate();
