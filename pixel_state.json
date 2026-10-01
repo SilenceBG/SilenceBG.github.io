@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "Хррр… снятся пиксельные овечки",
-  "en": "Zzz… dreaming of pixel sheep"
+  "ru": "…",
+  "en": "…"
  },
  "status": null,
- "updated_at": "2026-10-01T22:59:27Z",
+ "updated_at": "2026-10-01T23:17:42Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -31,6 +31,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-01T22:59:27Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Хррр… снятся пиксельные овечки",
+    "en": "Zzz… dreaming of pixel sheep"
+   }
+  },
   {
    "updated_at": "2026-10-01T22:58:48Z",
    "activity": "read",
