@@ -11,6 +11,11 @@
 
   let CATALOG = { tiers: [], items: {} }, WORLD = { items: [] }, FEED = [];
   let knownTx = null;
+  // ---- живое состояние от ИИ (ветка pixel-state, raw.githubusercontent.com) ----
+  let ACTS = null;             // data/activities.json — допустимые занятия/места/настроения
+  let AI = null;               // последнее полученное состояние
+  let clockSkew = 0;           // поправка часов посетителя по заголовку Date
+  const serverNow = () => Date.now() + clockSkew;
   let layout = null;           // расчёт расположения предметов
   let hitboxes = [];
   const effects = [];          // сердечки
@@ -54,11 +59,30 @@
   const tierDesc = (tr) => (I.lang === "en" ? tr.desc_en : tr.desc);
   const charName = () => I.pick(CFG.CHARACTER_NAME);
 
-  // ---------- распорядок ----------
+  // ---------- распорядок (запасной вариант) и живое состояние ИИ ----------
   function currentBlock(m) {
     let b = I.SCHEDULE[0];
     for (const s of I.SCHEDULE) if (m >= s.from) b = s;
     return b;
+  }
+  const PLACE_TO_SPOT = { bed: "bed", bath: "bath", out: "door", kitchen: "kitchen", desk: "desk", window: "window", sofa: "sofa", hobby: "hobby" };
+  function aiFresh() {
+    if (!AI || !ACTS || params.has("hour") || params.has("schedule")) return false;
+    const ts = Date.parse(AI.updated_at);
+    if (isNaN(ts) || !ACTS.activities[AI.activity]) return false;
+    return serverNow() - ts < (CFG.STATE_STALE_MIN || 30) * 60000;
+  }
+  // Что Пиксель делает сейчас: {ai, id, spot, sleep, anim, label, mood, say}
+  function currentAct(mins) {
+    if (aiFresh()) {
+      const a = ACTS.activities[AI.activity];
+      const mood = ACTS.moods[AI.mood] || null;
+      const custom = AI.status && I.pick(AI.status);
+      return { ai: true, id: AI.activity, spot: AI.spot || a.spot, sleep: AI.activity === "sleep", anim: a.anim || "none",
+        label: custom || I.pick(a), mood, say: AI.say ? I.pick(AI.say) : "" };
+    }
+    const b = currentBlock(mins);
+    return { ai: false, id: b.id, block: b, spot: PLACE_TO_SPOT[b.place] || "center", sleep: b.place === "bed", anim: "none", label: (b[I.lang] || b.ru).act, mood: null, say: "" };
   }
 
   // ---------- освещение ----------
@@ -111,16 +135,19 @@
   }
   function deskGeom() { return layout.flags.desk_upgrade ? { x: 146, w: 38, top: 72, b: 98 } : { x: 150, w: 22, top: 82, b: 98 }; }
   function sofaPos() { const s = layout.floor_big.find((e) => e.it.id === "sofa"); return s ? { x: s.pos.x + 20, b: s.pos.b - 4 } : null; }
-  function heroTarget(block) {
+  function heroTarget(cur) {
     const d = deskGeom();
-    switch (block.place) {
-      case "bed": return { x: 214, b: 100, mode: "sleep", vis: true };
+    switch (cur.spot) {
+      case "bed": return cur.sleep ? { x: 214, b: 100, mode: "sleep", vis: true } : { x: 200, b: 106, mode: "front" };
       case "bath": return { x: 72, b: 96, mode: "hidden", vis: false };
-      case "out": return { x: 72, b: 96, mode: "hidden", vis: false };
+      case "door": return { x: 72, b: 96, mode: "hidden", vis: false };
+      case "center": return { x: 132, b: 114, mode: "front" };
       case "kitchen": return { x: 34, b: 99, mode: "back" };
       case "desk": return { x: d.x + d.w / 2, b: layout.flags.desk_upgrade ? 104 : 103, mode: "back" };
       case "window": return { x: 124, b: 101, mode: "back" };
       case "sofa": { const s = sofaPos(); return s ? { x: s.x, b: s.b, mode: "front" } : { x: 206, b: 104, mode: "front" }; }
+      case "guitar": { const g = layout.floor_small.find((e) => e.it.id === "guitar"); if (g) return { x: g.pos.x + 22, b: g.pos.b + 2, mode: "front" }; break; }
+      case "tv": { const tv = layout.floor_big.find((e) => e.it.id === "tv"); if (tv) return { x: tv.pos.x + 16, b: tv.pos.b + 24, mode: "back" }; break; }
       case "hobby": {
         const g = layout.floor_small.find((e) => e.it.id === "guitar");
         if (g) return { x: g.pos.x + 22, b: g.pos.b + 2, mode: "front" };
@@ -281,23 +308,29 @@
 
   function drawHeroSprite(m) {
     if (!hero.visible) return;
-    const bob = hero.moving ? (Math.floor(m * 6) % 2) : Math.round(Math.sin(m * 2) * 0.5 + 0.5) * 0;
+    let bob = hero.moving ? (Math.floor(m * 6) % 2) : 0;
+    if (!hero.moving && (hero.anim === "hop" || hero.anim === "dance")) bob = Math.round(Math.abs(Math.sin(m * (hero.anim === "dance" ? 6 : 4))) * 3);
+    if (!hero.moving && hero.anim === "dance") hero.facing = Math.floor(m * 1.5) % 2 ? 1 : -1;
     let name = "hero";
     if (hero.moving) name = Math.floor(m * 6) % 2 ? "hero" : "hero2";
     else if (hero.mode === "back") name = "heroBack";
     const s = SPR[name]; const w = s.width * 2, h = s.height * 2;
     ctx.drawImage(hero.facing < 0 ? SPR[name + "_f"] : s, Math.round(hero.x - w / 2), Math.round(hero.b - h - bob), w, h);
-    hitboxes.push({ x: hero.x - w / 2, y: hero.b - h, w, h, title: charName() });
+    hitboxes.push({ x: hero.x - w / 2, y: hero.b - h, w, h, title: charName() + (hero.moodTxt ? " · " + hero.moodTxt : "") });
   }
 
   function drawBubble(text, x, y) {
     ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0);
-    ctx.font = "bold 22px system-ui, sans-serif"; const tw = ctx.measureText(text).width;
-    let bx = x * SCALE - tw / 2 - 12, by = y * SCALE - 52;
-    bx = Math.max(6, Math.min(canvas.width - tw - 30, bx));
+    ctx.font = "bold 22px system-ui, sans-serif";
+    const MAXW = 560, lines = []; let line = "";
+    for (const word of String(text).split(/\s+/)) { const tryL = line ? line + " " + word : word; if (line && ctx.measureText(tryL).width > MAXW) { lines.push(line); line = word; } else line = tryL; }
+    if (line) lines.push(line);
+    const tw = Math.min(MAXW, Math.max(...lines.map((l) => ctx.measureText(l).width))), bh = 14 + lines.length * 28;
+    let bx = x * SCALE - tw / 2 - 12, by = y * SCALE - 24 - bh;
+    bx = Math.max(6, Math.min(canvas.width - tw - 30, bx)); by = Math.max(4, by);
     ctx.fillStyle = "#fffdf5"; ctx.strokeStyle = "#1a1326"; ctx.lineWidth = 4;
-    ctx.beginPath(); ctx.roundRect ? ctx.roundRect(bx, by, tw + 24, 40, 10) : ctx.rect(bx, by, tw + 24, 40); ctx.fill(); ctx.stroke();
-    ctx.fillStyle = "#1a1326"; ctx.textBaseline = "middle"; ctx.fillText(text, bx + 12, by + 21);
+    ctx.beginPath(); ctx.roundRect ? ctx.roundRect(bx, by, tw + 24, bh, 10) : ctx.rect(bx, by, tw + 24, bh); ctx.fill(); ctx.stroke();
+    ctx.fillStyle = "#1a1326"; ctx.textBaseline = "middle"; lines.forEach((l, i) => ctx.fillText(l, bx + 12, by + 21 + i * 28));
     ctx.restore();
   }
 
@@ -307,12 +340,14 @@
     const dt = Math.min(0.1, (now - lastT) / 1000); lastT = now;
     const m = now / 1000;
     const mins = nowMinutes(), hf = mins / 60;
-    const block = currentBlock(mins);
+    const cur = currentAct(mins);
     hitboxes = [];
     ctx.setTransform(SCALE, 0, 0, SCALE, 0, 0); ctx.imageSmoothingEnabled = false;
 
     // цель персонажа
-    const tg = heroTarget(block);
+    const tg = heroTarget(cur);
+    if (cur.anim === "pace") tg.x += Math.sin(m * 0.6) * 22;
+    hero.anim = cur.anim; hero.moodTxt = cur.mood ? cur.mood.emoji + " " + I.pick(cur.mood) : "";
     const home = tg.vis !== false;
     hero.tx = tg.x; hero.tb = tg.b;
     const dx = hero.tx - hero.x, db = hero.tb - hero.b, dist = Math.hypot(dx, db);
@@ -324,7 +359,7 @@
     drawWall(hf); drawFloor();
     drawWindow(hf, m);
     drawKitchen(lightsOn);
-    drawBathDoor(block.place === "bath" && !hero.moving);
+    drawBathDoor(cur.spot === "bath" && !hero.moving);
     if (layout.flags.garland) drawGarland(layout.flags.garland, m);
     if (layout.flags.aircon) drawAircon(layout.flags.aircon);
     layout.wall.forEach((e) => drawWallItem(e, m, hf));
@@ -342,6 +377,7 @@
     for (const p of pets) {
       p.wait -= dt;
       if (sleeping) { p.tx = 186 - pets.indexOf(p) * 22; p.tb = 112; }
+      else if (cur.id === "play_pets" && hero.visible && p.wait <= 0) { p.tx = hero.x + (Math.random() < 0.5 ? -1 : 1) * (10 + Math.random() * 22); p.tb = hero.b + 4 + Math.random() * 10; p.wait = 1.5 + Math.random() * 2; }
       else if (p.wait <= 0) { p.tx = 40 + Math.random() * 190; p.tb = 104 + Math.random() * 34; p.wait = 3 + Math.random() * 6; }
       const ddx = p.tx - p.x, ddb = p.tb - p.b, dd = Math.hypot(ddx, ddb);
       p.moving = dd > 0.8; if (p.moving) { const sp = (p.kind === "dog" ? 22 : 16) * dt; p.x += (ddx / dd) * Math.min(sp, dd); p.b += (ddb / dd) * Math.min(sp, dd); p.flip = ddx > 0; }
@@ -365,16 +401,23 @@
 
     // облачко с мыслью
     if (GAME.petBubble && (GAME.petBubble.t -= dt) > 0) drawBubble(GAME.petBubble.text, GAME.petBubble.p.x, GAME.petBubble.p.b - 18);
+    const sayKey = cur.ai ? AI.updated_at + "|" + I.lang : "sched";
+    if (sayKey !== hero.sayKey) { hero.sayKey = sayKey; hero.bubble = null; hero.bubbleT = 0.6; }
+    const anchor = hero.moving ? null : hero.visible ? { x: hero.x, y: hero.b - 34 } : sleeping ? { x: bedInfo.headX, y: bedInfo.headY - 6 } : cur.spot === "bath" ? { x: 72, y: 46 } : null;
     if (hero.forced && (hero.forced.t -= dt) > 0 && hero.visible) drawBubble(hero.forced.text, hero.x, hero.b - 34);
-    else if (hero.visible && !hero.moving) {
+    else if (anchor) {
       hero.bubbleT -= dt;
-      if (hero.bubbleT <= 0) { hero.bubble = hero.bubble ? null : pickBubble(block); hero.bubbleT = hero.bubble ? 4 : 8 + Math.random() * 8; }
-      if (hero.bubble) drawBubble(hero.bubble, hero.x, hero.b - 34);
-    } else if (block.place === "bath" && !hero.moving) drawBubble("🚿 ♪", 72, 46);
+      if (hero.bubbleT <= 0) { hero.bubble = hero.bubble ? null : pickBubble(cur); hero.bubbleT = hero.bubble ? (cur.ai ? 7 : 4) : (cur.ai ? 4 : 8 + Math.random() * 8); }
+      if (hero.bubble) drawBubble(hero.bubble, anchor.x, anchor.y);
+    }
 
     requestAnimationFrame(frame);
   }
-  function pickBubble(block) {
+  function pickBubble(cur) {
+    if (cur.ai) return cur.say || (cur.spot === "bath" ? "🚿 ♪" : cur.sleep ? null : cur.mood ? cur.mood.emoji : null);
+    if (cur.spot === "bath") return "🚿 ♪";
+    if (cur.sleep) return null;
+    const block = cur.block;
     const opts = I.lang === "en"
       ? { kitchen: ["Mmm, smells good!", "Needs more salt…"], desk: ["Hmm…", "Almost done!", "One more line"], window: ["Nice view", "Clouds!"], sofa: ["Cozy…", "Page 42"], hobby: ["♪ ♫", "Dear diary…"], def: ["…"] }
       : { kitchen: ["Ммм, вкусно пахнет!", "Соли бы…"], desk: ["Хмм…", "Почти готово!", "Ещё строчку"], window: ["Красиво", "Облака!"], sofa: ["Уютно…", "Страница 42"], hobby: ["♪ ♫", "Дорогой дневник…"], def: ["…"] };
@@ -410,6 +453,9 @@
     const p = kyivParts();
     const mins = nowMinutes();
     const ownedSince = (WORLD.items || []).map((it) => ({ id: it.id, ts: Date.parse(it.ts) || 0 }));
+    const cur = currentAct(mins);
+    // Пока Пикселем управляет ИИ, выдуманные записи распорядка не показываем.
+    const aiFrom = AI ? Date.parse(AI.ai_since || AI.updated_at) : NaN, aiTo = AI ? Date.parse(AI.updated_at) + (CFG.STATE_STALE_MIN || 30) * 60000 : NaN;
     for (let back = 0; back < 3; back++) {
       const dayUTC = Date.UTC(p.y, p.mo - 1, p.d - back); // локальная полночь как UTC-метка
       const dayKey = new Date(dayUTC).toISOString().slice(0, 10);
@@ -420,13 +466,14 @@
         const at = blk.from + Math.floor(r() * 20) + (idx === 0 ? 30 : 0);
         if (back === 0 && at > mins) return;
         const ms = dayUTC + at * 60000 - off * 60000;
+        if (ms >= aiFrom && ms <= aiTo) return;
         const owned = ownedSince.filter((o) => o.ts && o.ts < ms && I.EXTRA[o.id]);
         let text;
         const extras = owned.map((o) => I.pick(I.EXTRA[o.id])).filter((x) => !usedTexts.has(x));
         if (extras.length && r() < 0.3) text = extras[Math.floor(r() * extras.length)];
         else { const posts = (blk[I.lang] || blk.ru).posts; text = posts[Math.floor(r() * posts.length)]; }
         usedTexts.add(text);
-        out.push({ ms, type: "life", text, act: blk.id, live: back === 0 && blk === currentBlock(mins) });
+        out.push({ ms, type: "life", text, act: blk.id, live: !cur.ai && back === 0 && blk === currentBlock(mins) });
       });
     }
     return out;
@@ -441,7 +488,9 @@
   }
   function renderFeed() {
     const ul = document.getElementById("feed");
-    const entries = [...genLifeLog(), ...FEED.map((e) => ({ ...e, ms: Date.parse(e.ts) }))].filter((e) => !isNaN(e.ms) && e.ms <= Date.now() + 60000);
+    const seen = new Set(FEED.map((e) => e.id).filter(Boolean));
+    const aiDiary = ((AI && AI.diary) || []).filter((e) => !seen.has(e.id)).map((e) => ({ type: "life", ...e }));
+    const entries = [...genLifeLog(), ...FEED, ...aiDiary].map((e) => ({ ...e, ms: e.ms ?? Date.parse(e.ts) })).filter((e) => !isNaN(e.ms) && e.ms <= serverNow() + 120000);
     entries.sort((a, b) => b.ms - a.ms);
     ul.replaceChildren();
     for (const e of entries.slice(0, 50)) {
@@ -471,9 +520,13 @@
 
   // ---------- статус, часы, статистика ----------
   function renderStatus() {
-    const mins = nowMinutes(); const blk = currentBlock(mins);
+    const mins = nowMinutes(); const cur = currentAct(mins);
     document.getElementById("clock-time").textContent = fmtHM(mins);
-    document.getElementById("status-text").textContent = t("statusTpl", { time: fmtHM(mins), name: charName(), activity: (blk[I.lang] || blk.ru).act });
+    document.getElementById("status-text").textContent = t("statusTpl", { time: fmtHM(mins), name: charName(), activity: cur.label }) + (cur.mood ? " · " + cur.mood.emoji : "");
+    const st = document.querySelector(".status"); st.classList.toggle("ai-live", cur.ai);
+    if (cur.mood) st.title = t("moodLabel") + ": " + I.pick(cur.mood); else st.removeAttribute("title");
+    const say = document.getElementById("status-say");
+    if (say) { say.hidden = !cur.say; say.textContent = cur.say ? "💬 «" + cur.say + "»" : ""; }
   }
   function renderStats() {
     let items = 0, petsN = 0, up = 0;
@@ -585,7 +638,31 @@
   }
 
   // ---------- загрузка данных ----------
-  async function getJSON(path) { const r = await fetch(path + "?t=" + Date.now(), { cache: "no-store" }); if (!r.ok) throw new Error(path + " " + r.status); return r.json(); }
+  async function getJSON(path) {
+    const r = await fetch(path + "?t=" + Date.now(), { cache: "no-store" }); if (!r.ok) throw new Error(path + " " + r.status);
+    const d = Date.parse(r.headers.get("Date") || ""); if (!isNaN(d)) { const sk = d - Date.now(); clockSkew = Math.abs(sk) > 120000 ? sk : 0; }
+    return r.json();
+  }
+  // Живое состояние: ИИ пишет одинаковый файл live/<UTC ГГГГММДДЧЧММ>.json на ~35 минут вперёд.
+  // Каждую минуту посетитель запрашивает НОВЫЙ путь, поэтому кэш raw.githubusercontent.com (5 мин) не мешает.
+  const minuteName = (ms) => { const d = new Date(ms); return "" + d.getUTCFullYear() + pad(d.getUTCMonth() + 1) + pad(d.getUTCDate()) + pad(d.getUTCHours()) + pad(d.getUTCMinutes()); };
+  async function pollState() {
+    if (!CFG.STATE_BASE) return;
+    if (!ACTS) { try { ACTS = await getJSON("data/activities.json"); } catch (e) { console.warn("activities load failed", e); return; } }
+    const now = serverNow();
+    for (const back of [0, 1, 2]) {
+      try {
+        const r = await fetch(`${CFG.STATE_BASE}/live/${minuteName(now - back * 60000)}.json`, { cache: "no-store" });
+        if (!r.ok) continue;
+        const s = await r.json();
+        if (!AI || Date.parse(s.updated_at) >= Date.parse(AI.updated_at)) {
+          const changed = !AI || AI.updated_at !== s.updated_at; AI = s;
+          if (changed) { renderStatus(); renderFeed(); }
+        }
+        return;
+      } catch (e) { /* сеть — попробуем позже */ }
+    }
+  }
   async function loadData(first) {
     try {
       const [cat, world, feed] = await Promise.all([getJSON("data/catalog.json"), getJSON("data/world.json"), getJSON("data/feed.json")]);
@@ -595,7 +672,6 @@
     if (knownTx && !first) for (const tx of txs) if (!knownTx.has(tx)) for (let k = 0; k < 8; k++) effects.push({ x: 110 + Math.random() * 40, y: 100 + Math.random() * 20, t: Math.random() * 0.6 });
     knownTx = txs;
     layout = computeLayout(); syncPets();
-    if (first) { const blk = currentBlock(nowMinutes()); const tg = heroTarget(blk); hero.x = tg.x; hero.b = tg.b; }
     renderAllText();
   }
 
@@ -714,8 +790,14 @@
   // ---------- старт ----------
   initSettings(); initDonate();
   layout = computeLayout();
-  loadData(true).then(() => requestAnimationFrame(frame));
+  Promise.all([loadData(true), pollState()]).then(() => {
+    const tg = heroTarget(currentAct(nowMinutes())); hero.x = tg.x; hero.b = tg.b;
+    renderStatus(); renderFeed(); requestAnimationFrame(frame);
+  });
   setInterval(renderStatus, 1000);
+  setInterval(pollState, CFG.STATE_POLL_MS || 60000);
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") pollState(); });
+  if (params.has("debug")) window.__PIXEL = { get AI() { return AI; }, get ACTS() { return ACTS; }, pollState, currentAct: () => currentAct(nowMinutes()) };
   setInterval(() => loadData(false), CFG.REFRESH_MS);
   setInterval(renderFeed, 60000);
 })();

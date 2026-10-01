@@ -51,3 +51,28 @@ python3 check_donations.py --clear-demo   # убрать демо-записи �
 * Магазин: угостить Пикселя (5), погладить питомца (3), наклейка в комнату (15, ставится кликом), цвет футболки (20 за открытие).
   Всё видно только этому посетителю; общий мир меняют только настоящие донаты.
 * Отладка: `?coinsdebug=60` — начисление в 60 раз быстрее (и `window.__GAME` в консоли).
+
+## Pixel is driven by the AI (live state)
+
+The AI assistant wakes every ~5 minutes and decides what Pixel does:
+
+```bash
+python3 pixel_act.py status --live          # Moscow time, current state, donations, diary, previous states
+python3 pixel_act.py list                   # valid activities / spots / moods (from data/activities.json)
+python3 pixel_act.py set --activity cook --mood hungry \
+    --say-ru "Пахнет блинами!" --say-en "Smells like pancakes!" \
+    [--spot kitchen] [--status-ru ... --status-en ...] \
+    [--diary-ru "..." --diary-en "..."] [--also-feed] [--dry-run]
+```
+
+* State lives on branch **`pixel-state`** (worktree `.pixel-state/`, git-ignored): `pixel_state.json`
+  (full: history, diary) + `live/<UTC YYYYMMDDHHMM>.json` — the same public snapshot written for every minute
+  from now to +35 min. Pushing that branch does **not** trigger a GitHub Pages build and never conflicts with
+  the donations Action on `main`.
+* The site requests `https://raw.githubusercontent.com/SilenceBG/SilenceBG.github.io/pixel-state/live/<current minute>.json`
+  every 60 s. raw.githubusercontent.com caches a path for ~5 min and ignores query strings, but a path nobody has
+  requested yet is served fresh, so a new state is visible within ≤ ~1 min.
+* If the AI stops, the minute files run out after ~35 min, and any state older than `STATE_STALE_MIN` (30) makes the
+  site fall back to the Moscow-time schedule in `i18n.js`. `?schedule` forces the fallback for debugging.
+* Diary entries are stored in the state and merged into the site diary. `--also-feed` additionally appends to
+  `data/feed.json` on `main` (costs one Pages build).

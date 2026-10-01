@@ -47,7 +47,7 @@
       gifted: "{donor} подарил(а): {item}", giftedNoItem: "{donor} прислал(а) донат", demo: "демо",
       thanks: ["Спасибо огромное! 💛", "Ура, это так мило!", "Обожаю! Поставил сразу на место.", "Вот это подарок! Спасибо!"],
       now: "сейчас", today: "сегодня", yesterday: "вчера",
-      statusTpl: "{time} — {name} {activity}",
+      statusTpl: "{time} — {name} {activity}", moodLabel: "Настроение",
       heroHome: "Квартира Пикселя", storage: "в кладовке", tipFrom: "от", mattress: "Матрас на полу", box: "Коробка-стол", bulb: "Лампочка", kitchenOld: "Мини-кухня", bathDoor: "Ванная", windowName: "Окно",
     },
     en: {
@@ -96,7 +96,7 @@
       gifted: "{donor} gifted: {item}", giftedNoItem: "{donor} sent a tip", demo: "demo",
       thanks: ["Thank you so much! 💛", "Yay, that's so sweet!", "Love it! Put it in place right away.", "What a gift! Thanks!"],
       now: "now", today: "today", yesterday: "yesterday",
-      statusTpl: "{time} — {name} {activity}",
+      statusTpl: "{time} — {name} {activity}", moodLabel: "Mood",
       heroHome: "Pixel's flat", storage: "in storage", tipFrom: "from", mattress: "Mattress on the floor", box: "Cardboard-box desk", bulb: "Bare bulb", kitchenOld: "Tiny kitchen", bathDoor: "Bathroom", windowName: "Window",
     },
   };

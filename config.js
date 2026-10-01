@@ -26,4 +26,10 @@ window.APP_CONFIG = {
 
   // Как часто перечитывать data/*.json (мс), чтобы новые подарки появлялись без перезагрузки.
   REFRESH_MS: 60000,
+
+  // Живое состояние Пикселя: его выставляет ИИ-ассистент (pixel_act.py) в ветку pixel-state.
+  // Читается напрямую с raw.githubusercontent.com — без пересборки GitHub Pages.
+  STATE_BASE: "https://raw.githubusercontent.com/SilenceBG/SilenceBG.github.io/pixel-state",
+  STATE_POLL_MS: 60000,     // как часто проверять новое состояние
+  STATE_STALE_MIN: 30,      // если состояние старше — запасной распорядок дня
 };

@@ -2,3 +2,4 @@ shots/
 __pycache__/
 *.pyc
 data/*.tmp
+.pixel-state/

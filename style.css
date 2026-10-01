@@ -45,6 +45,7 @@ canvas#world{display:block;width:100%;height:auto;image-rendering:pixelated;imag
 .tooltip b{color:var(--accent)}
 .status{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:14px}
 .dot{width:9px;height:9px;border-radius:50%;background:#45e07a;box-shadow:0 0 8px #45e07a;animation:pulse 2s infinite}
+.status-say{margin-top:6px;font-size:14px;font-style:italic;opacity:.9;overflow-wrap:anywhere}
 @keyframes pulse{50%{opacity:.35}}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
 .stats div{background:var(--bg2);border-radius:10px;padding:8px;text-align:center}
