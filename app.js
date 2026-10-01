@@ -408,7 +408,7 @@
     const mins = nowMinutes();
     const ownedSince = (WORLD.items || []).map((it) => ({ id: it.id, ts: Date.parse(it.ts) || 0 }));
     for (let back = 0; back < 3; back++) {
-      const dayUTC = Date.UTC(p.y, p.mo - 1, p.d - back); // полночь «по Киеву» как UTC-метка
+      const dayUTC = Date.UTC(p.y, p.mo - 1, p.d - back); // локальная полночь как UTC-метка
       const dayKey = new Date(dayUTC).toISOString().slice(0, 10);
       const r = rng(hashStr(dayKey));
       const usedTexts = new Set();
