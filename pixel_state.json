@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "sleep",
+ "activity": "read",
  "spot": "bed",
- "mood": "sleepy",
+ "mood": "cozy",
  "say": {
-  "ru": "Спокойной ночи, интернет! 🌙",
-  "en": "Good night, internet! 🌙"
+  "ru": "Ещё одну главу и спать",
+  "en": "One more chapter, then sleep"
  },
  "status": null,
- "updated_at": "2026-10-01T22:56:36Z",
+ "updated_at": "2026-10-01T22:58:48Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -31,6 +31,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-01T22:56:36Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Спокойной ночи, интернет! 🌙",
+    "en": "Good night, internet! 🌙"
+   }
+  },
   {
    "updated_at": "2026-10-01T22:55:37Z",
    "activity": "look_window",
