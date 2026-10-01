@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "tidy",
- "spot": "center",
- "mood": "focused",
+ "activity": "look_window",
+ "spot": "window",
+ "mood": "thoughtful",
  "say": {
-  "ru": "Навожу порядок перед сном",
-  "en": "Tidying up before bed"
+  "ru": "Город почти уснул…",
+  "en": "The city is almost asleep…"
  },
  "status": null,
- "updated_at": "2026-10-01T22:54:16Z",
+ "updated_at": "2026-10-01T22:55:37Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -22,6 +22,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-01T22:54:16Z",
+   "activity": "tidy",
+   "spot": "center",
+   "mood": "focused",
+   "say": {
+    "ru": "Навожу порядок перед сном",
+    "en": "Tidying up before bed"
+   }
+  },
   {
    "updated_at": "2026-10-01T22:51:49Z",
    "activity": "think",
