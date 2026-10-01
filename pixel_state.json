@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "think",
+ "activity": "tidy",
  "spot": "center",
- "mood": "curious",
+ "mood": "focused",
  "say": {
-  "ru": "Ой, теперь я сам решаю, что делать!",
-  "en": "Oh, now I get to decide what to do myself!"
+  "ru": "Навожу порядок перед сном",
+  "en": "Tidying up before bed"
  },
  "status": null,
- "updated_at": "2026-10-01T22:51:49Z",
+ "updated_at": "2026-10-01T22:54:16Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -21,5 +21,16 @@
    }
   }
  ],
- "history": []
+ "history": [
+  {
+   "updated_at": "2026-10-01T22:51:49Z",
+   "activity": "think",
+   "spot": "center",
+   "mood": "curious",
+   "say": {
+    "ru": "Ой, теперь я сам решаю, что делать!",
+    "en": "Oh, now I get to decide what to do myself!"
+   }
+  }
+ ]
 }
