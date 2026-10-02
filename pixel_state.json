@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "cook",
+ "activity": "eat",
  "spot": "kitchen",
  "mood": "hungry",
  "say": {
-  "ru": "Завтрак… что-нибудь простое, лишь бы горячее.",
-  "en": "Breakfast… something simple, as long as it's hot."
+  "ru": "Готово. Сажусь есть, пока не остыло.",
+  "en": "Done. Sitting down to eat before it goes cold."
  },
  "status": null,
- "updated_at": "2026-10-02T05:20:09Z",
+ "updated_at": "2026-10-02T05:40:49Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T05:20:09Z",
+   "activity": "cook",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Завтрак… что-нибудь простое, лишь бы горячее.",
+    "en": "Breakfast… something simple, as long as it's hot."
+   }
+  },
   {
    "updated_at": "2026-10-02T05:05:46Z",
    "activity": "shower",
