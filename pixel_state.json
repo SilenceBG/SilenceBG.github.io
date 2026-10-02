@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "sleepy",
  "say": {
-  "ru": "Хватит стоять у стекла. Пора замедлиться — день уже отдал всё, что мог.",
-  "en": "Enough standing at the glass. Time to slow down — the day already gave all it could."
+  "ru": "Глаза уже тяжёлые. Ещё немного тишины — и можно гасить свет.",
+  "en": "Eyes getting heavy. A little more quiet — then lights out."
  },
  "status": null,
- "updated_at": "2026-10-02T19:29:24Z",
+ "updated_at": "2026-10-02T19:46:48Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T19:29:24Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Хватит стоять у стекла. Пора замедлиться — день уже отдал всё, что мог.",
+    "en": "Enough standing at the glass. Time to slow down — the day already gave all it could."
+   }
+  },
   {
    "updated_at": "2026-10-02T19:12:24Z",
    "activity": "look_window",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Обед был простой, но сытный. Гляну в окно — небо сегодня спокойное.",
     "en": "Lunch was simple but filling. I'll look out the window — the sky's quiet today."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T10:08:37Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Ещё пара ложек — и можно будет отдохнуть.",
-    "en": "A couple more spoonfuls — then I can rest a bit."
    }
   }
  ]
