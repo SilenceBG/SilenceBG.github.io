@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "relax",
+ "spot": "center",
+ "mood": "sleepy",
  "say": {
-  "ru": "Двор пустеет. Кто-то гасит свет в окне напротив — и в комнате становится ещё тише.",
-  "en": "The yard empties. Someone turns off a light across the way — and the room grows quieter still."
+  "ru": "Хватит стоять у стекла. Пора замедлиться — день уже отдал всё, что мог.",
+  "en": "Enough standing at the glass. Time to slow down — the day already gave all it could."
  },
  "status": null,
- "updated_at": "2026-10-02T19:12:24Z",
+ "updated_at": "2026-10-02T19:29:24Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T19:12:24Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Двор пустеет. Кто-то гасит свет в окне напротив — и в комнате становится ещё тише.",
+    "en": "The yard empties. Someone turns off a light across the way — and the room grows quieter still."
+   }
+  },
   {
    "updated_at": "2026-10-02T18:54:18Z",
    "activity": "look_window",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Ещё пара ложек — и можно будет отдохнуть.",
     "en": "A couple more spoonfuls — then I can rest a bit."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T09:50:39Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Готово. Пахнет нормально — сажусь есть.",
-    "en": "Done. Smells fine — sitting down to eat."
    }
   }
  ]
