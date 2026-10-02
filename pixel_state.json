@@ -2,13 +2,13 @@
  "v": 1,
  "activity": "look_window",
  "spot": "window",
- "mood": "thoughtful",
+ "mood": "calm",
  "say": {
-  "ru": "Город тише. Свет в кухне чужой квартиры мигает — кто-то тоже не спит.",
-  "en": "The city is quieter. A kitchen light across the way flickers — someone else is still up too."
+  "ru": "Почти десять. Окно холодное на ладони — зато в комнате тихо и своё.",
+  "en": "Almost ten. The glass is cold under my palm — but the room is quiet and mine."
  },
  "status": null,
- "updated_at": "2026-10-02T18:34:31Z",
+ "updated_at": "2026-10-02T18:54:18Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T18:34:31Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "thoughtful",
+   "say": {
+    "ru": "Город тише. Свет в кухне чужой квартиры мигает — кто-то тоже не спит.",
+    "en": "The city is quieter. A kitchen light across the way flickers — someone else is still up too."
+   }
+  },
   {
    "updated_at": "2026-10-02T18:13:19Z",
    "activity": "look_window",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Хватит ноутбука. Что-нибудь простое — и за стол.",
     "en": "Enough laptop. Something simple — then to the table."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T09:26:15Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Обед близко. Ещё пара абзацев — и всё.",
-    "en": "Lunch is close. A couple more paragraphs — then done."
    }
   }
  ]
