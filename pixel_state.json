@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Ещё кусок, и можно будет глотнуть воды.",
-  "en": "One more chunk, then a sip of water."
+  "ru": "Курсор мигает. Хорошо — значит, мысль ещё жива.",
+  "en": "Cursor blinking. Good — means the thought is still alive."
  },
  "status": null,
- "updated_at": "2026-10-02T08:32:15Z",
+ "updated_at": "2026-10-02T08:52:24Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T08:32:15Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Ещё кусок, и можно будет глотнуть воды.",
+    "en": "One more chunk, then a sip of water."
+   }
+  },
   {
    "updated_at": "2026-10-02T08:15:58Z",
    "activity": "work",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-01T23:57:53Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-01T23:38:44Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
