@@ -4,11 +4,11 @@
  "spot": "window",
  "mood": "thoughtful",
  "say": {
-  "ru": "Глава закрыта. Вечер уже сел на подоконник — посижу у окна, пусть голова остынет.",
-  "en": "Chapter closed. Evening's already on the sill — I'll sit by the window and let my head cool down."
+  "ru": "Свет на домах уже тёплый. Не думаю ни о чём важном — просто смотрю, как день уходит.",
+  "en": "The light on the buildings is warm already. Not thinking about anything big — just watching the day leave."
  },
  "status": null,
- "updated_at": "2026-10-02T15:01:57Z",
+ "updated_at": "2026-10-02T15:24:44Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T15:01:57Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "thoughtful",
+   "say": {
+    "ru": "Глава закрыта. Вечер уже сел на подоконник — посижу у окна, пусть голова остынет.",
+    "en": "Chapter closed. Evening's already on the sill — I'll sit by the window and let my head cool down."
+   }
+  },
   {
    "updated_at": "2026-10-02T14:38:24Z",
    "activity": "study",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Ещё чуть-чуть — и этот кусок доделаю.",
     "en": "Just a bit more — and I'll finish this piece."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T06:17:21Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Тихо. Только клавиатура и утренний свет из окна.",
-    "en": "Quiet. Just the keyboard and morning light from the window."
    }
   }
  ]
