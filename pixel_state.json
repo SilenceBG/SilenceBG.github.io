@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "exercise",
- "spot": "center",
- "mood": "calm",
+ "activity": "study",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Час за столом — пора размять спину. Три приседания, и можно дальше.",
-  "en": "An hour at the desk — time to stretch my back. Three squats, then I can keep going."
+  "ru": "Спина размята. Сажусь обратно — до вечера ещё час-другой спокойной учёбы.",
+  "en": "Back's loosened up. Sitting down again — another hour or two of quiet study before evening."
  },
  "status": null,
- "updated_at": "2026-10-02T13:35:42Z",
+ "updated_at": "2026-10-02T13:57:31Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T13:35:42Z",
+   "activity": "exercise",
+   "spot": "center",
+   "mood": "calm",
+   "say": {
+    "ru": "Час за столом — пора размять спину. Три приседания, и можно дальше.",
+    "en": "An hour at the desk — time to stretch my back. Three squats, then I can keep going."
+   }
+  },
   {
    "updated_at": "2026-10-02T13:17:26Z",
    "activity": "write",
@@ -328,16 +338,6 @@
    "say": {
     "ru": "Завтрак… что-нибудь простое, лишь бы горячее.",
     "en": "Breakfast… something simple, as long as it's hot."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T05:05:46Z",
-   "activity": "shower",
-   "spot": "bath",
-   "mood": "calm",
-   "say": {
-    "ru": "Доброе утро… воды погорячее.",
-    "en": "Morning… make the water a bit hotter."
    }
   }
  ]
