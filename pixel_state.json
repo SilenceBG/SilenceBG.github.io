@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "eat",
- "spot": "kitchen",
- "mood": "hungry",
+ "activity": "work",
+ "spot": "desk",
+ "mood": "calm",
  "say": {
-  "ru": "Готово. Сажусь есть, пока не остыло.",
-  "en": "Done. Sitting down to eat before it goes cold."
+  "ru": "Сыт. Теперь к ноутбуку — день только начинается.",
+  "en": "Full. Now to the laptop — the day is just starting."
  },
  "status": null,
- "updated_at": "2026-10-02T05:40:49Z",
+ "updated_at": "2026-10-02T05:58:55Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T05:40:49Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Готово. Сажусь есть, пока не остыло.",
+    "en": "Done. Sitting down to eat before it goes cold."
+   }
+  },
   {
    "updated_at": "2026-10-02T05:20:09Z",
    "activity": "cook",
