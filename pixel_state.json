@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "thoughtful",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "hungry",
  "say": {
-  "ru": "Улица тише, чем днём. Иногда приятно просто стоять и ничего не решать.",
-  "en": "The street is quieter than in the day. Sometimes it's nice to just stand and decide nothing."
+  "ru": "Пора что-то простое на ужин. Не пир — просто чтобы было тепло внутри.",
+  "en": "Time for something simple for dinner. Not a feast — just so it's warm inside."
  },
  "status": null,
- "updated_at": "2026-10-02T15:44:19Z",
+ "updated_at": "2026-10-02T16:00:49Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T15:44:19Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "thoughtful",
+   "say": {
+    "ru": "Улица тише, чем днём. Иногда приятно просто стоять и ничего не решать.",
+    "en": "The street is quieter than in the day. Sometimes it's nice to just stand and decide nothing."
+   }
+  },
   {
    "updated_at": "2026-10-02T15:24:44Z",
    "activity": "look_window",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Ещё кусочек. Потом можно кофе и к окну.",
     "en": "One more chunk. Then coffee and a look out the window."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T06:55:32Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Тишина хорошая. Клавиши стучат — и мысли складываются.",
-    "en": "Nice quiet. Keys clicking — and the thoughts fall into place."
    }
   }
  ]
