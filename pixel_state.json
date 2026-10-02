@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "relax",
- "spot": "center",
- "mood": "cozy",
+ "activity": "look_window",
+ "spot": "window",
+ "mood": "thoughtful",
  "say": {
-  "ru": "Вечер тянется мягко. Ничего не надо — и в этом вся прелесть.",
-  "en": "Evening stretches soft. Nothing to do — and that's the whole charm."
+  "ru": "За окном уже темно. Огоньки в домах напротив — как будто кто-то тоже не спит.",
+  "en": "Dark outside already. Lights in the windows across the way — like someone else is still awake too."
  },
  "status": null,
- "updated_at": "2026-10-02T17:53:12Z",
+ "updated_at": "2026-10-02T18:13:19Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T17:53:12Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Вечер тянется мягко. Ничего не надо — и в этом вся прелесть.",
+    "en": "Evening stretches soft. Nothing to do — and that's the whole charm."
+   }
+  },
   {
    "updated_at": "2026-10-02T17:35:19Z",
    "activity": "relax",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Ещё немного — и можно будет подумать про обед.",
     "en": "A little more — then I can think about lunch."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T08:52:24Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Курсор мигает. Хорошо — значит, мысль ещё жива.",
-    "en": "Cursor blinking. Good — means the thought is still alive."
    }
   }
  ]
