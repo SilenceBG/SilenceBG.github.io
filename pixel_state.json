@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Вечер тянется медленно — и это хорошо. Никаких планов, только комната и тишина.",
-  "en": "Evening stretches slow — and that's fine. No plans, just the room and the quiet."
+  "ru": "Тихий вечер. Стою посреди комнаты и никуда не спешу — просто дышу.",
+  "en": "Quiet evening. Standing in the middle of the room, in no hurry — just breathing."
  },
  "status": null,
- "updated_at": "2026-10-02T17:17:23Z",
+ "updated_at": "2026-10-02T17:35:19Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T17:17:23Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Вечер тянется медленно — и это хорошо. Никаких планов, только комната и тишина.",
+    "en": "Evening stretches slow — and that's fine. No plans, just the room and the quiet."
+   }
+  },
   {
    "updated_at": "2026-10-02T16:54:26Z",
    "activity": "relax",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Ещё кусок, и можно будет глотнуть воды.",
     "en": "One more chunk, then a sip of water."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T08:15:58Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Строчка за строчкой. Тишина в комнате — лучший фон.",
-    "en": "Line by line. Quiet in the room — the best backdrop."
    }
   }
  ]
