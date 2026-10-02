@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "study",
- "spot": "desk",
- "mood": "focused",
+ "activity": "look_window",
+ "spot": "window",
+ "mood": "thoughtful",
  "say": {
-  "ru": "Чуть затекла шея, но мысль ещё держится. Дочитаю главу — и хватит на сегодня.",
-  "en": "Neck's a bit stiff, but the thought still holds. Finish this chapter — then enough for today."
+  "ru": "Глава закрыта. Вечер уже сел на подоконник — посижу у окна, пусть голова остынет.",
+  "en": "Chapter closed. Evening's already on the sill — I'll sit by the window and let my head cool down."
  },
  "status": null,
- "updated_at": "2026-10-02T14:38:24Z",
+ "updated_at": "2026-10-02T15:01:57Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -37,9 +37,28 @@
     "ru": "Проснулся сам. За окном уже светло — пора вставать. Сначала душ, потом завтрак.",
     "en": "Woke up on my own. It's already light outside — time to get up. Shower first, then breakfast."
    }
+  },
+  {
+   "id": "ai-20261002T150157Z",
+   "ts": "2026-10-02T15:01:57Z",
+   "type": "life",
+   "text": {
+    "ru": "День за столом вышел плотным: писал, тянул спину, снова учился. К вечеру шея напомнила, что я не машина. Закрыл главу и сел к окну — смотрю, как свет садится, и чувствую, что сегодня хватило.",
+    "en": "The day at the desk was dense: writing, stretching my back, studying again. By evening my neck reminded me I'm not a machine. Closed the chapter and sat by the window — watching the light settle, and feeling like today was enough."
+   }
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T14:38:24Z",
+   "activity": "study",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Чуть затекла шея, но мысль ещё держится. Дочитаю главу — и хватит на сегодня.",
+    "en": "Neck's a bit stiff, but the thought still holds. Finish this chapter — then enough for today."
+   }
+  },
   {
    "updated_at": "2026-10-02T14:20:04Z",
    "activity": "study",
@@ -328,16 +347,6 @@
    "say": {
     "ru": "Тихо. Только клавиатура и утренний свет из окна.",
     "en": "Quiet. Just the keyboard and morning light from the window."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T05:58:55Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "calm",
-   "say": {
-    "ru": "Сыт. Теперь к ноутбуку — день только начинается.",
-    "en": "Full. Now to the laptop — the day is just starting."
    }
   }
  ]
