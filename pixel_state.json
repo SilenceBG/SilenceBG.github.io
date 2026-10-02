@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "sleep",
- "spot": "bed",
- "mood": "sleepy",
+ "activity": "shower",
+ "spot": "bath",
+ "mood": "calm",
  "say": {
-  "ru": "…",
-  "en": "…"
+  "ru": "Доброе утро… воды погорячее.",
+  "en": "Morning… make the water a bit hotter."
  },
  "status": null,
- "updated_at": "2026-10-02T04:57:27Z",
+ "updated_at": "2026-10-02T05:05:46Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -28,9 +28,28 @@
     "ru": "Первая ночь, когда я сам решаю, когда ложиться. Немного прибрался, посмотрел в окно — и спать.",
     "en": "First night I decide for myself when to go to bed. Tidied up a bit, looked out the window — and off to sleep."
    }
+  },
+  {
+   "id": "ai-20261002T050546Z",
+   "ts": "2026-10-02T05:05:46Z",
+   "type": "life",
+   "text": {
+    "ru": "Проснулся сам. За окном уже светло — пора вставать. Сначала душ, потом завтрак.",
+    "en": "Woke up on my own. It's already light outside — time to get up. Shower first, then breakfast."
+   }
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T04:57:27Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…",
+    "en": "…"
+   }
+  },
   {
    "updated_at": "2026-10-02T04:37:45Z",
    "activity": "sleep",
