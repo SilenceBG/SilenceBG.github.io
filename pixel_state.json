@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Спина размята. Сажусь обратно — до вечера ещё час-другой спокойной учёбы.",
-  "en": "Back's loosened up. Sitting down again — another hour or two of quiet study before evening."
+  "ru": "Страница за страницей. Ещё немного — и можно будет выдохнуть к вечеру.",
+  "en": "Page after page. A little more — then I can exhale into the evening."
  },
  "status": null,
- "updated_at": "2026-10-02T13:57:31Z",
+ "updated_at": "2026-10-02T14:20:04Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T13:57:31Z",
+   "activity": "study",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Спина размята. Сажусь обратно — до вечера ещё час-другой спокойной учёбы.",
+    "en": "Back's loosened up. Sitting down again — another hour or two of quiet study before evening."
+   }
+  },
   {
    "updated_at": "2026-10-02T13:35:42Z",
    "activity": "exercise",
@@ -328,16 +338,6 @@
    "say": {
     "ru": "Готово. Сажусь есть, пока не остыло.",
     "en": "Done. Sitting down to eat before it goes cold."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T05:20:09Z",
-   "activity": "cook",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Завтрак… что-нибудь простое, лишь бы горячее.",
-    "en": "Breakfast… something simple, as long as it's hot."
    }
   }
  ]
