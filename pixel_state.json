@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Ещё немного — и можно будет подумать про обед.",
-  "en": "A little more — then I can think about lunch."
+  "ru": "Обед близко. Ещё пара абзацев — и всё.",
+  "en": "Lunch is close. A couple more paragraphs — then done."
  },
  "status": null,
- "updated_at": "2026-10-02T09:09:46Z",
+ "updated_at": "2026-10-02T09:26:15Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T09:09:46Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Ещё немного — и можно будет подумать про обед.",
+    "en": "A little more — then I can think about lunch."
+   }
+  },
   {
    "updated_at": "2026-10-02T08:52:24Z",
    "activity": "work",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-02T00:28:34Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-02T00:10:49Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
