@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "write",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Облака ползут медленно. Можно ещё пару минут — и снова к тексту.",
-  "en": "Clouds crawl slow. A couple more minutes — then back to the text."
+  "ru": "Хватит смотреть в небо. Сажусь — и дописываю мысль, пока она ещё тёплая.",
+  "en": "Enough sky-watching. Sitting down to finish the thought while it's still warm."
  },
  "status": null,
- "updated_at": "2026-10-02T12:26:27Z",
+ "updated_at": "2026-10-02T12:38:04Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T12:26:27Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Облака ползут медленно. Можно ещё пару минут — и снова к тексту.",
+    "en": "Clouds crawl slow. A couple more minutes — then back to the text."
+   }
+  },
   {
    "updated_at": "2026-10-02T12:07:40Z",
    "activity": "look_window",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-02T04:20:17Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-02T03:56:52Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
