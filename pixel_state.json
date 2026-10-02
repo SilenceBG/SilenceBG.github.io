@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "Чуть ворочаюсь. Сон держит крепко.",
-  "en": "Shifting a little. Sleep holds me tight."
+  "ru": "Тишина. Только дыхание и тьма.",
+  "en": "Silence. Just breath and dark."
  },
  "status": null,
- "updated_at": "2026-10-02T21:03:44Z",
+ "updated_at": "2026-10-02T21:24:07Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T21:03:44Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Чуть ворочаюсь. Сон держит крепко.",
+    "en": "Shifting a little. Sleep holds me tight."
+   }
+  },
   {
    "updated_at": "2026-10-02T20:44:59Z",
    "activity": "sleep",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Полдень уже далеко — держу темп, пока голова ясная.",
     "en": "Afternoon's well underway — keeping pace while my head's still clear."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T11:33:57Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Строчка за строчкой — день идёт ровно.",
-    "en": "Line by line — the afternoon's holding steady."
    }
   }
  ]
