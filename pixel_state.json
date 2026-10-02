@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "work",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Обед был простой, но сытный. Гляну в окно — небо сегодня спокойное.",
-  "en": "Lunch was simple but filling. I'll look out the window — the sky's quiet today."
+  "ru": "Окно отпустило. Вернусь к ноутбуку — днём лучше думается.",
+  "en": "The window's done its job. Back to the laptop — thinking's clearer in the afternoon."
  },
  "status": null,
- "updated_at": "2026-10-02T10:19:42Z",
+ "updated_at": "2026-10-02T10:40:46Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T10:19:42Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Обед был простой, но сытный. Гляну в окно — небо сегодня спокойное.",
+    "en": "Lunch was simple but filling. I'll look out the window — the sky's quiet today."
+   }
+  },
   {
    "updated_at": "2026-10-02T10:08:37Z",
    "activity": "eat",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-02T02:01:40Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-02T01:45:10Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
