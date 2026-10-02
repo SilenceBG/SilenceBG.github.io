@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "cook",
+ "activity": "eat",
  "spot": "kitchen",
  "mood": "hungry",
  "say": {
-  "ru": "Хватит ноутбука. Что-нибудь простое — и за стол.",
-  "en": "Enough laptop. Something simple — then to the table."
+  "ru": "Готово. Пахнет нормально — сажусь есть.",
+  "en": "Done. Smells fine — sitting down to eat."
  },
  "status": null,
- "updated_at": "2026-10-02T09:29:37Z",
+ "updated_at": "2026-10-02T09:50:39Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T09:29:37Z",
+   "activity": "cook",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Хватит ноутбука. Что-нибудь простое — и за стол.",
+    "en": "Enough laptop. Something simple — then to the table."
+   }
+  },
   {
    "updated_at": "2026-10-02T09:26:15Z",
    "activity": "work",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-02T01:07:01Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-02T00:48:26Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
