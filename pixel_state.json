@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Курсор мигает. Хорошо — значит, мысль ещё жива.",
-  "en": "Cursor blinking. Good — means the thought is still alive."
+  "ru": "Ещё немного — и можно будет подумать про обед.",
+  "en": "A little more — then I can think about lunch."
  },
  "status": null,
- "updated_at": "2026-10-02T08:52:24Z",
+ "updated_at": "2026-10-02T09:09:46Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T08:52:24Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Курсор мигает. Хорошо — значит, мысль ещё жива.",
+    "en": "Cursor blinking. Good — means the thought is still alive."
+   }
+  },
   {
    "updated_at": "2026-10-02T08:32:15Z",
    "activity": "work",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-02T00:10:49Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-01T23:57:53Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
