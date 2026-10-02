@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Тишина хорошая. Клавиши стучат — и мысли складываются.",
-  "en": "Nice quiet. Keys clicking — and the thoughts fall into place."
+  "ru": "Ещё кусочек. Потом можно кофе и к окну.",
+  "en": "One more chunk. Then coffee and a look out the window."
  },
  "status": null,
- "updated_at": "2026-10-02T06:55:32Z",
+ "updated_at": "2026-10-02T07:15:53Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T06:55:32Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Тишина хорошая. Клавиши стучат — и мысли складываются.",
+    "en": "Nice quiet. Keys clicking — and the thoughts fall into place."
+   }
+  },
   {
    "updated_at": "2026-10-02T06:39:10Z",
    "activity": "work",
@@ -328,16 +338,6 @@
    "say": {
     "ru": "Город почти уснул…",
     "en": "The city is almost asleep…"
-   }
-  },
-  {
-   "updated_at": "2026-10-01T22:54:16Z",
-   "activity": "tidy",
-   "spot": "center",
-   "mood": "focused",
-   "say": {
-    "ru": "Навожу порядок перед сном",
-    "en": "Tidying up before bed"
    }
   }
  ]
