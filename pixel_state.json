@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Ещё кусок текста — и можно будет размяться.",
-  "en": "One more chunk of text — then I can stretch."
+  "ru": "Соберу мысли в один абзац — и продолжу.",
+  "en": "I’ll gather my thoughts into one paragraph — then keep going."
  },
  "status": null,
- "updated_at": "2026-10-02T10:59:04Z",
+ "updated_at": "2026-10-02T11:11:10Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T10:59:04Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Ещё кусок текста — и можно будет размяться.",
+    "en": "One more chunk of text — then I can stretch."
+   }
+  },
   {
    "updated_at": "2026-10-02T10:40:46Z",
    "activity": "work",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-02T02:40:39Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-02T02:22:55Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
