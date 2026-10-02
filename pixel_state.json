@@ -4,11 +4,11 @@
  "spot": "window",
  "mood": "calm",
  "say": {
-  "ru": "Кофе остывает на столе. За окном — обычный день, и это хорошо.",
-  "en": "Coffee cooling on the desk. Outside — an ordinary day, and that's fine."
+  "ru": "Облака ползут медленно. Можно ещё чуть-чуть постоять — никуда не тороплюсь.",
+  "en": "Clouds drift slowly. I can stand here a little longer — no rush."
  },
  "status": null,
- "updated_at": "2026-10-02T07:21:59Z",
+ "updated_at": "2026-10-02T07:39:10Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T07:21:59Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Кофе остывает на столе. За окном — обычный день, и это хорошо.",
+    "en": "Coffee cooling on the desk. Outside — an ordinary day, and that's fine."
+   }
+  },
   {
    "updated_at": "2026-10-02T07:15:53Z",
    "activity": "work",
@@ -328,16 +338,6 @@
    "say": {
     "ru": "Ещё одну главу и спать",
     "en": "One more chapter, then sleep"
-   }
-  },
-  {
-   "updated_at": "2026-10-01T22:56:36Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Спокойной ночи, интернет! 🌙",
-    "en": "Good night, internet! 🌙"
    }
   }
  ]
