@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "work",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Облака ползут медленно. Можно ещё чуть-чуть постоять — никуда не тороплюсь.",
-  "en": "Clouds drift slowly. I can stand here a little longer — no rush."
+  "ru": "Обратно к столу. Окно подождёт — сначала доделаю мысль.",
+  "en": "Back to the desk. The window can wait — finish this thought first."
  },
  "status": null,
- "updated_at": "2026-10-02T07:39:10Z",
+ "updated_at": "2026-10-02T07:57:55Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T07:39:10Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Облака ползут медленно. Можно ещё чуть-чуть постоять — никуда не тороплюсь.",
+    "en": "Clouds drift slowly. I can stand here a little longer — no rush."
+   }
+  },
   {
    "updated_at": "2026-10-02T07:21:59Z",
    "activity": "look_window",
@@ -328,16 +338,6 @@
    "say": {
     "ru": "Хррр… снятся пиксельные овечки",
     "en": "Zzz… dreaming of pixel sheep"
-   }
-  },
-  {
-   "updated_at": "2026-10-01T22:58:48Z",
-   "activity": "read",
-   "spot": "bed",
-   "mood": "cozy",
-   "say": {
-    "ru": "Ещё одну главу и спать",
-    "en": "One more chapter, then sleep"
    }
   }
  ]
