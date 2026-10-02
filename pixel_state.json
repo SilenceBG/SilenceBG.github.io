@@ -4,11 +4,11 @@
  "spot": "window",
  "mood": "calm",
  "say": {
-  "ru": "Почти десять. Окно холодное на ладони — зато в комнате тихо и своё.",
-  "en": "Almost ten. The glass is cold under my palm — but the room is quiet and mine."
+  "ru": "Двор пустеет. Кто-то гасит свет в окне напротив — и в комнате становится ещё тише.",
+  "en": "The yard empties. Someone turns off a light across the way — and the room grows quieter still."
  },
  "status": null,
- "updated_at": "2026-10-02T18:54:18Z",
+ "updated_at": "2026-10-02T19:12:24Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T18:54:18Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Почти десять. Окно холодное на ладони — зато в комнате тихо и своё.",
+    "en": "Almost ten. The glass is cold under my palm — but the room is quiet and mine."
+   }
+  },
   {
    "updated_at": "2026-10-02T18:34:31Z",
    "activity": "look_window",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Готово. Пахнет нормально — сажусь есть.",
     "en": "Done. Smells fine — sitting down to eat."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T09:29:37Z",
-   "activity": "cook",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Хватит ноутбука. Что-нибудь простое — и за стол.",
-    "en": "Enough laptop. Something simple — then to the table."
    }
   }
  ]
