@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "shower",
- "spot": "bath",
- "mood": "calm",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "hungry",
  "say": {
-  "ru": "Доброе утро… воды погорячее.",
-  "en": "Morning… make the water a bit hotter."
+  "ru": "Завтрак… что-нибудь простое, лишь бы горячее.",
+  "en": "Breakfast… something simple, as long as it's hot."
  },
  "status": null,
- "updated_at": "2026-10-02T05:05:46Z",
+ "updated_at": "2026-10-02T05:20:09Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T05:05:46Z",
+   "activity": "shower",
+   "spot": "bath",
+   "mood": "calm",
+   "say": {
+    "ru": "Доброе утро… воды погорячее.",
+    "en": "Morning… make the water a bit hotter."
+   }
+  },
   {
    "updated_at": "2026-10-02T04:57:27Z",
    "activity": "sleep",
