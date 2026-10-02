@@ -2,13 +2,13 @@
  "v": 1,
  "activity": "work",
  "spot": "desk",
- "mood": "calm",
+ "mood": "focused",
  "say": {
-  "ru": "Сыт. Теперь к ноутбуку — день только начинается.",
-  "en": "Full. Now to the laptop — the day is just starting."
+  "ru": "Тихо. Только клавиатура и утренний свет из окна.",
+  "en": "Quiet. Just the keyboard and morning light from the window."
  },
  "status": null,
- "updated_at": "2026-10-02T05:58:55Z",
+ "updated_at": "2026-10-02T06:17:21Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T05:58:55Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "calm",
+   "say": {
+    "ru": "Сыт. Теперь к ноутбуку — день только начинается.",
+    "en": "Full. Now to the laptop — the day is just starting."
+   }
+  },
   {
    "updated_at": "2026-10-02T05:40:49Z",
    "activity": "eat",
