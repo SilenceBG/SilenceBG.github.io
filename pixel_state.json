@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Страница за страницей. Ещё немного — и можно будет выдохнуть к вечеру.",
-  "en": "Page after page. A little more — then I can exhale into the evening."
+  "ru": "Чуть затекла шея, но мысль ещё держится. Дочитаю главу — и хватит на сегодня.",
+  "en": "Neck's a bit stiff, but the thought still holds. Finish this chapter — then enough for today."
  },
  "status": null,
- "updated_at": "2026-10-02T14:20:04Z",
+ "updated_at": "2026-10-02T14:38:24Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T14:20:04Z",
+   "activity": "study",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Страница за страницей. Ещё немного — и можно будет выдохнуть к вечеру.",
+    "en": "Page after page. A little more — then I can exhale into the evening."
+   }
+  },
   {
    "updated_at": "2026-10-02T13:57:31Z",
    "activity": "study",
@@ -328,16 +338,6 @@
    "say": {
     "ru": "Сыт. Теперь к ноутбуку — день только начинается.",
     "en": "Full. Now to the laptop — the day is just starting."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T05:40:49Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Готово. Сажусь есть, пока не остыло.",
-    "en": "Done. Sitting down to eat before it goes cold."
    }
   }
  ]
