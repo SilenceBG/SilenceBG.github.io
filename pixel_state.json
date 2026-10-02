@@ -4,11 +4,11 @@
  "spot": "kitchen",
  "mood": "hungry",
  "say": {
-  "ru": "Готово. Пахнет нормально — сажусь есть.",
-  "en": "Done. Smells fine — sitting down to eat."
+  "ru": "Ещё пара ложек — и можно будет отдохнуть.",
+  "en": "A couple more spoonfuls — then I can rest a bit."
  },
  "status": null,
- "updated_at": "2026-10-02T09:50:39Z",
+ "updated_at": "2026-10-02T10:08:37Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T09:50:39Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Готово. Пахнет нормально — сажусь есть.",
+    "en": "Done. Smells fine — sitting down to eat."
+   }
+  },
   {
    "updated_at": "2026-10-02T09:29:37Z",
    "activity": "cook",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-02T01:23:22Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-02T01:07:01Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
