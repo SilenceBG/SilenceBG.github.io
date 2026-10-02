@@ -8,7 +8,7 @@
   "en": "…"
  },
  "status": null,
- "updated_at": "2026-10-02T04:37:45Z",
+ "updated_at": "2026-10-02T04:57:27Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -31,6 +31,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T04:37:45Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…",
+    "en": "…"
+   }
+  },
   {
    "updated_at": "2026-10-02T04:20:17Z",
    "activity": "sleep",
