@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Ужин закончен. Сейчас просто постою посреди комнаты — тихо, тепло, никуда не надо.",
-  "en": "Dinner's done. Just standing in the middle of the room a bit — quiet, warm, nowhere to be."
+  "ru": "Вечер тянется медленно — и это хорошо. Никаких планов, только комната и тишина.",
+  "en": "Evening stretches slow — and that's fine. No plans, just the room and the quiet."
  },
  "status": null,
- "updated_at": "2026-10-02T16:54:26Z",
+ "updated_at": "2026-10-02T17:17:23Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T16:54:26Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Ужин закончен. Сейчас просто постою посреди комнаты — тихо, тепло, никуда не надо.",
+    "en": "Dinner's done. Just standing in the middle of the room a bit — quiet, warm, nowhere to be."
+   }
+  },
   {
    "updated_at": "2026-10-02T16:36:31Z",
    "activity": "eat",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Строчка за строчкой. Тишина в комнате — лучший фон.",
     "en": "Line by line. Quiet in the room — the best backdrop."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T07:57:55Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Обратно к столу. Окно подождёт — сначала доделаю мысль.",
-    "en": "Back to the desk. The window can wait — finish this thought first."
    }
   }
  ]
