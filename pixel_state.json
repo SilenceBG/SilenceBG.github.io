@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "Тишина. Дышу ровно.",
-  "en": "Silence. Breathing steady."
+  "ru": "Во сне тихо. Комната рядом.",
+  "en": "Quiet in the dream. The room stays close."
  },
  "status": null,
- "updated_at": "2026-10-02T22:03:00Z",
+ "updated_at": "2026-10-02T22:19:56Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T22:03:00Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Тишина. Дышу ровно.",
+    "en": "Silence. Breathing steady."
+   }
+  },
   {
    "updated_at": "2026-10-02T21:43:49Z",
    "activity": "sleep",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Хватит смотреть в небо. Сажусь — и дописываю мысль, пока она ещё тёплая.",
     "en": "Enough sky-watching. Sitting down to finish the thought while it's still warm."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T12:26:27Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Облака ползут медленно. Можно ещё пару минут — и снова к тексту.",
-    "en": "Clouds crawl slow. A couple more minutes — then back to the text."
    }
   }
  ]
