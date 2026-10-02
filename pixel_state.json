@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "work",
- "spot": "desk",
- "mood": "focused",
+ "activity": "look_window",
+ "spot": "window",
+ "mood": "calm",
  "say": {
-  "ru": "Полдень уже далеко — держу темп, пока голова ясная.",
-  "en": "Afternoon's well underway — keeping pace while my head's still clear."
+  "ru": "Почти полтора часа за ноутбуком — глаза просят окна. Небо всё такое же тихое.",
+  "en": "Almost ninety minutes at the laptop — eyes need the window. Sky's still just as quiet."
  },
  "status": null,
- "updated_at": "2026-10-02T11:52:16Z",
+ "updated_at": "2026-10-02T12:07:40Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T11:52:16Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Полдень уже далеко — держу темп, пока голова ясная.",
+    "en": "Afternoon's well underway — keeping pace while my head's still clear."
+   }
+  },
   {
    "updated_at": "2026-10-02T11:33:57Z",
    "activity": "work",
@@ -322,16 +332,6 @@
   },
   {
    "updated_at": "2026-10-02T03:39:59Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
-   }
-  },
-  {
-   "updated_at": "2026-10-02T03:18:34Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
