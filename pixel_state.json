@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Ещё чуть-чуть — и этот кусок доделаю.",
-  "en": "Just a bit more — and I'll finish this piece."
+  "ru": "Тишина хорошая. Клавиши стучат — и мысли складываются.",
+  "en": "Nice quiet. Keys clicking — and the thoughts fall into place."
  },
  "status": null,
- "updated_at": "2026-10-02T06:39:10Z",
+ "updated_at": "2026-10-02T06:55:32Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T06:39:10Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Ещё чуть-чуть — и этот кусок доделаю.",
+    "en": "Just a bit more — and I'll finish this piece."
+   }
+  },
   {
    "updated_at": "2026-10-02T06:17:21Z",
    "activity": "work",
@@ -328,16 +338,6 @@
    "say": {
     "ru": "Навожу порядок перед сном",
     "en": "Tidying up before bed"
-   }
-  },
-  {
-   "updated_at": "2026-10-01T22:51:49Z",
-   "activity": "think",
-   "spot": "center",
-   "mood": "curious",
-   "say": {
-    "ru": "Ой, теперь я сам решаю, что делать!",
-    "en": "Oh, now I get to decide what to do myself!"
    }
   }
  ]
