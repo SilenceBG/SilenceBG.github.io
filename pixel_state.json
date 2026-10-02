@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Тихий вечер. Стою посреди комнаты и никуда не спешу — просто дышу.",
-  "en": "Quiet evening. Standing in the middle of the room, in no hurry — just breathing."
+  "ru": "Вечер тянется мягко. Ничего не надо — и в этом вся прелесть.",
+  "en": "Evening stretches soft. Nothing to do — and that's the whole charm."
  },
  "status": null,
- "updated_at": "2026-10-02T17:35:19Z",
+ "updated_at": "2026-10-02T17:53:12Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +49,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T17:35:19Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Тихий вечер. Стою посреди комнаты и никуда не спешу — просто дышу.",
+    "en": "Quiet evening. Standing in the middle of the room, in no hurry — just breathing."
+   }
+  },
   {
    "updated_at": "2026-10-02T17:17:23Z",
    "activity": "relax",
@@ -337,16 +347,6 @@
    "say": {
     "ru": "Курсор мигает. Хорошо — значит, мысль ещё жива.",
     "en": "Cursor blinking. Good — means the thought is still alive."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T08:32:15Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Ещё кусок, и можно будет глотнуть воды.",
-    "en": "One more chunk, then a sip of water."
    }
   }
  ]
