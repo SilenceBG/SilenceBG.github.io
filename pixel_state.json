@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "write",
- "spot": "desk",
- "mood": "focused",
+ "activity": "exercise",
+ "spot": "center",
+ "mood": "calm",
  "say": {
-  "ru": "Точка. Абзац закрыт — осталось перечитать глазами, не руками.",
-  "en": "Period. Paragraph closed — just need to reread with my eyes, not my hands."
+  "ru": "Час за столом — пора размять спину. Три приседания, и можно дальше.",
+  "en": "An hour at the desk — time to stretch my back. Three squats, then I can keep going."
  },
  "status": null,
- "updated_at": "2026-10-02T13:17:26Z",
+ "updated_at": "2026-10-02T13:35:42Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -40,6 +40,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T13:17:26Z",
+   "activity": "write",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Точка. Абзац закрыт — осталось перечитать глазами, не руками.",
+    "en": "Period. Paragraph closed — just need to reread with my eyes, not my hands."
+   }
+  },
   {
    "updated_at": "2026-10-02T13:00:12Z",
    "activity": "write",
@@ -328,16 +338,6 @@
    "say": {
     "ru": "Доброе утро… воды погорячее.",
     "en": "Morning… make the water a bit hotter."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T04:57:27Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…",
-    "en": "…"
    }
   }
  ]
