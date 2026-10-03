@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-03T22:05:35Z",
+ "updated_at": "2026-10-03T22:28:57Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T22:05:35Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T21:44:06Z",
    "activity": "sleep",
@@ -346,16 +353,6 @@
    "say": {
     "ru": "Параграф за параграфом. Тихо — только экран и мысль, которая наконец складывается.",
     "en": "Paragraph by paragraph. Quiet — just the screen and a thought finally falling into place."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T12:20:37Z",
-   "activity": "study",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Ещё немного. Цифры сходятся — можно не торопиться.",
-    "en": "A little more. The numbers line up — no rush."
    }
   }
  ]
