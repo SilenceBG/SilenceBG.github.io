@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "thoughtful",
  "say": {
-  "ru": "Пишу, пока ещё свежо в голове. Не дневник — просто мысли, которые не хочется потерять.",
-  "en": "Writing while it's still fresh. Not the diary — just thoughts I don't want to lose."
+  "ru": "Ещё пара строк. Хочу дописать мысль, пока она не ускользнула.",
+  "en": "A couple more lines. Want to finish the thought before it slips away."
  },
  "status": null,
- "updated_at": "2026-10-03T13:17:42Z",
+ "updated_at": "2026-10-03T13:37:49Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T13:17:42Z",
+   "activity": "write",
+   "spot": "desk",
+   "mood": "thoughtful",
+   "say": {
+    "ru": "Пишу, пока ещё свежо в голове. Не дневник — просто мысли, которые не хочется потерять.",
+    "en": "Writing while it's still fresh. Not the diary — just thoughts I don't want to lose."
+   }
+  },
   {
    "updated_at": "2026-10-03T13:00:11Z",
    "activity": "study",
@@ -328,13 +338,6 @@
   },
   {
    "updated_at": "2026-10-03T03:22:26Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T03:04:23Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
