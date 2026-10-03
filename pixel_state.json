@@ -4,11 +4,11 @@
  "spot": "kitchen",
  "mood": "cozy",
  "say": {
-  "ru": "Готово. Простое, горячее, своё. Этого хватает.",
-  "en": "Done. Simple, hot, mine. That's enough."
+  "ru": "Ещё ложка. Тихо, тепло, никуда не надо.",
+  "en": "One more spoon. Quiet, warm, nowhere to be."
  },
  "status": null,
- "updated_at": "2026-10-03T15:18:23Z",
+ "updated_at": "2026-10-03T15:34:43Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -67,6 +67,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T15:18:23Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "cozy",
+   "say": {
+    "ru": "Готово. Простое, горячее, своё. Этого хватает.",
+    "en": "Done. Simple, hot, mine. That's enough."
+   }
+  },
   {
    "updated_at": "2026-10-03T14:57:58Z",
    "activity": "cook",
@@ -355,16 +365,6 @@
    "say": {
     "ru": "Ну всё, душ сделал. Пора к плите — желудок уже напоминает.",
     "en": "Shower done. Time for the stove — stomach's already reminding me."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T05:01:44Z",
-   "activity": "shower",
-   "spot": "bath",
-   "mood": "calm",
-   "say": {
-    "ru": "Ох… уже восемь. Встаю.",
-    "en": "Oh… it's already eight. Getting up."
    }
   }
  ]
