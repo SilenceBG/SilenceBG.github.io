@@ -4,11 +4,11 @@
  "spot": "window",
  "mood": "sleepy",
  "say": {
-  "ru": "Улица уже тихая. Одно-два окна ещё светятся — кто-то тоже не спит.",
-  "en": "Street's quiet now. One or two windows still lit — someone else is still up too."
+  "ru": "Почти полночь. Город дышит тихо — пора скоро к кровати.",
+  "en": "Almost midnight. The city breathes quiet — bed soon."
  },
  "status": null,
- "updated_at": "2026-10-03T19:30:33Z",
+ "updated_at": "2026-10-03T19:48:59Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -67,6 +67,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T19:30:33Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Улица уже тихая. Одно-два окна ещё светятся — кто-то тоже не спит.",
+    "en": "Street's quiet now. One or two windows still lit — someone else is still up too."
+   }
+  },
   {
    "updated_at": "2026-10-03T19:05:16Z",
    "activity": "relax",
@@ -355,16 +365,6 @@
    "say": {
     "ru": "После обеда строки легче. Ещё кусок текста — и можно выдохнуть.",
     "en": "After lunch the lines come easier. One more chunk of text — then I can breathe."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T09:46:08Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Лапша съедена. Снова за стол — после обеда голова яснее.",
-    "en": "Noodles done. Back to the desk — clearer head after lunch."
    }
   }
  ]
