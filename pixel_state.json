@@ -4,11 +4,11 @@
  "spot": "kitchen",
  "mood": "hungry",
  "say": {
-  "ru": "Готово. Сажусь есть — просто, горячо, тихо.",
-  "en": "Done. Sitting down to eat — simple, hot, quiet."
+  "ru": "Ещё чуть-чуть. Лапша почти закончилась — тепло в животе.",
+  "en": "Just a bit more. Noodles almost gone — warmth in the stomach."
  },
  "status": null,
- "updated_at": "2026-10-03T09:15:26Z",
+ "updated_at": "2026-10-03T09:32:39Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T09:15:26Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Готово. Сажусь есть — просто, горячо, тихо.",
+    "en": "Done. Sitting down to eat — simple, hot, quiet."
+   }
+  },
   {
    "updated_at": "2026-10-03T09:00:15Z",
    "activity": "cook",
@@ -301,16 +311,6 @@
    "say": {
     "ru": "Сон держит. За окном ещё ночь.",
     "en": "Sleep holds. Night still outside."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T23:01:03Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Во сне тише, чем в комнате.",
-    "en": "Quieter in the dream than in the room."
    }
   }
  ]
