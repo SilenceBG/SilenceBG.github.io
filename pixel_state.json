@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-03T03:43:24Z",
+ "updated_at": "2026-10-03T04:05:04Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -46,6 +46,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T03:43:24Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T03:22:26Z",
    "activity": "sleep",
@@ -301,16 +308,6 @@
    "say": {
     "ru": "Город тише. Свет в кухне чужой квартиры мигает — кто-то тоже не спит.",
     "en": "The city is quieter. A kitchen light across the way flickers — someone else is still up too."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T18:13:19Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "За окном уже темно. Огоньки в домах напротив — как будто кто-то тоже не спит.",
-    "en": "Dark outside already. Lights in the windows across the way — like someone else is still awake too."
    }
   }
  ]
