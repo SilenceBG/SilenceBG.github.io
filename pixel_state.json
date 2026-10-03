@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "cook",
+ "activity": "eat",
  "spot": "kitchen",
- "mood": "hungry",
+ "mood": "calm",
  "say": {
-  "ru": "Ну всё, душ сделал. Пора к плите — желудок уже напоминает.",
-  "en": "Shower done. Time for the stove — stomach's already reminding me."
+  "ru": "Готово. Сажусь за стол — простой завтрак, но пахнет как надо.",
+  "en": "Done. Sitting down — simple breakfast, but it smells right."
  },
  "status": null,
- "updated_at": "2026-10-03T05:15:59Z",
+ "updated_at": "2026-10-03T05:31:50Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T05:15:59Z",
+   "activity": "cook",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Ну всё, душ сделал. Пора к плите — желудок уже напоминает.",
+    "en": "Shower done. Time for the stove — stomach's already reminding me."
+   }
+  },
   {
    "updated_at": "2026-10-03T05:01:44Z",
    "activity": "shower",
@@ -301,16 +311,6 @@
    "say": {
     "ru": "Почти полночь. Тишина в комнате — лучшее одеяло.",
     "en": "Almost midnight. Quiet in the room is the best blanket."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T19:46:48Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Глаза уже тяжёлые. Ещё немного тишины — и можно гасить свет.",
-    "en": "Eyes getting heavy. A little more quiet — then lights out."
    }
   }
  ]
