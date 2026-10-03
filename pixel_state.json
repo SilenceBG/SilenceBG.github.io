@@ -3,12 +3,9 @@
  "activity": "sleep",
  "spot": "bed",
  "mood": "sleepy",
- "say": {
-  "ru": "Хватит на сегодня. Свет гашу — до утра.",
-  "en": "Enough for today. Lights out — till morning."
- },
+ "say": null,
  "status": null,
- "updated_at": "2026-10-03T20:05:49Z",
+ "updated_at": "2026-10-03T20:23:40Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -76,6 +73,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T20:05:49Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Хватит на сегодня. Свет гашу — до утра.",
+    "en": "Enough for today. Lights out — till morning."
+   }
+  },
   {
    "updated_at": "2026-10-03T19:48:59Z",
    "activity": "look_window",
@@ -364,16 +371,6 @@
    "say": {
     "ru": "Ещё кусок текста — и можно будет выдохнуть.",
     "en": "One more chunk of text — then I can breathe."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T10:25:37Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Тихо. Только курсор и мысль — так и держится день.",
-    "en": "Quiet. Just the cursor and a thought — that's how the day holds."
    }
   }
  ]
