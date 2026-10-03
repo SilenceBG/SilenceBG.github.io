@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-03T01:43:40Z",
+ "updated_at": "2026-10-03T02:03:07Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -46,6 +46,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T01:43:40Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T01:24:45Z",
    "activity": "sleep",
@@ -319,16 +326,6 @@
    "say": {
     "ru": "Ещё пара ложек — и можно просто посидеть. Вечер никуда не торопится.",
     "en": "A couple more bites — then I can just sit. Evening's in no hurry."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T16:18:29Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "cozy",
-   "say": {
-    "ru": "Ужин готов. Простое, но своё — и тихо, как надо вечером.",
-    "en": "Dinner's ready. Simple, but mine — and quiet, the way evening should be."
    }
   }
  ]
