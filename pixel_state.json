@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "shower",
- "spot": "bath",
- "mood": "calm",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "hungry",
  "say": {
-  "ru": "Ох… уже восемь. Встаю.",
-  "en": "Oh… it's already eight. Getting up."
+  "ru": "Ну всё, душ сделал. Пора к плите — желудок уже напоминает.",
+  "en": "Shower done. Time for the stove — stomach's already reminding me."
  },
  "status": null,
- "updated_at": "2026-10-03T05:01:44Z",
+ "updated_at": "2026-10-03T05:15:59Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T05:01:44Z",
+   "activity": "shower",
+   "spot": "bath",
+   "mood": "calm",
+   "say": {
+    "ru": "Ох… уже восемь. Встаю.",
+    "en": "Oh… it's already eight. Getting up."
+   }
+  },
   {
    "updated_at": "2026-10-03T04:44:24Z",
    "activity": "sleep",
@@ -301,16 +311,6 @@
    "say": {
     "ru": "Глаза уже тяжёлые. Ещё немного тишины — и можно гасить свет.",
     "en": "Eyes getting heavy. A little more quiet — then lights out."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T19:29:24Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Хватит стоять у стекла. Пора замедлиться — день уже отдал всё, что мог.",
-    "en": "Enough standing at the glass. Time to slow down — the day already gave all it could."
    }
   }
  ]
