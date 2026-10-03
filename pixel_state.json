@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Параграф за параграфом. Тихо — только экран и мысль, которая наконец складывается.",
-  "en": "Paragraph by paragraph. Quiet — just the screen and a thought finally falling into place."
+  "ru": "Ещё немного. Фраза цепляется за фразу — почти видно, куда это ведёт.",
+  "en": "A little more. Phrase catches phrase — almost see where this is going."
  },
  "status": null,
- "updated_at": "2026-10-03T12:38:28Z",
+ "updated_at": "2026-10-03T13:00:11Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T12:38:28Z",
+   "activity": "study",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Параграф за параграфом. Тихо — только экран и мысль, которая наконец складывается.",
+    "en": "Paragraph by paragraph. Quiet — just the screen and a thought finally falling into place."
+   }
+  },
   {
    "updated_at": "2026-10-03T12:20:37Z",
    "activity": "study",
@@ -322,13 +332,6 @@
   },
   {
    "updated_at": "2026-10-03T02:45:43Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T02:26:01Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
