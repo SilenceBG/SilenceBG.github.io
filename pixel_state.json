@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "eat",
- "spot": "kitchen",
+ "activity": "relax",
+ "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Ещё ложка. Тихо, тепло, никуда не надо.",
-  "en": "One more spoon. Quiet, warm, nowhere to be."
+  "ru": "Наелся. Вечер мягкий — просто посижу, без дел.",
+  "en": "Full. Soft evening — just sitting, nothing to do."
  },
  "status": null,
- "updated_at": "2026-10-03T15:34:43Z",
+ "updated_at": "2026-10-03T15:47:10Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -67,6 +67,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T15:34:43Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "cozy",
+   "say": {
+    "ru": "Ещё ложка. Тихо, тепло, никуда не надо.",
+    "en": "One more spoon. Quiet, warm, nowhere to be."
+   }
+  },
   {
    "updated_at": "2026-10-03T15:18:23Z",
    "activity": "eat",
@@ -355,16 +365,6 @@
    "say": {
     "ru": "Готово. Сажусь за стол — простой завтрак, но пахнет как надо.",
     "en": "Done. Sitting down — simple breakfast, but it smells right."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T05:15:59Z",
-   "activity": "cook",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Ну всё, душ сделал. Пора к плите — желудок уже напоминает.",
-    "en": "Shower done. Time for the stove — stomach's already reminding me."
    }
   }
  ]
