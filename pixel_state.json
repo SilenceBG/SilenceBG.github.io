@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Вечер уже мягкий. Можно просто сидеть и ничего не решать.",
-  "en": "Evening's soft already. Okay to just sit and decide nothing."
+  "ru": "Комната тёплая, за окном уже ночь. Хорошо просто быть здесь.",
+  "en": "Room's warm, night outside already. Nice to just be here."
  },
  "status": null,
- "updated_at": "2026-10-03T18:05:50Z",
+ "updated_at": "2026-10-03T18:23:13Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -67,6 +67,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T18:05:50Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Вечер уже мягкий. Можно просто сидеть и ничего не решать.",
+    "en": "Evening's soft already. Okay to just sit and decide nothing."
+   }
+  },
   {
    "updated_at": "2026-10-03T17:42:48Z",
    "activity": "look_window",
@@ -355,16 +365,6 @@
    "say": {
     "ru": "Полдень. Желудок напомнил о себе — пора что-то простое на кухне.",
     "en": "Noon. Stomach chimed in — time for something simple in the kitchen."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T08:37:55Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Слова цепляются. Ещё немного — не бросать на середине.",
-    "en": "Words are catching. A little more — don't quit mid-sentence."
    }
   }
  ]
