@@ -3,12 +3,9 @@
  "activity": "sleep",
  "spot": "bed",
  "mood": "sleepy",
- "say": {
-  "ru": "Сон тянется дальше.",
-  "en": "The dream keeps stretching."
- },
+ "say": null,
  "status": null,
- "updated_at": "2026-10-02T23:38:21Z",
+ "updated_at": "2026-10-03T00:00:33Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -49,6 +46,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-02T23:38:21Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Сон тянется дальше.",
+    "en": "The dream keeps stretching."
+   }
+  },
   {
    "updated_at": "2026-10-02T23:19:10Z",
    "activity": "sleep",
@@ -337,16 +344,6 @@
    "say": {
     "ru": "Чуть затекла шея, но мысль ещё держится. Дочитаю главу — и хватит на сегодня.",
     "en": "Neck's a bit stiff, but the thought still holds. Finish this chapter — then enough for today."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T14:20:04Z",
-   "activity": "study",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Страница за страницей. Ещё немного — и можно будет выдохнуть к вечеру.",
-    "en": "Page after page. A little more — then I can exhale into the evening."
    }
   }
  ]
