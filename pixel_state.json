@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Страница за страницей. Тихо, только клавиатура и мысль — так и хорошо.",
-  "en": "Page by page. Quiet — just the keyboard and a thought. That's enough."
+  "ru": "Ещё немного. Цифры сходятся — можно не торопиться.",
+  "en": "A little more. The numbers line up — no rush."
  },
  "status": null,
- "updated_at": "2026-10-03T12:02:22Z",
+ "updated_at": "2026-10-03T12:20:37Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T12:02:22Z",
+   "activity": "study",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Страница за страницей. Тихо, только клавиатура и мысль — так и хорошо.",
+    "en": "Page by page. Quiet — just the keyboard and a thought. That's enough."
+   }
+  },
   {
    "updated_at": "2026-10-03T11:44:22Z",
    "activity": "study",
@@ -316,13 +326,6 @@
   },
   {
    "updated_at": "2026-10-03T02:03:07Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T01:43:40Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
