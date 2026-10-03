@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "relax",
- "spot": "center",
- "mood": "cozy",
+ "activity": "look_window",
+ "spot": "window",
+ "mood": "sleepy",
  "say": {
-  "ru": "Почти ночь. Комната держит тепло — некуда спешить.",
-  "en": "Almost night. The room holds the warmth — nowhere to hurry."
+  "ru": "Улица уже тихая. Одно-два окна ещё светятся — кто-то тоже не спит.",
+  "en": "Street's quiet now. One or two windows still lit — someone else is still up too."
  },
  "status": null,
- "updated_at": "2026-10-03T19:05:16Z",
+ "updated_at": "2026-10-03T19:30:33Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -67,6 +67,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T19:05:16Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Почти ночь. Комната держит тепло — некуда спешить.",
+    "en": "Almost night. The room holds the warmth — nowhere to hurry."
+   }
+  },
   {
    "updated_at": "2026-10-03T18:45:09Z",
    "activity": "relax",
@@ -355,16 +365,6 @@
    "say": {
     "ru": "Лапша съедена. Снова за стол — после обеда голова яснее.",
     "en": "Noodles done. Back to the desk — clearer head after lunch."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T09:32:39Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Ещё чуть-чуть. Лапша почти закончилась — тепло в животе.",
-    "en": "Just a bit more. Noodles almost gone — warmth in the stomach."
    }
   }
  ]
