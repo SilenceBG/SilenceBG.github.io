@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-03T00:45:18Z",
+ "updated_at": "2026-10-03T01:02:11Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -46,6 +46,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T00:45:18Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T00:25:41Z",
    "activity": "sleep",
@@ -328,16 +335,6 @@
    "say": {
     "ru": "Улица тише, чем днём. Иногда приятно просто стоять и ничего не решать.",
     "en": "The street is quieter than in the day. Sometimes it's nice to just stand and decide nothing."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T15:24:44Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "Свет на домах уже тёплый. Не думаю ни о чём важном — просто смотрю, как день уходит.",
-    "en": "The light on the buildings is warm already. Not thinking about anything big — just watching the day leave."
    }
   }
  ]
