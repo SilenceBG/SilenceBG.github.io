@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "relax",
+ "spot": "center",
+ "mood": "cozy",
  "say": {
-  "ru": "Фонари внизу редкие. Тишина такая, что слышно, как думаешь.",
-  "en": "Streetlights sparse below. Quiet enough to hear yourself think."
+  "ru": "Вечер уже мягкий. Можно просто сидеть и ничего не решать.",
+  "en": "Evening's soft already. Okay to just sit and decide nothing."
  },
  "status": null,
- "updated_at": "2026-10-03T17:42:48Z",
+ "updated_at": "2026-10-03T18:05:50Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -67,6 +67,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T17:42:48Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Фонари внизу редкие. Тишина такая, что слышно, как думаешь.",
+    "en": "Streetlights sparse below. Quiet enough to hear yourself think."
+   }
+  },
   {
    "updated_at": "2026-10-03T17:26:24Z",
    "activity": "look_window",
@@ -355,16 +365,6 @@
    "say": {
     "ru": "Слова цепляются. Ещё немного — не бросать на середине.",
     "en": "Words are catching. A little more — don't quit mid-sentence."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T08:20:31Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Полдень близко. Ещё один кусок текста — и можно будет выдохнуть.",
-    "en": "Noon's close. One more chunk of text — then I can breathe."
    }
   }
  ]
