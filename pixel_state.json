@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-03T00:25:41Z",
+ "updated_at": "2026-10-03T00:45:18Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -46,6 +46,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T00:25:41Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T00:00:33Z",
    "activity": "sleep",
@@ -331,16 +338,6 @@
    "say": {
     "ru": "Свет на домах уже тёплый. Не думаю ни о чём важном — просто смотрю, как день уходит.",
     "en": "The light on the buildings is warm already. Not thinking about anything big — just watching the day leave."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T15:01:57Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "Глава закрыта. Вечер уже сел на подоконник — посижу у окна, пусть голова остынет.",
-    "en": "Chapter closed. Evening's already on the sill — I'll sit by the window and let my head cool down."
    }
   }
  ]
