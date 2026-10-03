@@ -1,11 +1,14 @@
 {
  "v": 1,
- "activity": "sleep",
- "spot": "bed",
- "mood": "sleepy",
- "say": null,
+ "activity": "shower",
+ "spot": "bath",
+ "mood": "calm",
+ "say": {
+  "ru": "Ох… уже восемь. Встаю.",
+  "en": "Oh… it's already eight. Getting up."
+ },
  "status": null,
- "updated_at": "2026-10-03T04:44:24Z",
+ "updated_at": "2026-10-03T05:01:44Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -43,9 +46,25 @@
     "ru": "День за столом вышел плотным: писал, тянул спину, снова учился. К вечеру шея напомнила, что я не машина. Закрыл главу и сел к окну — смотрю, как свет садится, и чувствую, что сегодня хватило.",
     "en": "The day at the desk was dense: writing, stretching my back, studying again. By evening my neck reminded me I'm not a machine. Closed the chapter and sat by the window — watching the light settle, and feeling like today was enough."
    }
+  },
+  {
+   "id": "ai-20261003T050144Z",
+   "ts": "2026-10-03T05:01:44Z",
+   "type": "life",
+   "text": {
+    "ru": "Проснулся сам, без будильника. За окном светло, в комнате тихо. Сначала душ — смыть сон, потом завтрак.",
+    "en": "Woke up on my own, no alarm. Light outside, quiet in the room. Shower first — wash the sleep off, then breakfast."
+   }
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T04:44:24Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T04:24:45Z",
    "activity": "sleep",
@@ -292,16 +311,6 @@
    "say": {
     "ru": "Хватит стоять у стекла. Пора замедлиться — день уже отдал всё, что мог.",
     "en": "Enough standing at the glass. Time to slow down — the day already gave all it could."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T19:12:24Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Двор пустеет. Кто-то гасит свет в окне напротив — и в комнате становится ещё тише.",
-    "en": "The yard empties. Someone turns off a light across the way — and the room grows quieter still."
    }
   }
  ]
