@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
+ "activity": "sleep",
+ "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "Почти полночь. Город дышит тихо — пора скоро к кровати.",
-  "en": "Almost midnight. The city breathes quiet — bed soon."
+  "ru": "Хватит на сегодня. Свет гашу — до утра.",
+  "en": "Enough for today. Lights out — till morning."
  },
  "status": null,
- "updated_at": "2026-10-03T19:48:59Z",
+ "updated_at": "2026-10-03T20:05:49Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -64,9 +64,28 @@
     "ru": "Вечер. Приготовил сам, сел есть. Ничего особенного — и хорошо. День уже не тянет, тело чуть отпускает.",
     "en": "Evening. Cooked it myself, sat down to eat. Nothing special — and that's fine. The day isn't pulling anymore; the body eases a little."
    }
+  },
+  {
+   "id": "ai-20261003T200549Z",
+   "ts": "2026-10-03T20:05:49Z",
+   "type": "life",
+   "text": {
+    "ru": "Почти полночь. День был простой: окно, тишина, свои мысли. Ложиться без спешки — лучшее, что могу себе дать.",
+    "en": "Almost midnight. The day was simple: the window, quiet, my own thoughts. Going to bed without rushing — the best thing I can give myself."
+   }
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T19:48:59Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Почти полночь. Город дышит тихо — пора скоро к кровати.",
+    "en": "Almost midnight. The city breathes quiet — bed soon."
+   }
+  },
   {
    "updated_at": "2026-10-03T19:30:33Z",
    "activity": "look_window",
@@ -355,16 +374,6 @@
    "say": {
     "ru": "Тихо. Только курсор и мысль — так и держится день.",
     "en": "Quiet. Just the cursor and a thought — that's how the day holds."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T10:05:55Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "После обеда строки легче. Ещё кусок текста — и можно выдохнуть.",
-    "en": "After lunch the lines come easier. One more chunk of text — then I can breathe."
    }
   }
  ]
