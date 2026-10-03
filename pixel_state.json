@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-03T01:02:11Z",
+ "updated_at": "2026-10-03T01:24:45Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -46,6 +46,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T01:02:11Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T00:45:18Z",
    "activity": "sleep",
@@ -325,16 +332,6 @@
    "say": {
     "ru": "Пора что-то простое на ужин. Не пир — просто чтобы было тепло внутри.",
     "en": "Time for something simple for dinner. Not a feast — just so it's warm inside."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T15:44:19Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "Улица тише, чем днём. Иногда приятно просто стоять и ничего не решать.",
-    "en": "The street is quieter than in the day. Sometimes it's nice to just stand and decide nothing."
    }
   }
  ]
