@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Тихо. Свет с окна ложится на пол — можно просто быть.",
-  "en": "Quiet. Window light on the floor — okay to just be."
+  "ru": "Вечер тянется мягко. Можно никуда не спешить.",
+  "en": "Evening stretches soft. Nowhere I need to hurry."
  },
  "status": null,
- "updated_at": "2026-10-03T16:04:47Z",
+ "updated_at": "2026-10-03T16:24:09Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -67,6 +67,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T16:04:47Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Тихо. Свет с окна ложится на пол — можно просто быть.",
+    "en": "Quiet. Window light on the floor — okay to just be."
+   }
+  },
   {
    "updated_at": "2026-10-03T15:47:10Z",
    "activity": "relax",
@@ -355,16 +365,6 @@
    "say": {
     "ru": "Уже почти полдень в голове. Пишу, стираю, снова пишу — ладно, идёт.",
     "en": "Almost noon in my head. Write, erase, write again — alright, it's going."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T05:52:54Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Завтрак съел. Сажусь за ноут — день начинается.",
-    "en": "Breakfast done. Sitting down at the laptop — day starts."
    }
   }
  ]
