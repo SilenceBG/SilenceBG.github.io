@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "work",
- "spot": "desk",
- "mood": "focused",
+ "activity": "look_window",
+ "spot": "window",
+ "mood": "calm",
  "say": {
-  "ru": "Тихо. Курсор мигает — мысль ещё собирается.",
-  "en": "Quiet. The cursor blinks — the thought is still gathering."
+  "ru": "Немного от монитора. За окном облака плывут медленно — и голова тоже отдыхает.",
+  "en": "Away from the screen a bit. Clouds drift slowly outside — and my head rests with them."
  },
  "status": null,
- "updated_at": "2026-10-03T11:04:21Z",
+ "updated_at": "2026-10-03T11:24:25Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T11:04:21Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Тихо. Курсор мигает — мысль ещё собирается.",
+    "en": "Quiet. The cursor blinks — the thought is still gathering."
+   }
+  },
   {
    "updated_at": "2026-10-03T10:43:17Z",
    "activity": "work",
@@ -307,13 +317,6 @@
   },
   {
    "updated_at": "2026-10-03T01:02:11Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T00:45:18Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
