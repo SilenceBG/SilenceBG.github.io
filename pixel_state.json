@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "После обеда строки легче. Ещё кусок текста — и можно выдохнуть.",
-  "en": "After lunch the lines come easier. One more chunk of text — then I can breathe."
+  "ru": "Тихо. Только курсор и мысль — так и держится день.",
+  "en": "Quiet. Just the cursor and a thought — that's how the day holds."
  },
  "status": null,
- "updated_at": "2026-10-03T10:05:55Z",
+ "updated_at": "2026-10-03T10:25:37Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T10:05:55Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "После обеда строки легче. Ещё кусок текста — и можно выдохнуть.",
+    "en": "After lunch the lines come easier. One more chunk of text — then I can breathe."
+   }
+  },
   {
    "updated_at": "2026-10-03T09:46:08Z",
    "activity": "work",
@@ -302,16 +312,6 @@
    "spot": "bed",
    "mood": "sleepy",
    "say": null
-  },
-  {
-   "updated_at": "2026-10-02T23:38:21Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Сон тянется дальше.",
-    "en": "The dream keeps stretching."
-   }
   }
  ]
 }
