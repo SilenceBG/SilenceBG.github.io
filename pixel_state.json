@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Тишина хорошая. Даже мысли ходят тише.",
-  "en": "Nice quiet. Even the thoughts walk softer."
+  "ru": "Почти ночь. Комната держит тепло — некуда спешить.",
+  "en": "Almost night. The room holds the warmth — nowhere to hurry."
  },
  "status": null,
- "updated_at": "2026-10-03T18:45:09Z",
+ "updated_at": "2026-10-03T19:05:16Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -67,6 +67,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T18:45:09Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Тишина хорошая. Даже мысли ходят тише.",
+    "en": "Nice quiet. Even the thoughts walk softer."
+   }
+  },
   {
    "updated_at": "2026-10-03T18:23:13Z",
    "activity": "relax",
@@ -355,16 +365,6 @@
    "say": {
     "ru": "Ещё чуть-чуть. Лапша почти закончилась — тепло в животе.",
     "en": "Just a bit more. Noodles almost gone — warmth in the stomach."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T09:15:26Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Готово. Сажусь есть — просто, горячо, тихо.",
-    "en": "Done. Sitting down to eat — simple, hot, quiet."
    }
   }
  ]
