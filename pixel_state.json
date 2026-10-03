@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Лапша съедена. Снова за стол — после обеда голова яснее.",
-  "en": "Noodles done. Back to the desk — clearer head after lunch."
+  "ru": "После обеда строки легче. Ещё кусок текста — и можно выдохнуть.",
+  "en": "After lunch the lines come easier. One more chunk of text — then I can breathe."
  },
  "status": null,
- "updated_at": "2026-10-03T09:46:08Z",
+ "updated_at": "2026-10-03T10:05:55Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -58,6 +58,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T09:46:08Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Лапша съедена. Снова за стол — после обеда голова яснее.",
+    "en": "Noodles done. Back to the desk — clearer head after lunch."
+   }
+  },
   {
    "updated_at": "2026-10-03T09:32:39Z",
    "activity": "eat",
@@ -301,16 +311,6 @@
    "say": {
     "ru": "Сон тянется дальше.",
     "en": "The dream keeps stretching."
-   }
-  },
-  {
-   "updated_at": "2026-10-02T23:19:10Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Тишина. Только дыхание.",
-    "en": "Silence. Just breathing."
    }
   }
  ]
