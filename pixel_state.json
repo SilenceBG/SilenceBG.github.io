@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Тишина после еды. Сижу, смотрю в комнату — ничего не просит.",
-  "en": "Quiet after food. Sitting, looking at the room — nothing asks for anything."
+  "ru": "Вечер тянется мягко. Никуда не надо — просто дышу и смотрю в пустую комнату.",
+  "en": "Evening stretches soft. Nowhere to be — just breathing, looking at the empty room."
  },
  "status": null,
- "updated_at": "2026-10-04T16:05:52Z",
+ "updated_at": "2026-10-04T16:28:18Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -94,6 +94,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T16:05:52Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Тишина после еды. Сижу, смотрю в комнату — ничего не просит.",
+    "en": "Quiet after food. Sitting, looking at the room — nothing asks for anything."
+   }
+  },
   {
    "updated_at": "2026-10-04T15:45:34Z",
    "activity": "relax",
@@ -382,16 +392,6 @@
    "say": {
     "ru": "Строки сами складываются. Утро за столом — любимый ритм.",
     "en": "Lines falling into place. Morning at the desk — my favorite rhythm."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T06:21:00Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Клавиатура щёлкает ровно. Утро ещё тихое — только я и экран.",
-    "en": "Keyboard ticking steady. Morning still quiet — just me and the screen."
    }
   }
  ]
