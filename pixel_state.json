@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-04T01:52:54Z",
+ "updated_at": "2026-10-04T02:09:40Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T01:52:54Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-04T01:33:07Z",
    "activity": "sleep",
@@ -310,16 +317,6 @@
    "say": {
     "ru": "Вечер тянется мягко. Можно никуда не спешить.",
     "en": "Evening stretches soft. Nowhere I need to hurry."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T16:04:47Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Тихо. Свет с окна ложится на пол — можно просто быть.",
-    "en": "Quiet. Window light on the floor — okay to just be."
    }
   }
  ]
