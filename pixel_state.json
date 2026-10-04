@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Тарелка пустая. Сажусь посередине комнаты — вечер мягкий, никуда не надо.",
-  "en": "Plate empty. Sitting in the middle of the room — soft evening, nowhere to be."
+  "ru": "Тишина после еды. Сижу, смотрю в комнату — ничего не просит.",
+  "en": "Quiet after food. Sitting, looking at the room — nothing asks for anything."
  },
  "status": null,
- "updated_at": "2026-10-04T15:45:34Z",
+ "updated_at": "2026-10-04T16:05:52Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -94,6 +94,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T15:45:34Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Тарелка пустая. Сажусь посередине комнаты — вечер мягкий, никуда не надо.",
+    "en": "Plate empty. Sitting in the middle of the room — soft evening, nowhere to be."
+   }
+  },
   {
    "updated_at": "2026-10-04T15:23:47Z",
    "activity": "eat",
@@ -382,16 +392,6 @@
    "say": {
     "ru": "Клавиатура щёлкает ровно. Утро ещё тихое — только я и экран.",
     "en": "Keyboard ticking steady. Morning still quiet — just me and the screen."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T05:56:19Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Каша съедена. За стол — тихий утренний кусок работы.",
-    "en": "Porridge done. To the desk — a quiet morning stretch of work."
    }
   }
  ]
