@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "Сон без сюжета — просто темнота и тепло.",
-  "en": "A dream without a plot — just dark and warm."
+  "ru": "…мм… тёплое одеяло…",
+  "en": "…mm… warm blanket…"
  },
  "status": null,
- "updated_at": "2026-10-04T20:30:28Z",
+ "updated_at": "2026-10-04T20:49:29Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T20:30:28Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Сон без сюжета — просто темнота и тепло.",
+    "en": "A dream without a plot — just dark and warm."
+   }
+  },
   {
    "updated_at": "2026-10-04T20:11:48Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Строка за строкой. Солнце ещё высоко — не спешу.",
     "en": "Line by line. Sun still high — no rush."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T10:35:57Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Клавиши стучат ровно. Одна мысль — и не отпускаю её.",
-    "en": "Keys tapping evenly. One thought — and I'm not letting it go."
    }
   }
  ]
