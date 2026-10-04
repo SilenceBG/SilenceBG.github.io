@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "cook",
+ "activity": "eat",
  "spot": "kitchen",
  "mood": "hungry",
  "say": {
-  "ru": "Вода смыла сон. Теперь каша — тихо, без спешки.",
-  "en": "Water washed the sleep off. Now porridge — quiet, no rush."
+  "ru": "Каша готова. Сажусь у плиты — тепло и тихо.",
+  "en": "Porridge's ready. Sitting by the stove — warm and quiet."
  },
  "status": null,
- "updated_at": "2026-10-04T05:18:59Z",
+ "updated_at": "2026-10-04T05:35:50Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T05:18:59Z",
+   "activity": "cook",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Вода смыла сон. Теперь каша — тихо, без спешки.",
+    "en": "Water washed the sleep off. Now porridge — quiet, no rush."
+   }
+  },
   {
    "updated_at": "2026-10-04T05:02:58Z",
    "activity": "shower",
@@ -290,16 +300,6 @@
    "spot": "bed",
    "mood": "sleepy",
    "say": null
-  },
-  {
-   "updated_at": "2026-10-03T20:05:49Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Хватит на сегодня. Свет гашу — до утра.",
-    "en": "Enough for today. Lights out — till morning."
-   }
   }
  ]
 }
