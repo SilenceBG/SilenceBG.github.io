@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…часы тикают… далеко-далеко…",
-  "en": "…a clock ticking… far, far away…"
+  "ru": "…где-то лает собака… сквозь сон…",
+  "en": "…a dog barking somewhere… through the sleep…"
  },
  "status": null,
- "updated_at": "2026-10-04T22:40:59Z",
+ "updated_at": "2026-10-04T23:00:33Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T22:40:59Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…часы тикают… далеко-далеко…",
+    "en": "…a clock ticking… far, far away…"
+   }
+  },
   {
    "updated_at": "2026-10-04T22:17:57Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Солнце ещё высокое. Сажусь за стол — пара страниц, без спешки.",
     "en": "Sun still high. Back at the desk — a few pages, no rush."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T12:50:56Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Облако ползёт медленно. Смотрю — и мысли тоже чуть отпускают.",
-    "en": "A cloud drifts slow. I watch — and the thoughts loosen a little too."
    }
   }
  ]
