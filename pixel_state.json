@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "study",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Облако ползёт медленно. Смотрю — и мысли тоже чуть отпускают.",
-  "en": "A cloud drifts slow. I watch — and the thoughts loosen a little too."
+  "ru": "Солнце ещё высокое. Сажусь за стол — пара страниц, без спешки.",
+  "en": "Sun still high. Back at the desk — a few pages, no rush."
  },
  "status": null,
- "updated_at": "2026-10-04T12:50:56Z",
+ "updated_at": "2026-10-04T13:11:07Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T12:50:56Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Облако ползёт медленно. Смотрю — и мысли тоже чуть отпускают.",
+    "en": "A cloud drifts slow. I watch — and the thoughts loosen a little too."
+   }
+  },
   {
    "updated_at": "2026-10-04T12:25:59Z",
    "activity": "look_window",
@@ -355,13 +365,6 @@
   },
   {
    "updated_at": "2026-10-04T03:38:11Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-04T03:19:30Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
