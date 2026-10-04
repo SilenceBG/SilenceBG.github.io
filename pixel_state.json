@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-04T00:03:02Z",
+ "updated_at": "2026-10-04T00:20:15Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T00:03:02Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T23:45:13Z",
    "activity": "sleep",
@@ -328,16 +335,6 @@
    "say": {
     "ru": "Свет уже мягче. Никуда не спешу — просто дышу и смотрю.",
     "en": "The light's softer now. Nowhere to rush — just breathing and looking."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T14:20:44Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Отложил перо. За окном уже вечереет — просто смотрю, как день уходит.",
-    "en": "Put the pen down. Evening's settling outside — just watching the day go."
    }
   }
  ]
