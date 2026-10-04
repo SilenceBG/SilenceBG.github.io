@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "work",
- "spot": "desk",
- "mood": "focused",
+ "activity": "look_window",
+ "spot": "window",
+ "mood": "calm",
  "say": {
-  "ru": "Ещё кусок текста — и можно выдохнуть. Пока пальцы не устали.",
-  "en": "One more stretch of text — then I can breathe. Fingers still willing."
+  "ru": "Глаза устали от экрана. Смотрю на улицу — небо светлое, тихо.",
+  "en": "Eyes tired of the screen. Looking outside — bright sky, quiet."
  },
  "status": null,
- "updated_at": "2026-10-04T07:04:46Z",
+ "updated_at": "2026-10-04T07:21:42Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T07:04:46Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Ещё кусок текста — и можно выдохнуть. Пока пальцы не устали.",
+    "en": "One more stretch of text — then I can breathe. Fingers still willing."
+   }
+  },
   {
    "updated_at": "2026-10-04T06:39:55Z",
    "activity": "work",
@@ -301,13 +311,6 @@
   },
   {
    "updated_at": "2026-10-03T22:05:35Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T21:44:06Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
