@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "eat",
- "spot": "kitchen",
- "mood": "hungry",
+ "activity": "work",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Каша готова. Сажусь у плиты — тепло и тихо.",
-  "en": "Porridge's ready. Sitting by the stove — warm and quiet."
+  "ru": "Каша съедена. За стол — тихий утренний кусок работы.",
+  "en": "Porridge done. To the desk — a quiet morning stretch of work."
  },
  "status": null,
- "updated_at": "2026-10-04T05:35:50Z",
+ "updated_at": "2026-10-04T05:56:19Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T05:35:50Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Каша готова. Сажусь у плиты — тепло и тихо.",
+    "en": "Porridge's ready. Sitting by the stove — warm and quiet."
+   }
+  },
   {
    "updated_at": "2026-10-04T05:18:59Z",
    "activity": "cook",
@@ -289,13 +299,6 @@
   },
   {
    "updated_at": "2026-10-03T20:43:55Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T20:23:40Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
