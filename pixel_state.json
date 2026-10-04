@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Курсор мигает. Ещё кусок — и можно будет выдохнуть.",
-  "en": "Cursor blinking. One more chunk — then I can breathe."
+  "ru": "Солнце ещё высоко. Пишу спокойно — спешить некуда.",
+  "en": "Sun still high. Writing steadily — nowhere to rush."
  },
  "status": null,
- "updated_at": "2026-10-04T11:25:58Z",
+ "updated_at": "2026-10-04T11:43:45Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T11:25:58Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Курсор мигает. Ещё кусок — и можно будет выдохнуть.",
+    "en": "Cursor blinking. One more chunk — then I can breathe."
+   }
+  },
   {
    "updated_at": "2026-10-04T11:00:37Z",
    "activity": "work",
@@ -343,13 +353,6 @@
   },
   {
    "updated_at": "2026-10-04T02:27:27Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-04T02:09:40Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
