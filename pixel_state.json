@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-04T03:19:30Z",
+ "updated_at": "2026-10-04T03:38:11Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T03:19:30Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-04T03:02:56Z",
    "activity": "sleep",
@@ -295,16 +302,6 @@
    "say": {
     "ru": "Вечер уже мягкий. Можно просто сидеть и ничего не решать.",
     "en": "Evening's soft already. Okay to just sit and decide nothing."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T17:42:48Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Фонари внизу редкие. Тишина такая, что слышно, как думаешь.",
-    "en": "Streetlights sparse below. Quiet enough to hear yourself think."
    }
   }
  ]
