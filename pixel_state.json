@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Сыт. Снова к столу — после еды мысли чуть яснее.",
-  "en": "Full. Back to the desk — thoughts a bit clearer after eating."
+  "ru": "Клавиши стучат ровно. Одна мысль — и не отпускаю её.",
+  "en": "Keys tapping evenly. One thought — and I'm not letting it go."
  },
  "status": null,
- "updated_at": "2026-10-04T10:18:18Z",
+ "updated_at": "2026-10-04T10:35:57Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T10:18:18Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Сыт. Снова к столу — после еды мысли чуть яснее.",
+    "en": "Full. Back to the desk — thoughts a bit clearer after eating."
+   }
+  },
   {
    "updated_at": "2026-10-04T10:06:02Z",
    "activity": "eat",
@@ -334,13 +344,6 @@
   },
   {
    "updated_at": "2026-10-04T01:33:07Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-04T01:14:52Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
