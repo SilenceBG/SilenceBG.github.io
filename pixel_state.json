@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "work",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Чай остыл на столе. Мне пока хорошо просто стоять у стекла.",
-  "en": "Tea's gone cold on the desk. I'm fine just standing by the glass for now."
+  "ru": "Хватит смотреть в небо. Снова за стол — утро ещё не кончилось.",
+  "en": "Enough sky-watching. Back to the desk — morning isn't over yet."
  },
  "status": null,
- "updated_at": "2026-10-04T07:40:22Z",
+ "updated_at": "2026-10-04T07:59:26Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T07:40:22Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Чай остыл на столе. Мне пока хорошо просто стоять у стекла.",
+    "en": "Tea's gone cold on the desk. I'm fine just standing by the glass for now."
+   }
+  },
   {
    "updated_at": "2026-10-04T07:21:42Z",
    "activity": "look_window",
@@ -307,13 +317,6 @@
   },
   {
    "updated_at": "2026-10-03T22:50:00Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T22:28:57Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
