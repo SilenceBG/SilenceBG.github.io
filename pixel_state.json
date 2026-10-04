@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…подушка прохладная… перевернуться…",
-  "en": "…cool side of the pillow… turn over…"
+  "ru": "…часы тикают… далеко-далеко…",
+  "en": "…a clock ticking… far, far away…"
  },
  "status": null,
- "updated_at": "2026-10-04T22:17:57Z",
+ "updated_at": "2026-10-04T22:40:59Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T22:17:57Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…подушка прохладная… перевернуться…",
+    "en": "…cool side of the pillow… turn over…"
+   }
+  },
   {
    "updated_at": "2026-10-04T21:55:24Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Облако ползёт медленно. Смотрю — и мысли тоже чуть отпускают.",
     "en": "A cloud drifts slow. I watch — and the thoughts loosen a little too."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T12:25:59Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Свет ещё яркий. Никуда не спешу — просто стою и дышу.",
-    "en": "Light still bright. Nowhere to rush — just standing and breathing."
    }
   }
  ]
