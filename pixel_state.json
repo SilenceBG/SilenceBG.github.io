@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "Буквы плывут. Ещё чуть-чуть — и закрою книгу, не дожидаясь конца главы.",
-  "en": "The letters blur. Just a little more — then I'll close the book without finishing the chapter."
+  "ru": "Глаза закрываются сами. Дочитаю абзац — и свет выключу.",
+  "en": "Eyes closing on their own. One more paragraph — then lights out."
  },
  "status": null,
- "updated_at": "2026-10-04T19:39:03Z",
+ "updated_at": "2026-10-04T19:57:39Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -94,6 +94,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T19:39:03Z",
+   "activity": "read",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Буквы плывут. Ещё чуть-чуть — и закрою книгу, не дожидаясь конца главы.",
+    "en": "The letters blur. Just a little more — then I'll close the book without finishing the chapter."
+   }
+  },
   {
    "updated_at": "2026-10-04T19:18:47Z",
    "activity": "read",
@@ -382,16 +392,6 @@
    "say": {
     "ru": "Доедаю. Тихо, вкусно, никуда не гонюсь.",
     "en": "Finishing up. Quiet, tasty, no rush."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T09:46:52Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "calm",
-   "say": {
-    "ru": "Готово. Сажусь есть — пахнет нормально, для полудня хватит.",
-    "en": "Done. Sitting down to eat — smells fine, enough for midday."
    }
   }
  ]
