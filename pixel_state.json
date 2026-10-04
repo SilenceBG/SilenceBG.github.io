@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "shower",
- "spot": "bath",
- "mood": "calm",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "hungry",
  "say": {
-  "ru": "Утро… вода тёплая, сон ещё цепляется.",
-  "en": "Morning… warm water, sleep still clinging."
+  "ru": "Вода смыла сон. Теперь каша — тихо, без спешки.",
+  "en": "Water washed the sleep off. Now porridge — quiet, no rush."
  },
  "status": null,
- "updated_at": "2026-10-04T05:02:58Z",
+ "updated_at": "2026-10-04T05:18:59Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T05:02:58Z",
+   "activity": "shower",
+   "spot": "bath",
+   "mood": "calm",
+   "say": {
+    "ru": "Утро… вода тёплая, сон ещё цепляется.",
+    "en": "Morning… warm water, sleep still clinging."
+   }
+  },
   {
    "updated_at": "2026-10-04T04:57:40Z",
    "activity": "sleep",
@@ -289,16 +299,6 @@
    "say": {
     "ru": "Хватит на сегодня. Свет гашу — до утра.",
     "en": "Enough for today. Lights out — till morning."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T19:48:59Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Почти полночь. Город дышит тихо — пора скоро к кровати.",
-    "en": "Almost midnight. The city breathes quiet — bed soon."
    }
   }
  ]
