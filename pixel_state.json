@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…тихо… будто кто-то шепчет за стеной…",
-  "en": "…quiet… like a whisper through the wall…"
+  "ru": "…подушка прохладная… перевернуться…",
+  "en": "…cool side of the pillow… turn over…"
  },
  "status": null,
- "updated_at": "2026-10-04T21:55:24Z",
+ "updated_at": "2026-10-04T22:17:57Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T21:55:24Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…тихо… будто кто-то шепчет за стеной…",
+    "en": "…quiet… like a whisper through the wall…"
+   }
+  },
   {
    "updated_at": "2026-10-04T21:38:08Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Свет ещё яркий. Никуда не спешу — просто стою и дышу.",
     "en": "Light still bright. Nowhere to rush — just standing and breathing."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T12:04:18Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Хватит на сейчас. Спина просит окно — просто смотрю, как день идёт дальше.",
-    "en": "Enough for now. Back wants the window — just watching the day move on."
    }
   }
  ]
