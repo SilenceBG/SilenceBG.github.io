@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-04T03:38:11Z",
+ "updated_at": "2026-10-04T03:56:47Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T03:38:11Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-04T03:19:30Z",
    "activity": "sleep",
@@ -292,16 +299,6 @@
    "say": {
     "ru": "Комната тёплая, за окном уже ночь. Хорошо просто быть здесь.",
     "en": "Room's warm, night outside already. Nice to just be here."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T18:05:50Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Вечер уже мягкий. Можно просто сидеть и ничего не решать.",
-    "en": "Evening's soft already. Okay to just sit and decide nothing."
    }
   }
  ]
