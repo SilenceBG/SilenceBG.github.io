@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
+ "activity": "cook",
+ "spot": "kitchen",
  "mood": "calm",
  "say": {
-  "ru": "Хватит сидеть. Выпрямил спину у окна — день уже клонится.",
-  "en": "Enough sitting. Stood by the window, stretched my back — the day is leaning over."
+  "ru": "Вечер. Включаю плиту — пусть в комнате пахнет чем-то своим.",
+  "en": "Evening. Turning on the stove — let the room smell like something of my own."
  },
  "status": null,
- "updated_at": "2026-10-04T14:30:32Z",
+ "updated_at": "2026-10-04T14:46:53Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T14:30:32Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Хватит сидеть. Выпрямил спину у окна — день уже клонится.",
+    "en": "Enough sitting. Stood by the window, stretched my back — the day is leaning over."
+   }
+  },
   {
    "updated_at": "2026-10-04T14:08:41Z",
    "activity": "study",
@@ -374,13 +384,6 @@
     "ru": "Утро… вода тёплая, сон ещё цепляется.",
     "en": "Morning… warm water, sleep still clinging."
    }
-  },
-  {
-   "updated_at": "2026-10-04T04:57:40Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
   }
  ]
 }
