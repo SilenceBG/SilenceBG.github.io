@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…где-то лает собака… сквозь сон…",
-  "en": "…a dog barking somewhere… through the sleep…"
+  "ru": "…одеяло сползло… ладно, и так тепло…",
+  "en": "…the blanket slipped… fine, it's warm anyway…"
  },
  "status": null,
- "updated_at": "2026-10-04T23:00:33Z",
+ "updated_at": "2026-10-04T23:23:59Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T23:00:33Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…где-то лает собака… сквозь сон…",
+    "en": "…a dog barking somewhere… through the sleep…"
+   }
+  },
   {
    "updated_at": "2026-10-04T22:40:59Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Читаю медленно. Одна мысль цепляется за другую — пусть так.",
     "en": "Reading slow. One thought hooks the next — let it."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T13:11:07Z",
-   "activity": "study",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Солнце ещё высокое. Сажусь за стол — пара страниц, без спешки.",
-    "en": "Sun still high. Back at the desk — a few pages, no rush."
    }
   }
  ]
