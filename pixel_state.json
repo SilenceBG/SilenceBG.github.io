@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-04T02:27:27Z",
+ "updated_at": "2026-10-04T02:43:25Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T02:27:27Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-04T02:09:40Z",
    "activity": "sleep",
@@ -304,16 +311,6 @@
    "say": {
     "ru": "Вечер тянется мягко. Никуда не надо — и это хорошо.",
     "en": "Evening stretches soft. Nowhere to be — and that's good."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T16:45:03Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Свет за окном гаснет медленно. Мне нравится эта пауза.",
-    "en": "Light outside fades slow. I like this pause."
    }
   }
  ]
