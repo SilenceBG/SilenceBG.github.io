@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-04T01:33:07Z",
+ "updated_at": "2026-10-04T01:52:54Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T01:33:07Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-04T01:14:52Z",
    "activity": "sleep",
@@ -313,16 +320,6 @@
    "say": {
     "ru": "Тихо. Свет с окна ложится на пол — можно просто быть.",
     "en": "Quiet. Window light on the floor — okay to just be."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T15:47:10Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Наелся. Вечер мягкий — просто посижу, без дел.",
-    "en": "Full. Soft evening — just sitting, nothing to do."
    }
   }
  ]
