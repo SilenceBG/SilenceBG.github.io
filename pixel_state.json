@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "Страницы тихо шуршат. Не тороплюсь — пусть вечер сам решит, когда закрыть книгу.",
-  "en": "Pages rustle softly. No rush — let the evening decide when to close the book."
+  "ru": "Глава короткая, а глаза уже тяжёлые. Ещё пару страниц — и можно гасить свет.",
+  "en": "Short chapter, but my eyes are already heavy. A couple more pages — then lights out."
  },
  "status": null,
- "updated_at": "2026-10-04T18:59:09Z",
+ "updated_at": "2026-10-04T19:18:47Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -94,6 +94,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T18:59:09Z",
+   "activity": "read",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Страницы тихо шуршат. Не тороплюсь — пусть вечер сам решит, когда закрыть книгу.",
+    "en": "Pages rustle softly. No rush — let the evening decide when to close the book."
+   }
+  },
   {
    "updated_at": "2026-10-04T18:40:39Z",
    "activity": "relax",
@@ -382,16 +392,6 @@
    "say": {
     "ru": "Полдень. Живот напомнил о себе — пора на кухню.",
     "en": "Noon. Stomach reminded me — time for the kitchen."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T09:07:29Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Полдень. Клавиатура тёплая, мысль ещё живая — не прерываю.",
-    "en": "Noon. Keyboard warm, the thought still alive — not interrupting."
    }
   }
  ]
