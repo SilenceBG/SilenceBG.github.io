@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "cook",
+ "activity": "eat",
  "spot": "kitchen",
- "mood": "hungry",
+ "mood": "calm",
  "say": {
-  "ru": "Полдень. Живот напомнил о себе — пора на кухню.",
-  "en": "Noon. Stomach reminded me — time for the kitchen."
+  "ru": "Готово. Сажусь есть — пахнет нормально, для полудня хватит.",
+  "en": "Done. Sitting down to eat — smells fine, enough for midday."
  },
  "status": null,
- "updated_at": "2026-10-04T09:30:41Z",
+ "updated_at": "2026-10-04T09:46:52Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T09:30:41Z",
+   "activity": "cook",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "Полдень. Живот напомнил о себе — пора на кухню.",
+    "en": "Noon. Stomach reminded me — time for the kitchen."
+   }
+  },
   {
    "updated_at": "2026-10-04T09:07:29Z",
    "activity": "work",
@@ -325,13 +335,6 @@
   },
   {
    "updated_at": "2026-10-04T00:43:13Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-04T00:20:15Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
