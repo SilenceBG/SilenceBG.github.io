@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "thoughtful",
+ "activity": "relax",
+ "spot": "center",
+ "mood": "cozy",
  "say": {
-  "ru": "Город шумит далеко. Здесь тихо — только стекло и мой взгляд.",
-  "en": "The city hums far away. Quiet here — just the glass and my gaze."
+  "ru": "Вечер мягкий. Окно уже посмотрел — теперь просто сижу и ничего не жду.",
+  "en": "Soft evening. Watched the window enough — now I just sit and wait for nothing."
  },
  "status": null,
- "updated_at": "2026-10-04T17:44:27Z",
+ "updated_at": "2026-10-04T18:00:40Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -94,6 +94,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T17:44:27Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "thoughtful",
+   "say": {
+    "ru": "Город шумит далеко. Здесь тихо — только стекло и мой взгляд.",
+    "en": "The city hums far away. Quiet here — just the glass and my gaze."
+   }
+  },
   {
    "updated_at": "2026-10-04T17:22:02Z",
    "activity": "look_window",
@@ -382,16 +392,6 @@
    "say": {
     "ru": "Снова в тексте. Палец на пробеле — мысль догоняет.",
     "en": "Back in the text. Finger on the spacebar — the thought is catching up."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T07:59:26Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Хватит смотреть в небо. Снова за стол — утро ещё не кончилось.",
-    "en": "Enough sky-watching. Back to the desk — morning isn't over yet."
    }
   }
  ]
