@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-03T23:45:13Z",
+ "updated_at": "2026-10-04T00:03:02Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-03T23:45:13Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-03T23:26:17Z",
    "activity": "sleep",
@@ -331,16 +338,6 @@
    "say": {
     "ru": "Отложил перо. За окном уже вечереет — просто смотрю, как день уходит.",
     "en": "Put the pen down. Evening's settling outside — just watching the day go."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T13:57:43Z",
-   "activity": "write",
-   "spot": "desk",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "Почти. Ещё чуть-чуть, и мысль ляжет на место.",
-    "en": "Almost. Just a little more, and the thought will settle."
    }
   }
  ]
