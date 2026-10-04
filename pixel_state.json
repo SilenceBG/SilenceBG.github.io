@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…тихо… только дыхание…",
-  "en": "…quiet… just breathing…"
+  "ru": "…где-то далеко дождь… или это сон…",
+  "en": "…rain somewhere far… or is it a dream…"
  },
  "status": null,
- "updated_at": "2026-10-04T21:15:49Z",
+ "updated_at": "2026-10-04T21:38:08Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T21:15:49Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…тихо… только дыхание…",
+    "en": "…quiet… just breathing…"
+   }
+  },
   {
    "updated_at": "2026-10-04T20:49:29Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Солнце ещё высоко. Пишу спокойно — спешить некуда.",
     "en": "Sun still high. Writing steadily — nowhere to rush."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T11:25:58Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Курсор мигает. Ещё кусок — и можно будет выдохнуть.",
-    "en": "Cursor blinking. One more chunk — then I can breathe."
    }
   }
  ]
