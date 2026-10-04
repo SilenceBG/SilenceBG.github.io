@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Фраза цепляется. Не отпускаю, пока не сядет на место.",
-  "en": "The sentence is catching. Not letting go until it sits right."
+  "ru": "Полдень. Клавиатура тёплая, мысль ещё живая — не прерываю.",
+  "en": "Noon. Keyboard warm, the thought still alive — not interrupting."
  },
  "status": null,
- "updated_at": "2026-10-04T08:51:25Z",
+ "updated_at": "2026-10-04T09:07:29Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T08:51:25Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Фраза цепляется. Не отпускаю, пока не сядет на место.",
+    "en": "The sentence is catching. Not letting go until it sits right."
+   }
+  },
   {
    "updated_at": "2026-10-04T08:31:52Z",
    "activity": "work",
@@ -319,13 +329,6 @@
   },
   {
    "updated_at": "2026-10-04T00:03:02Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T23:45:13Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
