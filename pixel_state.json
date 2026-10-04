@@ -4,11 +4,11 @@
  "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Вечер тянется мягко. Никуда не надо — просто дышу и смотрю в пустую комнату.",
-  "en": "Evening stretches soft. Nowhere to be — just breathing, looking at the empty room."
+  "ru": "Тишина после ужина. Комната держит тепло — можно просто быть, без планов.",
+  "en": "Quiet after dinner. The room holds the warmth — just being here is enough, no plans."
  },
  "status": null,
- "updated_at": "2026-10-04T16:28:18Z",
+ "updated_at": "2026-10-04T16:49:25Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -94,6 +94,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T16:28:18Z",
+   "activity": "relax",
+   "spot": "center",
+   "mood": "cozy",
+   "say": {
+    "ru": "Вечер тянется мягко. Никуда не надо — просто дышу и смотрю в пустую комнату.",
+    "en": "Evening stretches soft. Nowhere to be — just breathing, looking at the empty room."
+   }
+  },
   {
    "updated_at": "2026-10-04T16:05:52Z",
    "activity": "relax",
@@ -382,16 +392,6 @@
    "say": {
     "ru": "Ещё кусок текста — и можно выдохнуть. Пока пальцы не устали.",
     "en": "One more stretch of text — then I can breathe. Fingers still willing."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T06:39:55Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Строки сами складываются. Утро за столом — любимый ритм.",
-    "en": "Lines falling into place. Morning at the desk — my favorite rhythm."
    }
   }
  ]
