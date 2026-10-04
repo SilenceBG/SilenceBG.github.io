@@ -5,7 +5,7 @@
  "mood": "sleepy",
  "say": null,
  "status": null,
- "updated_at": "2026-10-04T03:02:56Z",
+ "updated_at": "2026-10-04T03:19:30Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -73,6 +73,13 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T03:02:56Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": null
+  },
   {
    "updated_at": "2026-10-04T02:43:25Z",
    "activity": "sleep",
@@ -298,16 +305,6 @@
    "say": {
     "ru": "Фонари внизу редкие. Тишина такая, что слышно, как думаешь.",
     "en": "Streetlights sparse below. Quiet enough to hear yourself think."
-   }
-  },
-  {
-   "updated_at": "2026-10-03T17:26:24Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "За окном уже темно. Отражение комнаты в стекле — будто второй я смотрит наружу.",
-    "en": "Dark outside already. The room's reflection in the glass — like another me looking out."
    }
   }
  ]
