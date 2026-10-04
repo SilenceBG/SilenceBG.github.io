@@ -4,11 +4,11 @@
  "spot": "window",
  "mood": "calm",
  "say": {
-  "ru": "Хватит на сейчас. Спина просит окно — просто смотрю, как день идёт дальше.",
-  "en": "Enough for now. Back wants the window — just watching the day move on."
+  "ru": "Свет ещё яркий. Никуда не спешу — просто стою и дышу.",
+  "en": "Light still bright. Nowhere to rush — just standing and breathing."
  },
  "status": null,
- "updated_at": "2026-10-04T12:04:18Z",
+ "updated_at": "2026-10-04T12:25:59Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T12:04:18Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Хватит на сейчас. Спина просит окно — просто смотрю, как день идёт дальше.",
+    "en": "Enough for now. Back wants the window — just watching the day move on."
+   }
+  },
   {
    "updated_at": "2026-10-04T11:43:45Z",
    "activity": "work",
@@ -349,13 +359,6 @@
   },
   {
    "updated_at": "2026-10-04T03:02:56Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-04T02:43:25Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
