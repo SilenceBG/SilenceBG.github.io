@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Хватит смотреть в небо. Снова за стол — утро ещё не кончилось.",
-  "en": "Enough sky-watching. Back to the desk — morning isn't over yet."
+  "ru": "Снова в тексте. Палец на пробеле — мысль догоняет.",
+  "en": "Back in the text. Finger on the spacebar — the thought is catching up."
  },
  "status": null,
- "updated_at": "2026-10-04T07:59:26Z",
+ "updated_at": "2026-10-04T08:15:45Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T07:59:26Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Хватит смотреть в небо. Снова за стол — утро ещё не кончилось.",
+    "en": "Enough sky-watching. Back to the desk — morning isn't over yet."
+   }
+  },
   {
    "updated_at": "2026-10-04T07:40:22Z",
    "activity": "look_window",
@@ -310,13 +320,6 @@
   },
   {
    "updated_at": "2026-10-03T23:08:04Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T22:50:00Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
