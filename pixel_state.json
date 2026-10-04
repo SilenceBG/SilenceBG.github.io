@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "eat",
- "spot": "kitchen",
- "mood": "calm",
+ "activity": "work",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Доедаю. Тихо, вкусно, никуда не гонюсь.",
-  "en": "Finishing up. Quiet, tasty, no rush."
+  "ru": "Сыт. Снова к столу — после еды мысли чуть яснее.",
+  "en": "Full. Back to the desk — thoughts a bit clearer after eating."
  },
  "status": null,
- "updated_at": "2026-10-04T10:06:02Z",
+ "updated_at": "2026-10-04T10:18:18Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T10:06:02Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "calm",
+   "say": {
+    "ru": "Доедаю. Тихо, вкусно, никуда не гонюсь.",
+    "en": "Finishing up. Quiet, tasty, no rush."
+   }
+  },
   {
    "updated_at": "2026-10-04T09:46:52Z",
    "activity": "eat",
@@ -331,13 +341,6 @@
   },
   {
    "updated_at": "2026-10-04T01:14:52Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-04T00:59:47Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
