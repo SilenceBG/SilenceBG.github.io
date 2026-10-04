@@ -4,11 +4,11 @@
  "spot": "kitchen",
  "mood": "cozy",
  "say": {
-  "ru": "Готово. Сажусь есть — горячее, простое, своё.",
-  "en": "Done. Sitting down to eat — hot, simple, mine."
+  "ru": "Ещё немного. Тишина, пар над тарелкой — и никуда не надо.",
+  "en": "A little more. Quiet, steam over the plate — nowhere else to be."
  },
  "status": null,
- "updated_at": "2026-10-04T15:06:02Z",
+ "updated_at": "2026-10-04T15:23:47Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T15:06:02Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "cozy",
+   "say": {
+    "ru": "Готово. Сажусь есть — горячее, простое, своё.",
+    "en": "Done. Sitting down to eat — hot, simple, mine."
+   }
+  },
   {
    "updated_at": "2026-10-04T14:46:53Z",
    "activity": "cook",
@@ -373,16 +383,6 @@
    "say": {
     "ru": "Каша готова. Сажусь у плиты — тепло и тихо.",
     "en": "Porridge's ready. Sitting by the stove — warm and quiet."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T05:18:59Z",
-   "activity": "cook",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Вода смыла сон. Теперь каша — тихо, без спешки.",
-    "en": "Water washed the sleep off. Now porridge — quiet, no rush."
    }
   }
  ]
