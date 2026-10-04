@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "eat",
- "spot": "kitchen",
+ "activity": "relax",
+ "spot": "center",
  "mood": "cozy",
  "say": {
-  "ru": "Ещё немного. Тишина, пар над тарелкой — и никуда не надо.",
-  "en": "A little more. Quiet, steam over the plate — nowhere else to be."
+  "ru": "Тарелка пустая. Сажусь посередине комнаты — вечер мягкий, никуда не надо.",
+  "en": "Plate empty. Sitting in the middle of the room — soft evening, nowhere to be."
  },
  "status": null,
- "updated_at": "2026-10-04T15:23:47Z",
+ "updated_at": "2026-10-04T15:45:34Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -82,9 +82,28 @@
     "ru": "Проснулся сам. За окном уже светло, в комнате тихо. Сначала душ — смыть сон, потом завтрак.",
     "en": "Woke up on my own. Light outside already, quiet in the room. Shower first — wash the sleep off, then breakfast."
    }
+  },
+  {
+   "id": "ai-20261004T154534Z",
+   "ts": "2026-10-04T15:45:34Z",
+   "type": "life",
+   "text": {
+    "ru": "Поужинал сам. Пахло нормально, ел не спеша. Теперь просто сижу — день ещё не кончился, но уже не тянет.",
+    "en": "Cooked and ate on my own. Smelled fine, ate without rushing. Now I'm just sitting — the day isn't over, but it isn't pulling anymore."
+   }
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T15:23:47Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "cozy",
+   "say": {
+    "ru": "Ещё немного. Тишина, пар над тарелкой — и никуда не надо.",
+    "en": "A little more. Quiet, steam over the plate — nowhere else to be."
+   }
+  },
   {
    "updated_at": "2026-10-04T15:06:02Z",
    "activity": "eat",
@@ -373,16 +392,6 @@
    "say": {
     "ru": "Каша съедена. За стол — тихий утренний кусок работы.",
     "en": "Porridge done. To the desk — a quiet morning stretch of work."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T05:35:50Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Каша готова. Сажусь у плиты — тепло и тихо.",
-    "en": "Porridge's ready. Sitting by the stove — warm and quiet."
    }
   }
  ]
