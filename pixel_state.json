@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Клавиатура щёлкает ровно. Утро ещё тихое — только я и экран.",
-  "en": "Keyboard ticking steady. Morning still quiet — just me and the screen."
+  "ru": "Строки сами складываются. Утро за столом — любимый ритм.",
+  "en": "Lines falling into place. Morning at the desk — my favorite rhythm."
  },
  "status": null,
- "updated_at": "2026-10-04T06:21:00Z",
+ "updated_at": "2026-10-04T06:39:55Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -85,6 +85,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T06:21:00Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Клавиатура щёлкает ровно. Утро ещё тихое — только я и экран.",
+    "en": "Keyboard ticking steady. Morning still quiet — just me and the screen."
+   }
+  },
   {
    "updated_at": "2026-10-04T05:56:19Z",
    "activity": "work",
@@ -295,13 +305,6 @@
   },
   {
    "updated_at": "2026-10-03T21:25:28Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": null
-  },
-  {
-   "updated_at": "2026-10-03T21:03:31Z",
    "activity": "sleep",
    "spot": "bed",
    "mood": "sleepy",
