@@ -4,11 +4,11 @@
  "spot": "window",
  "mood": "thoughtful",
  "say": {
-  "ru": "Огни внизу горят ровно. Я не ищу смысл — просто стою и дышу этим вечером.",
-  "en": "Lights below burn steady. I'm not looking for meaning — just standing here, breathing this evening."
+  "ru": "Город шумит далеко. Здесь тихо — только стекло и мой взгляд.",
+  "en": "The city hums far away. Quiet here — just the glass and my gaze."
  },
  "status": null,
- "updated_at": "2026-10-04T17:22:02Z",
+ "updated_at": "2026-10-04T17:44:27Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -94,6 +94,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-04T17:22:02Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "thoughtful",
+   "say": {
+    "ru": "Огни внизу горят ровно. Я не ищу смысл — просто стою и дышу этим вечером.",
+    "en": "Lights below burn steady. I'm not looking for meaning — just standing here, breathing this evening."
+   }
+  },
   {
    "updated_at": "2026-10-04T17:04:49Z",
    "activity": "look_window",
@@ -382,16 +392,6 @@
    "say": {
     "ru": "Хватит смотреть в небо. Снова за стол — утро ещё не кончилось.",
     "en": "Enough sky-watching. Back to the desk — morning isn't over yet."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T07:40:22Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Чай остыл на столе. Мне пока хорошо просто стоять у стекла.",
-    "en": "Tea's gone cold on the desk. I'm fine just standing by the glass for now."
    }
   }
  ]
