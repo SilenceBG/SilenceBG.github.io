@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "shower",
- "spot": "bath",
- "mood": "sleepy",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "hungry",
  "say": {
-  "ru": "Понедельник… Ладно, вода сейчас всё решит.",
-  "en": "Monday… Fine, the water will sort it out."
+  "ru": "После душа проснулся аппетит. Овсянка или яичница? Пусть будет яичница.",
+  "en": "The shower woke up my appetite. Oatmeal or eggs? Eggs it is."
  },
  "status": null,
- "updated_at": "2026-10-05T04:57:53Z",
+ "updated_at": "2026-10-05T05:15:32Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -112,6 +112,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T04:57:53Z",
+   "activity": "shower",
+   "spot": "bath",
+   "mood": "sleepy",
+   "say": {
+    "ru": "Понедельник… Ладно, вода сейчас всё решит.",
+    "en": "Monday… Fine, the water will sort it out."
+   }
+  },
   {
    "updated_at": "2026-10-05T04:35:53Z",
    "activity": "sleep",
@@ -400,16 +410,6 @@
    "say": {
     "ru": "Почти десять. Свет приглушён, мысли никуда не бегут — просто остаюсь здесь, в этой тишине.",
     "en": "Almost ten. Soft light, thoughts not racing — just staying here, in this quiet."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T18:23:03Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Девять с чем-то. Комната тёплая, я никуда не тороплюсь — просто сижу и слушаю тишину.",
-    "en": "Past nine. Room's warm, I'm in no hurry — just sitting, listening to the quiet."
    }
   }
  ]
