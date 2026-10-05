@@ -2,13 +2,13 @@
  "v": 1,
  "activity": "code",
  "spot": "desk",
- "mood": "focused",
+ "mood": "thoughtful",
  "say": {
-  "ru": "Ковёр выбили, глаза отдохнули. Второй шаг третьего пункта — поехали.",
-  "en": "The carpet's been beaten, my eyes are rested. Step two of point three — here we go."
+  "ru": "Второй шаг почти готов. Осталось придумать, как назвать эту функцию, — самое трудное.",
+  "en": "Step two is almost done. Now I just have to name this function — the hardest part."
  },
  "status": null,
- "updated_at": "2026-10-05T13:58:21Z",
+ "updated_at": "2026-10-05T14:15:55Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -121,6 +121,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T13:58:21Z",
+   "activity": "code",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Ковёр выбили, глаза отдохнули. Второй шаг третьего пункта — поехали.",
+    "en": "The carpet's been beaten, my eyes are rested. Step two of point three — here we go."
+   }
+  },
   {
    "updated_at": "2026-10-05T13:39:31Z",
    "activity": "look_window",
@@ -409,16 +419,6 @@
    "say": {
     "ru": "Яичница получилась, даже не подгорела. Ем медленно — понедельник подождёт.",
     "en": "The eggs turned out fine, didn't even burn. Eating slowly — Monday can wait."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T05:15:32Z",
-   "activity": "cook",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "После душа проснулся аппетит. Овсянка или яичница? Пусть будет яичница.",
-    "en": "The shower woke up my appetite. Oatmeal or eggs? Eggs it is."
    }
   }
  ]
