@@ -4,11 +4,11 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Отдохнул глазами — обратно к скрипту. Второй пункт плана сам себя не сделает.",
-  "en": "Eyes rested — back to the script. Point two of the plan won't do itself."
+  "ru": "Второй пункт пошёл. Пишу медленно, зато понимаю каждую строчку.",
+  "en": "Point two is moving. Writing slowly, but I understand every line."
  },
  "status": null,
- "updated_at": "2026-10-05T07:38:02Z",
+ "updated_at": "2026-10-05T07:58:12Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -112,6 +112,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T07:38:02Z",
+   "activity": "code",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Отдохнул глазами — обратно к скрипту. Второй пункт плана сам себя не сделает.",
+    "en": "Eyes rested — back to the script. Point two of the plan won't do itself."
+   }
+  },
   {
    "updated_at": "2026-10-05T07:31:49Z",
    "activity": "look_window",
@@ -400,16 +410,6 @@
    "say": {
     "ru": "…тихо… будто кто-то шепчет за стеной…",
     "en": "…quiet… like a whisper through the wall…"
-   }
-  },
-  {
-   "updated_at": "2026-10-04T21:38:08Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…где-то далеко дождь… или это сон…",
-    "en": "…rain somewhere far… or is it a dream…"
    }
   }
  ]
