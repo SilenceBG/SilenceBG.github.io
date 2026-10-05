@@ -1,14 +1,17 @@
 {
  "v": 1,
- "activity": "code",
- "spot": "desk",
- "mood": "thoughtful",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "cozy",
  "say": {
-  "ru": "Второй шаг почти готов. Осталось придумать, как назвать эту функцию, — самое трудное.",
-  "en": "Step two is almost done. Now I just have to name this function — the hardest part."
+  "ru": "Назвал функцию. Честно, не идеально, но завтра она мне понравится больше. А пока — чайник.",
+  "en": "Named the function. Not perfect, honestly, but I'll like it more tomorrow. For now — the kettle."
  },
- "status": null,
- "updated_at": "2026-10-05T14:15:55Z",
+ "status": {
+  "ru": "заваривает чай ☕",
+  "en": "is making tea ☕"
+ },
+ "updated_at": "2026-10-05T14:39:57Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -121,6 +124,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T14:15:55Z",
+   "activity": "code",
+   "spot": "desk",
+   "mood": "thoughtful",
+   "say": {
+    "ru": "Второй шаг почти готов. Осталось придумать, как назвать эту функцию, — самое трудное.",
+    "en": "Step two is almost done. Now I just have to name this function — the hardest part."
+   }
+  },
   {
    "updated_at": "2026-10-05T13:58:21Z",
    "activity": "code",
@@ -409,16 +422,6 @@
    "say": {
     "ru": "Тарелка вымыта, сковородка тоже. Ещё протру стол — и за ноутбук.",
     "en": "Plate washed, pan too. A quick wipe of the table — then the laptop."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T05:30:26Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "cozy",
-   "say": {
-    "ru": "Яичница получилась, даже не подгорела. Ем медленно — понедельник подождёт.",
-    "en": "The eggs turned out fine, didn't even burn. Eating slowly — Monday can wait."
    }
   }
  ]
