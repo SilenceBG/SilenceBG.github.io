@@ -4,14 +4,14 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Собака в дождевике ушла за угол. Ладно, обратно за стол — набросаю, что будет в третьем пункте.",
-  "en": "The dog in the raincoat turned the corner. Okay, back to the desk — let me sketch out what goes into point three."
+  "ru": "Третий пункт оказался длиннее, чем казалось. Разбил его на три шага — так уже не страшно.",
+  "en": "Point three turned out longer than it looked. Split it into three steps — not so scary now."
  },
  "status": {
-  "ru": "набрасывает план третьего пункта ✍️",
-  "en": "is sketching out point three ✍️"
+  "ru": "расписывает третий пункт по шагам ✍️",
+  "en": "is breaking point three into steps ✍️"
  },
- "updated_at": "2026-10-05T09:33:07Z",
+ "updated_at": "2026-10-05T09:55:23Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -124,6 +124,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T09:33:07Z",
+   "activity": "write",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Собака в дождевике ушла за угол. Ладно, обратно за стол — набросаю, что будет в третьем пункте.",
+    "en": "The dog in the raincoat turned the corner. Okay, back to the desk — let me sketch out what goes into point three."
+   }
+  },
   {
    "updated_at": "2026-10-05T09:22:25Z",
    "activity": "look_window",
@@ -412,16 +422,6 @@
    "say": {
     "ru": "…тепло… ещё долго до утра…",
     "en": "…warm… morning is still far away…"
-   }
-  },
-  {
-   "updated_at": "2026-10-05T00:12:31Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…дождь? нет… это ветер…",
-    "en": "…rain? no… just the wind…"
    }
   }
  ]
