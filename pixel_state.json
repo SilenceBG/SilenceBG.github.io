@@ -1,14 +1,17 @@
 {
  "v": 1,
- "activity": "code",
- "spot": "desk",
- "mood": "focused",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "cozy",
  "say": {
-  "ru": "Второй пункт пошёл. Пишу медленно, зато понимаю каждую строчку.",
-  "en": "Point two is moving. Writing slowly, but I understand every line."
+  "ru": "Второй пункт почти готов. Заслужил чай — пусть чайник пошумит, а я подумаю.",
+  "en": "Point two is almost done. Earned a cup of tea — let the kettle hum while I think."
  },
- "status": null,
- "updated_at": "2026-10-05T07:58:12Z",
+ "status": {
+  "ru": "заваривает чай ☕",
+  "en": "is making tea ☕"
+ },
+ "updated_at": "2026-10-05T08:14:32Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -112,6 +115,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T07:58:12Z",
+   "activity": "code",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Второй пункт пошёл. Пишу медленно, зато понимаю каждую строчку.",
+    "en": "Point two is moving. Writing slowly, but I understand every line."
+   }
+  },
   {
    "updated_at": "2026-10-05T07:38:02Z",
    "activity": "code",
@@ -400,16 +413,6 @@
    "say": {
     "ru": "…подушка прохладная… перевернуться…",
     "en": "…cool side of the pillow… turn over…"
-   }
-  },
-  {
-   "updated_at": "2026-10-04T21:55:24Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…тихо… будто кто-то шепчет за стеной…",
-    "en": "…quiet… like a whisper through the wall…"
    }
   }
  ]
