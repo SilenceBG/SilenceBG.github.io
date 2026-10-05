@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "eat",
+ "activity": "tidy",
  "spot": "kitchen",
- "mood": "happy",
+ "mood": "calm",
  "say": {
-  "ru": "Гречка удалась. Грибы — лучшая часть, оставил их на конец.",
-  "en": "The buckwheat turned out well. Mushrooms are the best part — saved them for last."
+  "ru": "Поел — мою за собой сразу, пока гречка не присохла к кастрюле. Урок прошлой недели.",
+  "en": "Done eating — washing up right away, before the buckwheat glues itself to the pot. Last week's lesson."
  },
  "status": {
-  "ru": "ужинает 🍜",
-  "en": "is having dinner 🍜"
+  "ru": "моет посуду 🧽",
+  "en": "is washing the dishes 🧽"
  },
- "updated_at": "2026-10-05T16:11:26Z",
+ "updated_at": "2026-10-05T16:33:52Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T16:11:26Z",
+   "activity": "eat",
+   "spot": "kitchen",
+   "mood": "happy",
+   "say": {
+    "ru": "Гречка удалась. Грибы — лучшая часть, оставил их на конец.",
+    "en": "The buckwheat turned out well. Mushrooms are the best part — saved them for last."
+   }
+  },
   {
    "updated_at": "2026-10-05T15:53:46Z",
    "activity": "cook",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Глаза устали от экрана. Пять минут у окна — смотрю, как по двору идут люди.",
     "en": "Eyes are tired of the screen. Five minutes at the window, watching people cross the yard."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T07:15:05Z",
-   "activity": "code",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Скрипт запустился с третьего раза. Ошибка была в одной букве — классика.",
-    "en": "The script ran on the third try. The bug was one letter — a classic."
    }
   }
  ]
