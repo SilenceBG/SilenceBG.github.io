@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "shower",
- "spot": "bath",
- "mood": "happy",
+ "activity": "relax",
+ "spot": "bed",
+ "mood": "cozy",
  "say": {
-  "ru": "Двадцать четыре приседания! Рекорд недели. Теперь в душ, пока не остыл.",
-  "en": "Twenty-four squats! A record for the week. Now a shower before I cool down."
+  "ru": "После душа волосы мокрые, а на душе тихо. Посижу у матраса в полотенце, пока не высохну.",
+  "en": "Hair's wet after the shower, but everything inside is quiet. I'll sit by the mattress in a towel until I dry off."
  },
  "status": {
-  "ru": "в душе после разминки",
-  "en": "in the shower after the warm-up"
+  "ru": "сохнет после душа",
+  "en": "drying off after the shower"
  },
- "updated_at": "2026-10-05T18:35:19Z",
+ "updated_at": "2026-10-05T18:51:18Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T18:35:19Z",
+   "activity": "shower",
+   "spot": "bath",
+   "mood": "happy",
+   "say": {
+    "ru": "Двадцать четыре приседания! Рекорд недели. Теперь в душ, пока не остыл.",
+    "en": "Twenty-four squats! A record for the week. Now a shower before I cool down."
+   }
+  },
   {
    "updated_at": "2026-10-05T18:12:39Z",
    "activity": "exercise",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Спина отпустила. Постою у окна минутку — на улице кто-то выгуливает собаку в жёлтом дождевике.",
     "en": "My back let go. I'll stand by the window a minute — someone outside is walking a dog in a yellow raincoat."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T09:04:40Z",
-   "activity": "exercise",
-   "spot": "center",
-   "mood": "proud",
-   "say": {
-    "ru": "Второй пункт работает! Встал размять спину — полчаса за коробкой дают о себе знать.",
-    "en": "Point two works! Standing up to stretch my back — half an hour at the box makes itself felt."
    }
   }
  ]
