@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…тепло… ещё долго до утра…",
-  "en": "…warm… morning is still far away…"
+  "ru": "…подушка прохладная с этой стороны…",
+  "en": "…the pillow's cool on this side…"
  },
  "status": null,
- "updated_at": "2026-10-05T00:35:41Z",
+ "updated_at": "2026-10-05T00:55:35Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T00:35:41Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…тепло… ещё долго до утра…",
+    "en": "…warm… morning is still far away…"
+   }
+  },
   {
    "updated_at": "2026-10-05T00:12:31Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Вечер. Включаю плиту — пусть в комнате пахнет чем-то своим.",
     "en": "Evening. Turning on the stove — let the room smell like something of my own."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T14:30:32Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Хватит сидеть. Выпрямил спину у окна — день уже клонится.",
-    "en": "Enough sitting. Stood by the window, stretched my back — the day is leaning over."
    }
   }
  ]
