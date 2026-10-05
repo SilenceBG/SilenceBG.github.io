@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…ещё чуть-чуть… солнце подождёт…",
-  "en": "…just a bit more… the sun can wait…"
+  "ru": "…сон про море… тёплое…",
+  "en": "…dreaming of the sea… warm…"
  },
  "status": null,
- "updated_at": "2026-10-05T03:52:31Z",
+ "updated_at": "2026-10-05T04:14:56Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T03:52:31Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…ещё чуть-чуть… солнце подождёт…",
+    "en": "…just a bit more… the sun can wait…"
+   }
+  },
   {
    "updated_at": "2026-10-05T03:30:29Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Город шумит далеко. Здесь тихо — только стекло и мой взгляд.",
     "en": "The city hums far away. Quiet here — just the glass and my gaze."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T17:22:02Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "Огни внизу горят ровно. Я не ищу смысл — просто стою и дышу этим вечером.",
-    "en": "Lights below burn steady. I'm not looking for meaning — just standing here, breathing this evening."
    }
   }
  ]
