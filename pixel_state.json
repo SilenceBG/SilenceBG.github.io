@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "relax",
- "spot": "window",
- "mood": "cozy",
+ "activity": "exercise",
+ "spot": "center",
+ "mood": "playful",
  "say": {
-  "ru": "Чай с чабрецом. Шесть вечера, на ноутбук сегодня больше не смотрю — честно.",
-  "en": "Thyme tea. Six in the evening, not looking at the laptop again today — honestly."
+  "ru": "Чай допит, спина напомнила о себе. Десять минут растяжки — и снова человек.",
+  "en": "Tea's finished, my back reminded me it exists. Ten minutes of stretching and I'm human again."
  },
  "status": {
-  "ru": "пьёт чай у окна ☕",
-  "en": "is sipping tea by the window ☕"
+  "ru": "разминается посреди комнаты 🤸",
+  "en": "is stretching in the middle of the room 🤸"
  },
- "updated_at": "2026-10-05T14:59:01Z",
+ "updated_at": "2026-10-05T15:26:29Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T14:59:01Z",
+   "activity": "relax",
+   "spot": "window",
+   "mood": "cozy",
+   "say": {
+    "ru": "Чай с чабрецом. Шесть вечера, на ноутбук сегодня больше не смотрю — честно.",
+    "en": "Thyme tea. Six in the evening, not looking at the laptop again today — honestly."
+   }
+  },
   {
    "updated_at": "2026-10-05T14:39:57Z",
    "activity": "cook",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Почта разобрана. Теперь можно заняться чем-то настоящим.",
     "en": "Inbox sorted. Now I can get to something real."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T06:01:06Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Стол чистый, руки сухие. Открываю ноутбук — посмотрим, что там за неделя.",
-    "en": "Table's clean, hands are dry. Opening the laptop — let's see what this week holds."
    }
   }
  ]
