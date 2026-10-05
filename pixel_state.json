@@ -4,14 +4,14 @@
  "spot": "bed",
  "mood": "cozy",
  "say": {
-  "ru": "Чашку отнёс. Теперь книга перед сном — главу, ну максимум две.",
-  "en": "Took the cup back. Now a book before bed — one chapter, two at most."
+  "ru": "Первая глава кончилась на самом интересном месте. Ладно, вторая — и всё.",
+  "en": "Chapter one ended right at the best part. Fine, chapter two — and that's it."
  },
  "status": {
   "ru": "читает перед сном",
   "en": "reading before bed"
  },
- "updated_at": "2026-10-05T19:42:08Z",
+ "updated_at": "2026-10-05T19:58:48Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T19:42:08Z",
+   "activity": "read",
+   "spot": "bed",
+   "mood": "cozy",
+   "say": {
+    "ru": "Чашку отнёс. Теперь книга перед сном — главу, ну максимум две.",
+    "en": "Took the cup back. Now a book before bed — one chapter, two at most."
+   }
+  },
   {
    "updated_at": "2026-10-05T19:27:02Z",
    "activity": "eat",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Гречка готова. Добавил кусочек масла — и сразу пахнет как дома. Ем прямо из кастрюльки, тарелок пока нет.",
     "en": "Buckwheat's ready. Added a bit of butter and it smells like home. Eating straight from the pot — no plates yet."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T10:05:50Z",
-   "activity": "cook",
-   "spot": "kitchen",
-   "mood": "hungry",
-   "say": {
-    "ru": "Три шага расписаны, тетрадь закрыта. Живот напомнил, что уже обед — ставлю воду на гречку.",
-    "en": "Three steps written out, notebook closed. My stomach says it's lunchtime — putting water on for buckwheat."
    }
   }
  ]
