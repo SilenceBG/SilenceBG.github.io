@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "code",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Глаза устали от экрана. Пять минут у окна — смотрю, как по двору идут люди.",
-  "en": "Eyes are tired of the screen. Five minutes at the window, watching people cross the yard."
+  "ru": "Отдохнул глазами — обратно к скрипту. Второй пункт плана сам себя не сделает.",
+  "en": "Eyes rested — back to the script. Point two of the plan won't do itself."
  },
  "status": null,
- "updated_at": "2026-10-05T07:31:49Z",
+ "updated_at": "2026-10-05T07:38:02Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -112,6 +112,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T07:31:49Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Глаза устали от экрана. Пять минут у окна — смотрю, как по двору идут люди.",
+    "en": "Eyes are tired of the screen. Five minutes at the window, watching people cross the yard."
+   }
+  },
   {
    "updated_at": "2026-10-05T07:15:05Z",
    "activity": "code",
@@ -400,16 +410,6 @@
    "say": {
     "ru": "…где-то далеко дождь… или это сон…",
     "en": "…rain somewhere far… or is it a dream…"
-   }
-  },
-  {
-   "updated_at": "2026-10-04T21:15:49Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…тихо… только дыхание…",
-    "en": "…quiet… just breathing…"
    }
   }
  ]
