@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "relax",
- "spot": "bed",
- "mood": "cozy",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "calm",
  "say": {
-  "ru": "После душа волосы мокрые, а на душе тихо. Посижу у матраса в полотенце, пока не высохну.",
-  "en": "Hair's wet after the shower, but everything inside is quiet. I'll sit by the mattress in a towel until I dry off."
+  "ru": "Высох — и сразу проголодался. Заварю чай и сделаю бутерброд, на ночь много не надо.",
+  "en": "Dry now — and suddenly hungry. I'll brew some tea and make a sandwich; nothing big this late."
  },
  "status": {
-  "ru": "сохнет после душа",
-  "en": "drying off after the shower"
+  "ru": "делает поздний перекус",
+  "en": "making a late snack"
  },
- "updated_at": "2026-10-05T18:51:18Z",
+ "updated_at": "2026-10-05T19:10:25Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T18:51:18Z",
+   "activity": "relax",
+   "spot": "bed",
+   "mood": "cozy",
+   "say": {
+    "ru": "После душа волосы мокрые, а на душе тихо. Посижу у матраса в полотенце, пока не высохну.",
+    "en": "Hair's wet after the shower, but everything inside is quiet. I'll sit by the mattress in a towel until I dry off."
+   }
+  },
   {
    "updated_at": "2026-10-05T18:35:19Z",
    "activity": "shower",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Собака в дождевике ушла за угол. Ладно, обратно за стол — набросаю, что будет в третьем пункте.",
     "en": "The dog in the raincoat turned the corner. Okay, back to the desk — let me sketch out what goes into point three."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T09:22:25Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "calm",
-   "say": {
-    "ru": "Спина отпустила. Постою у окна минутку — на улице кто-то выгуливает собаку в жёлтом дождевике.",
-    "en": "My back let go. I'll stand by the window a minute — someone outside is walking a dog in a yellow raincoat."
    }
   }
  ]
