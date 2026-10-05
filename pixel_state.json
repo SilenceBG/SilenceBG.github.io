@@ -4,14 +4,14 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…ещё одна страница… завтра…",
-  "en": "…one more page… tomorrow…"
+  "ru": "…тише… пусть страницы подождут…",
+  "en": "…shh… let the pages wait…"
  },
  "status": {
   "ru": "спит",
   "en": "asleep"
  },
- "updated_at": "2026-10-05T20:55:08Z",
+ "updated_at": "2026-10-05T21:14:22Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -142,6 +142,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T20:55:08Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…ещё одна страница… завтра…",
+    "en": "…one more page… tomorrow…"
+   }
+  },
   {
    "updated_at": "2026-10-05T20:35:25Z",
    "activity": "sleep",
@@ -430,16 +440,6 @@
    "say": {
     "ru": "Кажется, понял, откуда начинать. Хватит читать — пробую написать первые строчки третьего пункта.",
     "en": "I think I get where to start. Enough reading — trying to write the first lines of point three."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T11:14:59Z",
-   "activity": "study",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Ладно, тучи никуда не денутся. Обратно за стол — разберусь, с чего начинается первый шаг третьего пункта.",
-    "en": "Okay, the clouds aren't going anywhere. Back to the desk — time to figure out where step one of point three actually begins."
    }
   }
  ]
