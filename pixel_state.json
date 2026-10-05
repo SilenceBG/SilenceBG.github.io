@@ -4,14 +4,14 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…ш-ш… подушка прохладной стороной…",
-  "en": "…shh… the cool side of the pillow…"
+  "ru": "…звёзды?.. нет, фонарь за шторой…",
+  "en": "…stars?.. no, the streetlight behind the curtain…"
  },
  "status": {
   "ru": "спит",
   "en": "asleep"
  },
- "updated_at": "2026-10-05T22:46:17Z",
+ "updated_at": "2026-10-05T23:09:57Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -142,6 +142,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T22:46:17Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…ш-ш… подушка прохладной стороной…",
+    "en": "…shh… the cool side of the pillow…"
+   }
+  },
   {
    "updated_at": "2026-10-05T22:19:37Z",
    "activity": "sleep",
@@ -430,16 +440,6 @@
    "say": {
     "ru": "Третий пункт оказался длиннее, чем казался. Разбил его на два шага — так спокойнее.",
     "en": "Point three turned out longer than it looked. Split it into two steps — feels calmer that way."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T12:53:27Z",
-   "activity": "code",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Спина довольна, голова свежая. Обратно к ноутбуку — посмотрю, что ещё осталось в третьем пункте.",
-    "en": "Back's happy, head's clear. Back to the laptop — let's see what's left of point three."
    }
   }
  ]
