@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…сон про длинный коридор… дверь открылась в мою комнату…",
-  "en": "…dreamt of a long hallway… the door opened into my room…"
+  "ru": "…птицы ещё молчат… значит, рано…",
+  "en": "…the birds are still quiet… so it's early…"
  },
  "status": null,
- "updated_at": "2026-10-05T01:43:19Z",
+ "updated_at": "2026-10-05T02:06:05Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T01:43:19Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…сон про длинный коридор… дверь открылась в мою комнату…",
+    "en": "…dreamt of a long hallway… the door opened into my room…"
+   }
+  },
   {
    "updated_at": "2026-10-05T01:21:05Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Тарелка пустая. Сажусь посередине комнаты — вечер мягкий, никуда не надо.",
     "en": "Plate empty. Sitting in the middle of the room — soft evening, nowhere to be."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T15:23:47Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "cozy",
-   "say": {
-    "ru": "Ещё немного. Тишина, пар над тарелкой — и никуда не надо.",
-    "en": "A little more. Quiet, steam over the plate — nowhere else to be."
    }
   }
  ]
