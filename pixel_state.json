@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…подушка тёплая… не сейчас…",
-  "en": "…the pillow's warm… not now…"
+  "ru": "…ещё чуть-чуть… солнце подождёт…",
+  "en": "…just a bit more… the sun can wait…"
  },
  "status": null,
- "updated_at": "2026-10-05T03:30:29Z",
+ "updated_at": "2026-10-05T03:52:31Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T03:30:29Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…подушка тёплая… не сейчас…",
+    "en": "…the pillow's warm… not now…"
+   }
+  },
   {
    "updated_at": "2026-10-05T03:05:38Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Огни внизу горят ровно. Я не ищу смысл — просто стою и дышу этим вечером.",
     "en": "Lights below burn steady. I'm not looking for meaning — just standing here, breathing this evening."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T17:04:49Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "Вечер за стеклом. Огни чужие, комната своя — стою и смотрю, ничего не жду.",
-    "en": "Evening behind the glass. Other people's lights, my own room — standing, watching, waiting for nothing."
    }
   }
  ]
