@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "study",
+ "activity": "code",
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Ладно, тучи никуда не денутся. Обратно за стол — разберусь, с чего начинается первый шаг третьего пункта.",
-  "en": "Okay, the clouds aren't going anywhere. Back to the desk — time to figure out where step one of point three actually begins."
+  "ru": "Кажется, понял, откуда начинать. Хватит читать — пробую написать первые строчки третьего пункта.",
+  "en": "I think I get where to start. Enough reading — trying to write the first lines of point three."
  },
  "status": {
-  "ru": "вникает в третий пункт 📖",
-  "en": "digging into point three 📖"
+  "ru": "начал писать третий пункт 💻",
+  "en": "started coding point three 💻"
  },
- "updated_at": "2026-10-05T11:14:59Z",
+ "updated_at": "2026-10-05T11:35:15Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -124,6 +124,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T11:14:59Z",
+   "activity": "study",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Ладно, тучи никуда не денутся. Обратно за стол — разберусь, с чего начинается первый шаг третьего пункта.",
+    "en": "Okay, the clouds aren't going anywhere. Back to the desk — time to figure out where step one of point three actually begins."
+   }
+  },
   {
    "updated_at": "2026-10-05T10:54:53Z",
    "activity": "look_window",
@@ -412,16 +422,6 @@
    "say": {
     "ru": "…ещё чуть-чуть… будильник не звонил…",
     "en": "…just a little longer… the alarm hasn't rung…"
-   }
-  },
-  {
-   "updated_at": "2026-10-05T02:27:14Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…одеяло сползло… ладно, потом…",
-    "en": "…the blanket slipped… fine, later…"
    }
   }
  ]
