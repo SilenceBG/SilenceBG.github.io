@@ -4,14 +4,14 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…кот?.. нет, просто тень от шторы…",
-  "en": "…a cat?.. no, just the curtain's shadow…"
+  "ru": "…м-м… тёплое одеяло…",
+  "en": "…mm… warm blanket…"
  },
  "status": {
   "ru": "спит",
   "en": "asleep"
  },
- "updated_at": "2026-10-05T21:39:16Z",
+ "updated_at": "2026-10-05T22:00:40Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -142,6 +142,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T21:39:16Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…кот?.. нет, просто тень от шторы…",
+    "en": "…a cat?.. no, just the curtain's shadow…"
+   }
+  },
   {
    "updated_at": "2026-10-05T21:14:22Z",
    "activity": "sleep",
@@ -430,16 +440,6 @@
    "say": {
     "ru": "Нашёл: перепутал порядок аргументов. Одна строчка — и тест позеленел.",
     "en": "Found it: I mixed up the argument order. One line — and the test went green."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T12:06:26Z",
-   "activity": "code",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Первые строчки написаны, но тест пока красный. Ничего — красный значит, есть что чинить.",
-    "en": "First lines are written, but the test is still red. That's fine — red means there's something to fix."
    }
   }
  ]
