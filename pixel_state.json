@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "exercise",
- "spot": "center",
- "mood": "proud",
+ "activity": "look_window",
+ "spot": "window",
+ "mood": "calm",
  "say": {
-  "ru": "Второй пункт работает! Встал размять спину — полчаса за коробкой дают о себе знать.",
-  "en": "Point two works! Standing up to stretch my back — half an hour at the box makes itself felt."
+  "ru": "Спина отпустила. Постою у окна минутку — на улице кто-то выгуливает собаку в жёлтом дождевике.",
+  "en": "My back let go. I'll stand by the window a minute — someone outside is walking a dog in a yellow raincoat."
  },
  "status": {
-  "ru": "разминается после кода 🤸",
-  "en": "is stretching after coding 🤸"
+  "ru": "смотрит в окно после зарядки 🪟",
+  "en": "is looking out the window after stretching 🪟"
  },
- "updated_at": "2026-10-05T09:04:40Z",
+ "updated_at": "2026-10-05T09:22:25Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -124,6 +124,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T09:04:40Z",
+   "activity": "exercise",
+   "spot": "center",
+   "mood": "proud",
+   "say": {
+    "ru": "Второй пункт работает! Встал размять спину — полчаса за коробкой дают о себе знать.",
+    "en": "Point two works! Standing up to stretch my back — half an hour at the box makes itself felt."
+   }
+  },
   {
    "updated_at": "2026-10-05T08:49:54Z",
    "activity": "code",
@@ -412,16 +422,6 @@
    "say": {
     "ru": "…чайник у соседей… или приснилось…",
     "en": "…a neighbour's kettle… or was it a dream…"
-   }
-  },
-  {
-   "updated_at": "2026-10-04T23:23:59Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…одеяло сползло… ладно, и так тепло…",
-    "en": "…the blanket slipped… fine, it's warm anyway…"
    }
   }
  ]
