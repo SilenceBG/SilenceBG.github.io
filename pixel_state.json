@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "eat",
+ "activity": "read",
  "spot": "bed",
  "mood": "cozy",
  "say": {
-  "ru": "Бутерброд с сыром и горячий чай, сидя у матраса. Простая еда, а вкусно, как в детстве.",
-  "en": "A cheese sandwich and hot tea, sitting by the mattress. Simple food, but it tastes like childhood."
+  "ru": "Чашку отнёс. Теперь книга перед сном — главу, ну максимум две.",
+  "en": "Took the cup back. Now a book before bed — one chapter, two at most."
  },
  "status": {
-  "ru": "ужинает бутербродом с чаем",
-  "en": "having a sandwich and tea"
+  "ru": "читает перед сном",
+  "en": "reading before bed"
  },
- "updated_at": "2026-10-05T19:27:02Z",
+ "updated_at": "2026-10-05T19:42:08Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T19:27:02Z",
+   "activity": "eat",
+   "spot": "bed",
+   "mood": "cozy",
+   "say": {
+    "ru": "Бутерброд с сыром и горячий чай, сидя у матраса. Простая еда, а вкусно, как в детстве.",
+    "en": "A cheese sandwich and hot tea, sitting by the mattress. Simple food, but it tastes like childhood."
+   }
+  },
   {
    "updated_at": "2026-10-05T19:10:25Z",
    "activity": "cook",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Три шага расписаны, тетрадь закрыта. Живот напомнил, что уже обед — ставлю воду на гречку.",
     "en": "Three steps written out, notebook closed. My stomach says it's lunchtime — putting water on for buckwheat."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T09:55:23Z",
-   "activity": "write",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Третий пункт оказался длиннее, чем казалось. Разбил его на три шага — так уже не страшно.",
-    "en": "Point three turned out longer than it looked. Split it into three steps — not so scary now."
    }
   }
  ]
