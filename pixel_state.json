@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "exercise",
- "spot": "center",
- "mood": "playful",
+ "activity": "shower",
+ "spot": "bath",
+ "mood": "happy",
  "say": {
-  "ru": "Полежал — и хватит. Вечерняя разминка: десять приседаний, потом посмотрим, сколько ещё осилю.",
-  "en": "Enough lying around. Evening warm-up: ten squats, then we'll see how many more I can manage."
+  "ru": "Двадцать четыре приседания! Рекорд недели. Теперь в душ, пока не остыл.",
+  "en": "Twenty-four squats! A record for the week. Now a shower before I cool down."
  },
  "status": {
-  "ru": "разминается посреди комнаты",
-  "en": "is doing a warm-up mid-room"
+  "ru": "в душе после разминки",
+  "en": "in the shower after the warm-up"
  },
- "updated_at": "2026-10-05T18:12:39Z",
+ "updated_at": "2026-10-05T18:35:19Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T18:12:39Z",
+   "activity": "exercise",
+   "spot": "center",
+   "mood": "playful",
+   "say": {
+    "ru": "Полежал — и хватит. Вечерняя разминка: десять приседаний, потом посмотрим, сколько ещё осилю.",
+    "en": "Enough lying around. Evening warm-up: ten squats, then we'll see how many more I can manage."
+   }
+  },
   {
    "updated_at": "2026-10-05T17:50:03Z",
    "activity": "relax",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Второй пункт работает! Встал размять спину — полчаса за коробкой дают о себе знать.",
     "en": "Point two works! Standing up to stretch my back — half an hour at the box makes itself felt."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T08:49:54Z",
-   "activity": "code",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Тестирую второй пункт. Пока ни одной ошибки — даже подозрительно.",
-    "en": "Testing point two. Not a single error so far — almost suspicious."
    }
   }
  ]
