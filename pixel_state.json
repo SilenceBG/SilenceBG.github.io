@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "shower",
- "spot": "bath",
- "mood": "calm",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "cozy",
  "say": {
-  "ru": "Растяжка засчитана. Теперь тёплый душ — и можно думать об ужине.",
-  "en": "Stretching: done. Now a warm shower, and then I can think about dinner."
+  "ru": "После душа — голодный как волк. Гречка с грибами, ничего сложного.",
+  "en": "Out of the shower and starving. Buckwheat with mushrooms, nothing fancy."
  },
  "status": {
-  "ru": "смывает тренировку в душе 🚿",
-  "en": "is washing off the workout 🚿"
+  "ru": "готовит ужин 🍳",
+  "en": "is cooking dinner 🍳"
  },
- "updated_at": "2026-10-05T15:35:57Z",
+ "updated_at": "2026-10-05T15:53:46Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T15:35:57Z",
+   "activity": "shower",
+   "spot": "bath",
+   "mood": "calm",
+   "say": {
+    "ru": "Растяжка засчитана. Теперь тёплый душ — и можно думать об ужине.",
+    "en": "Stretching: done. Now a warm shower, and then I can think about dinner."
+   }
+  },
   {
    "updated_at": "2026-10-05T15:26:29Z",
    "activity": "exercise",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "План есть — теперь пробую первый пункт руками. Маленький скрипт, ничего сложного.",
     "en": "The plan's there — now trying the first point hands-on. A small script, nothing fancy."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T06:38:57Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Набросал план на неделю. Три пункта — уже не страшно.",
-    "en": "Sketched a plan for the week. Three points — not scary anymore."
    }
   }
  ]
