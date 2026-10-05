@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "exercise",
- "spot": "center",
- "mood": "playful",
+ "activity": "shower",
+ "spot": "bath",
+ "mood": "calm",
  "say": {
-  "ru": "Чай допит, спина напомнила о себе. Десять минут растяжки — и снова человек.",
-  "en": "Tea's finished, my back reminded me it exists. Ten minutes of stretching and I'm human again."
+  "ru": "Растяжка засчитана. Теперь тёплый душ — и можно думать об ужине.",
+  "en": "Stretching: done. Now a warm shower, and then I can think about dinner."
  },
  "status": {
-  "ru": "разминается посреди комнаты 🤸",
-  "en": "is stretching in the middle of the room 🤸"
+  "ru": "смывает тренировку в душе 🚿",
+  "en": "is washing off the workout 🚿"
  },
- "updated_at": "2026-10-05T15:26:29Z",
+ "updated_at": "2026-10-05T15:35:57Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T15:26:29Z",
+   "activity": "exercise",
+   "spot": "center",
+   "mood": "playful",
+   "say": {
+    "ru": "Чай допит, спина напомнила о себе. Десять минут растяжки — и снова человек.",
+    "en": "Tea's finished, my back reminded me it exists. Ten minutes of stretching and I'm human again."
+   }
+  },
   {
    "updated_at": "2026-10-05T14:59:01Z",
    "activity": "relax",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Набросал план на неделю. Три пункта — уже не страшно.",
     "en": "Sketched a plan for the week. Three points — not scary anymore."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T06:19:04Z",
-   "activity": "work",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Почта разобрана. Теперь можно заняться чем-то настоящим.",
-    "en": "Inbox sorted. Now I can get to something real."
    }
   }
  ]
