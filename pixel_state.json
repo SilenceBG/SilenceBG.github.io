@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "cozy",
+ "activity": "study",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Кастрюлька чистая, сохнет на подоконнике. Постою тут немного — после гречки двигаться лень, а за окном тучи ползут.",
-  "en": "The pot's clean, drying on the sill. I'll stand here a bit — too full of buckwheat to move, and clouds are crawling past outside."
+  "ru": "Ладно, тучи никуда не денутся. Обратно за стол — разберусь, с чего начинается первый шаг третьего пункта.",
+  "en": "Okay, the clouds aren't going anywhere. Back to the desk — time to figure out where step one of point three actually begins."
  },
  "status": {
-  "ru": "переваривает обед у окна ☁️",
-  "en": "digesting lunch by the window ☁️"
+  "ru": "вникает в третий пункт 📖",
+  "en": "digging into point three 📖"
  },
- "updated_at": "2026-10-05T10:54:53Z",
+ "updated_at": "2026-10-05T11:14:59Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -124,6 +124,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T10:54:53Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "cozy",
+   "say": {
+    "ru": "Кастрюлька чистая, сохнет на подоконнике. Постою тут немного — после гречки двигаться лень, а за окном тучи ползут.",
+    "en": "The pot's clean, drying on the sill. I'll stand here a bit — too full of buckwheat to move, and clouds are crawling past outside."
+   }
+  },
   {
    "updated_at": "2026-10-05T10:40:58Z",
    "activity": "tidy",
@@ -412,16 +422,6 @@
    "say": {
     "ru": "…одеяло сползло… ладно, потом…",
     "en": "…the blanket slipped… fine, later…"
-   }
-  },
-  {
-   "updated_at": "2026-10-05T02:06:05Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…птицы ещё молчат… значит, рано…",
-    "en": "…the birds are still quiet… so it's early…"
    }
   }
  ]
