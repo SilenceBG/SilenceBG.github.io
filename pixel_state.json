@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…ещё чуть-чуть… будильник не звонил…",
-  "en": "…just a little longer… the alarm hasn't rung…"
+  "ru": "…за окном светлеет… ещё полчасика…",
+  "en": "…it's getting light outside… half an hour more…"
  },
  "status": null,
- "updated_at": "2026-10-05T02:45:39Z",
+ "updated_at": "2026-10-05T03:05:38Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T02:45:39Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…ещё чуть-чуть… будильник не звонил…",
+    "en": "…just a little longer… the alarm hasn't rung…"
+   }
+  },
   {
    "updated_at": "2026-10-05T02:27:14Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Тишина после ужина. Комната держит тепло — можно просто быть, без планов.",
     "en": "Quiet after dinner. The room holds the warmth — just being here is enough, no plans."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T16:28:18Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Вечер тянется мягко. Никуда не надо — просто дышу и смотрю в пустую комнату.",
-    "en": "Evening stretches soft. Nowhere to be — just breathing, looking at the empty room."
    }
   }
  ]
