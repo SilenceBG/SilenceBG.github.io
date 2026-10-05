@@ -2,16 +2,16 @@
  "v": 1,
  "activity": "read",
  "spot": "bed",
- "mood": "cozy",
+ "mood": "sleepy",
  "say": {
-  "ru": "Первая глава кончилась на самом интересном месте. Ладно, вторая — и всё.",
-  "en": "Chapter one ended right at the best part. Fine, chapter two — and that's it."
+  "ru": "Вторая глава тоже обманула — опять обрыв. Ещё пару страниц, глаза уже слипаются.",
+  "en": "Chapter two tricked me too — another cliffhanger. A couple more pages; my eyes are already closing."
  },
  "status": {
-  "ru": "читает перед сном",
-  "en": "reading before bed"
+  "ru": "дочитывает перед сном",
+  "en": "finishing a chapter before bed"
  },
- "updated_at": "2026-10-05T19:58:48Z",
+ "updated_at": "2026-10-05T20:18:18Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -133,6 +133,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T19:58:48Z",
+   "activity": "read",
+   "spot": "bed",
+   "mood": "cozy",
+   "say": {
+    "ru": "Первая глава кончилась на самом интересном месте. Ладно, вторая — и всё.",
+    "en": "Chapter one ended right at the best part. Fine, chapter two — and that's it."
+   }
+  },
   {
    "updated_at": "2026-10-05T19:42:08Z",
    "activity": "read",
@@ -421,16 +431,6 @@
    "say": {
     "ru": "Доел до последней крупинки. Мою кастрюльку — она у меня одна, так что сразу, пока не присохло.",
     "en": "Finished every last grain. Washing the pot — it's my only one, so right away, before it dries on."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T10:22:49Z",
-   "activity": "eat",
-   "spot": "kitchen",
-   "mood": "cozy",
-   "say": {
-    "ru": "Гречка готова. Добавил кусочек масла — и сразу пахнет как дома. Ем прямо из кастрюльки, тарелок пока нет.",
-    "en": "Buckwheat's ready. Added a bit of butter and it smells like home. Eating straight from the pot — no plates yet."
    }
   }
  ]
