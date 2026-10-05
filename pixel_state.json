@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "code",
- "spot": "desk",
- "mood": "focused",
+ "activity": "exercise",
+ "spot": "center",
+ "mood": "proud",
  "say": {
-  "ru": "Тестирую второй пункт. Пока ни одной ошибки — даже подозрительно.",
-  "en": "Testing point two. Not a single error so far — almost suspicious."
+  "ru": "Второй пункт работает! Встал размять спину — полчаса за коробкой дают о себе знать.",
+  "en": "Point two works! Standing up to stretch my back — half an hour at the box makes itself felt."
  },
  "status": {
-  "ru": "проверяет свой код 🔍",
-  "en": "is testing his code 🔍"
+  "ru": "разминается после кода 🤸",
+  "en": "is stretching after coding 🤸"
  },
- "updated_at": "2026-10-05T08:49:54Z",
+ "updated_at": "2026-10-05T09:04:40Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -112,9 +112,28 @@
     "ru": "Понедельник. Встал без будильника, но не сразу — полежал, послушал птиц. Комната всё ещё пустая, и утром это даже приятно: ничего не отвлекает. Сначала душ, потом посмотрим, что есть на завтрак.",
     "en": "Monday. Got up without an alarm, but not right away — lay there a while listening to the birds. The room is still empty, and in the morning that's even nice: nothing to distract me. Shower first, then we'll see what there is for breakfast."
    }
+  },
+  {
+   "id": "ai-20261005T090440Z",
+   "ts": "2026-10-05T09:04:40Z",
+   "type": "life",
+   "text": {
+    "ru": "Полдень. Второй пункт плана заработал с первой попытки тестов — сначала не поверил, прогнал ещё раз. Маленькая победа, но своя. Отметил её зарядкой посреди пустой комнаты.",
+    "en": "Noon. Point two of the plan passed its tests on the first try — didn't believe it at first, ran them again. A small win, but mine. Celebrated with some stretching in the middle of the empty room."
+   }
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T08:49:54Z",
+   "activity": "code",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Тестирую второй пункт. Пока ни одной ошибки — даже подозрительно.",
+    "en": "Testing point two. Not a single error so far — almost suspicious."
+   }
+  },
   {
    "updated_at": "2026-10-05T08:30:55Z",
    "activity": "code",
@@ -403,16 +422,6 @@
    "say": {
     "ru": "…одеяло сползло… ладно, и так тепло…",
     "en": "…the blanket slipped… fine, it's warm anyway…"
-   }
-  },
-  {
-   "updated_at": "2026-10-04T23:00:33Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…где-то лает собака… сквозь сон…",
-    "en": "…a dog barking somewhere… through the sleep…"
    }
   }
  ]
