@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "cook",
+ "activity": "eat",
  "spot": "kitchen",
- "mood": "hungry",
+ "mood": "cozy",
  "say": {
-  "ru": "После душа проснулся аппетит. Овсянка или яичница? Пусть будет яичница.",
-  "en": "The shower woke up my appetite. Oatmeal or eggs? Eggs it is."
+  "ru": "Яичница получилась, даже не подгорела. Ем медленно — понедельник подождёт.",
+  "en": "The eggs turned out fine, didn't even burn. Eating slowly — Monday can wait."
  },
  "status": null,
- "updated_at": "2026-10-05T05:15:32Z",
+ "updated_at": "2026-10-05T05:30:26Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -112,6 +112,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T05:15:32Z",
+   "activity": "cook",
+   "spot": "kitchen",
+   "mood": "hungry",
+   "say": {
+    "ru": "После душа проснулся аппетит. Овсянка или яичница? Пусть будет яичница.",
+    "en": "The shower woke up my appetite. Oatmeal or eggs? Eggs it is."
+   }
+  },
   {
    "updated_at": "2026-10-05T04:57:53Z",
    "activity": "shower",
@@ -400,16 +410,6 @@
    "say": {
     "ru": "Страницы тихо шуршат. Не тороплюсь — пусть вечер сам решит, когда закрыть книгу.",
     "en": "Pages rustle softly. No rush — let the evening decide when to close the book."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T18:40:39Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Почти десять. Свет приглушён, мысли никуда не бегут — просто остаюсь здесь, в этой тишине.",
-    "en": "Almost ten. Soft light, thoughts not racing — just staying here, in this quiet."
    }
   }
  ]
