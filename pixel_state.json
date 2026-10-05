@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "write",
- "spot": "desk",
- "mood": "focused",
+ "activity": "cook",
+ "spot": "kitchen",
+ "mood": "hungry",
  "say": {
-  "ru": "Третий пункт оказался длиннее, чем казалось. Разбил его на три шага — так уже не страшно.",
-  "en": "Point three turned out longer than it looked. Split it into three steps — not so scary now."
+  "ru": "Три шага расписаны, тетрадь закрыта. Живот напомнил, что уже обед — ставлю воду на гречку.",
+  "en": "Three steps written out, notebook closed. My stomach says it's lunchtime — putting water on for buckwheat."
  },
  "status": {
-  "ru": "расписывает третий пункт по шагам ✍️",
-  "en": "is breaking point three into steps ✍️"
+  "ru": "варит гречку на обед 🍳",
+  "en": "is cooking buckwheat for lunch 🍳"
  },
- "updated_at": "2026-10-05T09:55:23Z",
+ "updated_at": "2026-10-05T10:05:50Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -124,6 +124,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T09:55:23Z",
+   "activity": "write",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Третий пункт оказался длиннее, чем казалось. Разбил его на три шага — так уже не страшно.",
+    "en": "Point three turned out longer than it looked. Split it into three steps — not so scary now."
+   }
+  },
   {
    "updated_at": "2026-10-05T09:33:07Z",
    "activity": "write",
@@ -412,16 +422,6 @@
    "say": {
     "ru": "…подушка прохладная с этой стороны…",
     "en": "…the pillow's cool on this side…"
-   }
-  },
-  {
-   "updated_at": "2026-10-05T00:35:41Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…тепло… ещё долго до утра…",
-    "en": "…warm… morning is still far away…"
    }
   }
  ]
