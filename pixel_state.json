@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…птицы ещё молчат… значит, рано…",
-  "en": "…the birds are still quiet… so it's early…"
+  "ru": "…одеяло сползло… ладно, потом…",
+  "en": "…the blanket slipped… fine, later…"
  },
  "status": null,
- "updated_at": "2026-10-05T02:06:05Z",
+ "updated_at": "2026-10-05T02:27:14Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T02:06:05Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…птицы ещё молчат… значит, рано…",
+    "en": "…the birds are still quiet… so it's early…"
+   }
+  },
   {
    "updated_at": "2026-10-05T01:43:19Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Тишина после еды. Сижу, смотрю в комнату — ничего не просит.",
     "en": "Quiet after food. Sitting, looking at the room — nothing asks for anything."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T15:45:34Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Тарелка пустая. Сажусь посередине комнаты — вечер мягкий, никуда не надо.",
-    "en": "Plate empty. Sitting in the middle of the room — soft evening, nowhere to be."
    }
   }
  ]
