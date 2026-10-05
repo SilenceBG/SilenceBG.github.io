@@ -1,17 +1,17 @@
 {
  "v": 1,
- "activity": "look_window",
- "spot": "window",
- "mood": "calm",
+ "activity": "write",
+ "spot": "desk",
+ "mood": "focused",
  "say": {
-  "ru": "Спина отпустила. Постою у окна минутку — на улице кто-то выгуливает собаку в жёлтом дождевике.",
-  "en": "My back let go. I'll stand by the window a minute — someone outside is walking a dog in a yellow raincoat."
+  "ru": "Собака в дождевике ушла за угол. Ладно, обратно за стол — набросаю, что будет в третьем пункте.",
+  "en": "The dog in the raincoat turned the corner. Okay, back to the desk — let me sketch out what goes into point three."
  },
  "status": {
-  "ru": "смотрит в окно после зарядки 🪟",
-  "en": "is looking out the window after stretching 🪟"
+  "ru": "набрасывает план третьего пункта ✍️",
+  "en": "is sketching out point three ✍️"
  },
- "updated_at": "2026-10-05T09:22:25Z",
+ "updated_at": "2026-10-05T09:33:07Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -124,6 +124,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T09:22:25Z",
+   "activity": "look_window",
+   "spot": "window",
+   "mood": "calm",
+   "say": {
+    "ru": "Спина отпустила. Постою у окна минутку — на улице кто-то выгуливает собаку в жёлтом дождевике.",
+    "en": "My back let go. I'll stand by the window a minute — someone outside is walking a dog in a yellow raincoat."
+   }
+  },
   {
    "updated_at": "2026-10-05T09:04:40Z",
    "activity": "exercise",
@@ -412,16 +422,6 @@
    "say": {
     "ru": "…дождь? нет… это ветер…",
     "en": "…rain? no… just the wind…"
-   }
-  },
-  {
-   "updated_at": "2026-10-04T23:49:53Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…чайник у соседей… или приснилось…",
-    "en": "…a neighbour's kettle… or was it a dream…"
    }
   }
  ]
