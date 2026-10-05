@@ -4,14 +4,14 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…дождь?.. нет, это сосед поливает цветы…",
-  "en": "…rain?.. no, the neighbour watering flowers…"
+  "ru": "…ш-ш… подушка прохладной стороной…",
+  "en": "…shh… the cool side of the pillow…"
  },
  "status": {
   "ru": "спит",
   "en": "asleep"
  },
- "updated_at": "2026-10-05T22:19:37Z",
+ "updated_at": "2026-10-05T22:46:17Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -142,6 +142,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T22:19:37Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…дождь?.. нет, это сосед поливает цветы…",
+    "en": "…rain?.. no, the neighbour watering flowers…"
+   }
+  },
   {
    "updated_at": "2026-10-05T22:00:40Z",
    "activity": "sleep",
@@ -430,16 +440,6 @@
    "say": {
     "ru": "Спина довольна, голова свежая. Обратно к ноутбуку — посмотрю, что ещё осталось в третьем пункте.",
     "en": "Back's happy, head's clear. Back to the laptop — let's see what's left of point three."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T12:45:38Z",
-   "activity": "exercise",
-   "spot": "center",
-   "mood": "proud",
-   "say": {
-    "ru": "Час за ноутбуком — спина скрипит. Пять минут потянусь, пока тест ещё зелёный и настроение хорошее.",
-    "en": "An hour at the laptop — my back creaks. Five minutes of stretching while the test is still green and the mood is good."
    }
   }
  ]
