@@ -1,14 +1,14 @@
 {
  "v": 1,
- "activity": "work",
+ "activity": "code",
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Набросал план на неделю. Три пункта — уже не страшно.",
-  "en": "Sketched a plan for the week. Three points — not scary anymore."
+  "ru": "План есть — теперь пробую первый пункт руками. Маленький скрипт, ничего сложного.",
+  "en": "The plan's there — now trying the first point hands-on. A small script, nothing fancy."
  },
  "status": null,
- "updated_at": "2026-10-05T06:38:57Z",
+ "updated_at": "2026-10-05T06:54:15Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -112,6 +112,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T06:38:57Z",
+   "activity": "work",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Набросал план на неделю. Три пункта — уже не страшно.",
+    "en": "Sketched a plan for the week. Three points — not scary anymore."
+   }
+  },
   {
    "updated_at": "2026-10-05T06:19:04Z",
    "activity": "work",
@@ -400,16 +410,6 @@
    "say": {
     "ru": "Сон без сюжета — просто темнота и тепло.",
     "en": "A dream without a plot — just dark and warm."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T20:11:48Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "Тишина. Книга закрыта, свет погас.",
-    "en": "Quiet. Book closed, light out."
    }
   }
  ]
