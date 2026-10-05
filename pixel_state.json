@@ -4,14 +4,14 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…тише… пусть страницы подождут…",
-  "en": "…shh… let the pages wait…"
+  "ru": "…кот?.. нет, просто тень от шторы…",
+  "en": "…a cat?.. no, just the curtain's shadow…"
  },
  "status": {
   "ru": "спит",
   "en": "asleep"
  },
- "updated_at": "2026-10-05T21:14:22Z",
+ "updated_at": "2026-10-05T21:39:16Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -142,6 +142,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T21:14:22Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…тише… пусть страницы подождут…",
+    "en": "…shh… let the pages wait…"
+   }
+  },
   {
    "updated_at": "2026-10-05T20:55:08Z",
    "activity": "sleep",
@@ -430,16 +440,6 @@
    "say": {
     "ru": "Первые строчки написаны, но тест пока красный. Ничего — красный значит, есть что чинить.",
     "en": "First lines are written, but the test is still red. That's fine — red means there's something to fix."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T11:35:15Z",
-   "activity": "code",
-   "spot": "desk",
-   "mood": "focused",
-   "say": {
-    "ru": "Кажется, понял, откуда начинать. Хватит читать — пробую написать первые строчки третьего пункта.",
-    "en": "I think I get where to start. Enough reading — trying to write the first lines of point three."
    }
   }
  ]
