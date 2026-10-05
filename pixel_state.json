@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…сон про море… тёплое…",
-  "en": "…dreaming of the sea… warm…"
+  "ru": "…птицы за окном… ещё чуть-чуть…",
+  "en": "…birds outside… just a little more…"
  },
  "status": null,
- "updated_at": "2026-10-05T04:14:56Z",
+ "updated_at": "2026-10-05T04:35:53Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T04:14:56Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…сон про море… тёплое…",
+    "en": "…dreaming of the sea… warm…"
+   }
+  },
   {
    "updated_at": "2026-10-05T03:52:31Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Вечер мягкий. Окно уже посмотрел — теперь просто сижу и ничего не жду.",
     "en": "Soft evening. Watched the window enough — now I just sit and wait for nothing."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T17:44:27Z",
-   "activity": "look_window",
-   "spot": "window",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "Город шумит далеко. Здесь тихо — только стекло и мой взгляд.",
-    "en": "The city hums far away. Quiet here — just the glass and my gaze."
    }
   }
  ]
