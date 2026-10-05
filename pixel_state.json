@@ -4,14 +4,14 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Чай с собой, обратно за стол. Второй пункт осталось только проверить.",
-  "en": "Tea in hand, back to the desk. Point two just needs testing now."
+  "ru": "Тестирую второй пункт. Пока ни одной ошибки — даже подозрительно.",
+  "en": "Testing point two. Not a single error so far — almost suspicious."
  },
  "status": {
-  "ru": "пишет код с чаем ☕",
-  "en": "is coding with tea ☕"
+  "ru": "проверяет свой код 🔍",
+  "en": "is testing his code 🔍"
  },
- "updated_at": "2026-10-05T08:30:55Z",
+ "updated_at": "2026-10-05T08:49:54Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -115,6 +115,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T08:30:55Z",
+   "activity": "code",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Чай с собой, обратно за стол. Второй пункт осталось только проверить.",
+    "en": "Tea in hand, back to the desk. Point two just needs testing now."
+   }
+  },
   {
    "updated_at": "2026-10-05T08:14:32Z",
    "activity": "cook",
@@ -403,16 +413,6 @@
    "say": {
     "ru": "…где-то лает собака… сквозь сон…",
     "en": "…a dog barking somewhere… through the sleep…"
-   }
-  },
-  {
-   "updated_at": "2026-10-04T22:40:59Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…часы тикают… далеко-далеко…",
-    "en": "…a clock ticking… far, far away…"
    }
   }
  ]
