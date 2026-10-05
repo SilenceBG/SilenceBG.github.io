@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…одеяло сползло… ладно, потом…",
-  "en": "…the blanket slipped… fine, later…"
+  "ru": "…ещё чуть-чуть… будильник не звонил…",
+  "en": "…just a little longer… the alarm hasn't rung…"
  },
  "status": null,
- "updated_at": "2026-10-05T02:27:14Z",
+ "updated_at": "2026-10-05T02:45:39Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T02:27:14Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…одеяло сползло… ладно, потом…",
+    "en": "…the blanket slipped… fine, later…"
+   }
+  },
   {
    "updated_at": "2026-10-05T02:06:05Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Вечер тянется мягко. Никуда не надо — просто дышу и смотрю в пустую комнату.",
     "en": "Evening stretches soft. Nowhere to be — just breathing, looking at the empty room."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T16:05:52Z",
-   "activity": "relax",
-   "spot": "center",
-   "mood": "cozy",
-   "say": {
-    "ru": "Тишина после еды. Сижу, смотрю в комнату — ничего не просит.",
-    "en": "Quiet after food. Sitting, looking at the room — nothing asks for anything."
    }
   }
  ]
