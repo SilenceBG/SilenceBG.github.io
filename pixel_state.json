@@ -4,14 +4,14 @@
  "spot": "desk",
  "mood": "focused",
  "say": {
-  "ru": "Кажется, понял, откуда начинать. Хватит читать — пробую написать первые строчки третьего пункта.",
-  "en": "I think I get where to start. Enough reading — trying to write the first lines of point three."
+  "ru": "Первые строчки написаны, но тест пока красный. Ничего — красный значит, есть что чинить.",
+  "en": "First lines are written, but the test is still red. That's fine — red means there's something to fix."
  },
  "status": {
-  "ru": "начал писать третий пункт 💻",
-  "en": "started coding point three 💻"
+  "ru": "чинит красный тест 💻",
+  "en": "fixing a red test 💻"
  },
- "updated_at": "2026-10-05T11:35:15Z",
+ "updated_at": "2026-10-05T12:06:26Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -124,6 +124,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T11:35:15Z",
+   "activity": "code",
+   "spot": "desk",
+   "mood": "focused",
+   "say": {
+    "ru": "Кажется, понял, откуда начинать. Хватит читать — пробую написать первые строчки третьего пункта.",
+    "en": "I think I get where to start. Enough reading — trying to write the first lines of point three."
+   }
+  },
   {
    "updated_at": "2026-10-05T11:14:59Z",
    "activity": "study",
@@ -412,16 +422,6 @@
    "say": {
     "ru": "…за окном светлеет… ещё полчасика…",
     "en": "…it's getting light outside… half an hour more…"
-   }
-  },
-  {
-   "updated_at": "2026-10-05T02:45:39Z",
-   "activity": "sleep",
-   "spot": "bed",
-   "mood": "sleepy",
-   "say": {
-    "ru": "…ещё чуть-чуть… будильник не звонил…",
-    "en": "…just a little longer… the alarm hasn't rung…"
    }
   }
  ]
