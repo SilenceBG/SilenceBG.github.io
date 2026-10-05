@@ -4,11 +4,11 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…подушка прохладная с этой стороны…",
-  "en": "…the pillow's cool on this side…"
+  "ru": "…перевернулся… ещё рано…",
+  "en": "…rolled over… still early…"
  },
  "status": null,
- "updated_at": "2026-10-05T00:55:35Z",
+ "updated_at": "2026-10-05T01:21:05Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -103,6 +103,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-05T00:55:35Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…подушка прохладная с этой стороны…",
+    "en": "…the pillow's cool on this side…"
+   }
+  },
   {
    "updated_at": "2026-10-05T00:35:41Z",
    "activity": "sleep",
@@ -391,16 +401,6 @@
    "say": {
     "ru": "Готово. Сажусь есть — горячее, простое, своё.",
     "en": "Done. Sitting down to eat — hot, simple, mine."
-   }
-  },
-  {
-   "updated_at": "2026-10-04T14:46:53Z",
-   "activity": "cook",
-   "spot": "kitchen",
-   "mood": "calm",
-   "say": {
-    "ru": "Вечер. Включаю плиту — пусть в комнате пахнет чем-то своим.",
-    "en": "Evening. Turning on the stove — let the room smell like something of my own."
    }
   }
  ]
