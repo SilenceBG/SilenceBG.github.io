@@ -4,14 +4,14 @@
  "spot": "bed",
  "mood": "sleepy",
  "say": {
-  "ru": "…ммм… подушка перевернулась прохладной стороной…",
-  "en": "…mm… the pillow flipped to the cool side…"
+  "ru": "…хм… третья глава… потом…",
+  "en": "…hm… chapter three… later…"
  },
  "status": {
   "ru": "спит",
   "en": "asleep"
  },
- "updated_at": "2026-10-06T00:13:08Z",
+ "updated_at": "2026-10-06T00:13:17Z",
  "ai_since": "2026-10-01T22:51:49Z",
  "diary": [
   {
@@ -142,6 +142,16 @@
   }
  ],
  "history": [
+  {
+   "updated_at": "2026-10-06T00:13:08Z",
+   "activity": "sleep",
+   "spot": "bed",
+   "mood": "sleepy",
+   "say": {
+    "ru": "…ммм… подушка перевернулась прохладной стороной…",
+    "en": "…mm… the pillow flipped to the cool side…"
+   }
+  },
   {
    "updated_at": "2026-10-05T23:54:05Z",
    "activity": "sleep",
@@ -430,16 +440,6 @@
    "say": {
     "ru": "Назвал функцию. Честно, не идеально, но завтра она мне понравится больше. А пока — чайник.",
     "en": "Named the function. Not perfect, honestly, but I'll like it more tomorrow. For now — the kettle."
-   }
-  },
-  {
-   "updated_at": "2026-10-05T14:15:55Z",
-   "activity": "code",
-   "spot": "desk",
-   "mood": "thoughtful",
-   "say": {
-    "ru": "Второй шаг почти готов. Осталось придумать, как назвать эту функцию, — самое трудное.",
-    "en": "Step two is almost done. Now I just have to name this function — the hardest part."
    }
   }
  ]
